@@ -34,5 +34,7 @@ We tried to recreate this layout:
 - Start a blog! Use either http://tumblr.com or http://medium.com.
 - Read about layout with CSS (mainly about `display` and `position`): http://learnlayout.com/
 - Watch "The Long Game pt 1 and 2": http://delve.tv/essays/
-- Copy the code from today, and experiment with as many HTML tags as possible: http://www.w3schools.com/tags/
+- Copy the code from today, and experiment with as many HTML tags as possible
+	- tags: http://www.w3schools.com/tags/
+	- code from today: [link to code](./examples/day01)
 	- When you finish, just zip your files and email them to me. We will be putting them on the "internets" tomorrow with Git!
