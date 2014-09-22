@@ -27,7 +27,7 @@ We tried to recreate this layout:
 - http://meettheipsums.com/
 - An article sent from John Saddington (today's speaker): http://www.sitepoint.com/6-real-world-networking-tips-developers/
 - List of HTML tags: http://www.w3schools.com/tags/
--
+- All the CSS properties! http://www.w3schools.com/cssref/
 
 ## Homework
 
@@ -35,4 +35,4 @@ We tried to recreate this layout:
 - Read about layout with CSS (mainly about `display` and `position`): http://learnlayout.com/
 - Watch "The Long Game pt 1 and 2": http://delve.tv/essays/
 - Copy the code from today, and experiment with as many HTML tags as possible: http://www.w3schools.com/tags/
-
+	- When you finish, just zip your files and email them to me. We will be putting them on the "internets" tomorrow with Git!
