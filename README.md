@@ -2,15 +2,23 @@
 
 > Notes and Resources for class!
 
-# Teacher Contact Info
+# Instructor Contact Info
 
 Matthew Keas - [matt@theironyard.com](mailto:matt@theironyard.com) - twitter: [@matthiasak](http://twitter.com/matthiasak) - github: [matthiasak](http://github.com/matthiasak)
 
+# Campus Director Contact Info
+
+Brian Dorton - [brian@theironyard.com](mailto:brian@theironyard.com)
+
 # Schedule
 
-- Class is from September 22 to December 19, 2014.
-- Lecture is from 9.30 AM to 12:30 or 1 PM Monday-Thursday, with breaks during that time. Depending on the topic, we may end earlier or later. :-)
-- Lab time is from 1 PM to 5 PM Monday-Thursday and 9 AM - 5 PM on Friday!
+- Class is from `September 22` to `December 19, 2014`.
+- Lecture is from `9.30 AM to 12:30 or 1 PM Monday-Thursday`, with breaks during that time. Depending on the topic, we may end earlier or later. :-)
+- Lab time is from `1 PM to 5 PM Monday-Thursday` and `9 AM to 5 PM` on Friday!
+
+# Classes
+
+1. [Day 1](./day01.md)
 
 # Office hours and one-on-one instruction
 
@@ -32,6 +40,8 @@ There is no commercial software required for the class. For the class, we will i
 - Sublime Text 3 (http://www.sublimetext.com/3)
 - Spectacle (http://spectacleapp.com/)
 - Node.js (http://nodejs.org/)
+- Hipchat (http://hipchat.com)
+- Signup for Github if you haven't, and cover this tutorial (https://guides.github.com/activities/hello-world/)
 - Git (and Github for Mac)
 	- download and install Github for Mac (https://mac.github.com/)
 	- then follow these instructions to install Git CLI (Command Line Interface) Tools (https://github.com/blog/1510-installing-git-from-github-for-mac)
