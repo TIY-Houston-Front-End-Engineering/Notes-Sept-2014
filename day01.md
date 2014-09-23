@@ -28,6 +28,7 @@ We tried to recreate this layout:
 - An article sent from John Saddington (today's speaker): http://www.sitepoint.com/6-real-world-networking-tips-developers/
 - List of HTML tags: http://www.w3schools.com/tags/
 - All the CSS properties! http://www.w3schools.com/cssref/
+- You need GIFs, so get 'em here: http://giphy.com/
 
 ## Homework
 
