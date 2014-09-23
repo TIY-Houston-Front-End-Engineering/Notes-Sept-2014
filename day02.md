@@ -1,4 +1,4 @@
-# Tuesday, Sept 22nd
+# Tuesday, Sept 23rd
 
 ```sh
  _______________________________________
@@ -109,6 +109,10 @@ $ git push origin master
 
 If you use the wrong command, it might give you an error, but it won't hurt anything, so don't worry too much about remembering whether you've already pushed.
 
+## Github pages
+
+> we will cover more of this tomorrow
+
 # Homework
 
 - Re-read about layout with CSS: http://learnlayout.com/
@@ -129,6 +133,7 @@ If you use the wrong command, it might give you an error, but it won't hurt anyt
 	- navigate up and down with `cd`
 	- `.` means current folder
 	- `..` means parent folder
+	- `~` means home folder
 
 - Check out all these terminal commands. There's so much awesomeness to learn: http://mally.stanford.edu/~sr/computing/basic-unix.html
 - Work more on your HW01, and try to get the styles closer to this screenshot:
@@ -159,22 +164,6 @@ If you use the wrong command, it might give you an error, but it won't hurt anyt
 	- visibility
 	- font
 	- and more from http://css-tricks.com/almanac/
-
-## Resources
-
-- http://css-tricks.com/almanac/
-- http://meettheipsums.com/
-- List of HTML tags: http://www.w3schools.com/tags/
-- All the CSS properties! http://www.w3schools.com/cssref/
-
-## Homework
-
-
-- Watch "The Long Game pt 1 and 2": http://delve.tv/essays/
-- Copy the code from today, and experiment with as many HTML tags as possible
-	- tags: http://www.w3schools.com/tags/
-	- code from today: [link to code](./examples/day01)
-	- When you finish, just zip your files and email them to me. We will be putting them on the "internets" tomorrow with Git!
 
 ## ProTip
 
