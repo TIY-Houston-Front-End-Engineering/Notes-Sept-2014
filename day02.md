@@ -83,7 +83,7 @@ Now that you have files in the staging area, you can save a snapshot of the stag
 $ git commit
 ```
 
-This will open a text editor, probably Sublime. (See [Configuring git editor](#Configuring git editor) if Sublime doesn't open.)
+This will open a text editor, probably Sublime. (See [Configuring git editor](#configuring-git-editor) if Sublime doesn't open.)
 
 Enter a commit message as the first line in the editor (e.g. "Initial commit" or "Fix the font in index.html"). Save the document in the editor and close the window. Git will finish running in the terminal and you should see output like the following:
 
