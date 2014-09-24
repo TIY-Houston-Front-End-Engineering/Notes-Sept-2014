@@ -68,7 +68,7 @@ $ git checkout master
 
 ## Pics of Whiteboards
 
-![The most common HTML tags and their default layouts](./whiteboards/1.jpg)
+![The most common HTML tags and their default layouts](./examples/whiteboards/1.jpg)
 
 ## Homework
 
