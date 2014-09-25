@@ -92,4 +92,4 @@ Find a list of pseudo-classes, combinators, and selectors here:
 
 This is a responsive, grid-like layout with lots of practice with `float`, and positioning.
 
-![](./examples/day04/forms.gif)
+![](./examples/day04/tshirts.gif)
