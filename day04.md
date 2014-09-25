@@ -19,8 +19,8 @@
 
 # Example stuff from class
 
-https://github.com/TIY-Houston-Front-End-Sept-2014/DemoTimeline
-http://tiy-houston-front-end-sept-2014.github.io/DemoTimeline/
+- https://github.com/TIY-Houston-Front-End-Sept-2014/DemoTimeline
+- (gh-pages version) http://tiy-houston-front-end-sept-2014.github.io/DemoTimeline/
 
 # Bower
 
