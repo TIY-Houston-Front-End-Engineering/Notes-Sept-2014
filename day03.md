@@ -64,7 +64,9 @@ $ git checkout master
 - we talked about common HTML tags vs display type,
 - shorthand properties,
 - ems,
-- and we threw in an entire discussion on positioning and layout approaches from http://learnlayout.com/
+- and we threw in an entire discussion on positioning and layout approaches from http://learnlayout.com/,
+- Box Model and `boz-sizing: border-box`,
+
 
 ## Pics of Whiteboards
 
