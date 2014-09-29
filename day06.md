@@ -193,6 +193,7 @@ Gulp is a nice build tool that can do stuff like autoprefix our CSS for us. Whic
 	```
 - In your terminal, do `npm install gulp-autoprefixer --save`.
 - In your terminal, run `gulp watch`.
+- Point your `<link>` in your HTML to the `./dist/style.css` file instead of `./style.css` to use the auto-prefixed version.
 
 Now, whenever you edit a CSS file in your project directory, Gulp will put a prefixed version of that CSS in a folder called `dist`.
 
