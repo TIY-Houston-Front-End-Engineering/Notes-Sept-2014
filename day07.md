@@ -24,6 +24,7 @@
 	- Numbers - `0`, `-1`, `49.123`, `0x000010`, `2e5`
 	- Booleans - `true`, `false`
 	- Strings -
+
 		```js
 		'Cool';
 		"Cool";
@@ -35,6 +36,7 @@
 - **Objects** - more abstract "things". They are like checks. They're too complex to be passed around or referenced directly, you have to know how to use them to actually get the value out of them.
 
 	- Literals
+
 		```js
 		{
 			name: "Matt",
@@ -43,10 +45,12 @@
 		}
 		```
 	- Arrays
+
 		```js
 		var names = ["Matt", "Mark", "Mike", "Mitch", "Moe"];
 		```
 	- Functions
+
 		```js
 		function sum(a, b){
 			return a+b;
