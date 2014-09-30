@@ -1,8 +1,3 @@
-- media queries
-- Matt's Responsive Grid
-- docblockr and prettify (Package Control, Sublime plugins)
-- absolute centering
-- custom radio button:checked with tshirts
 - http://www.thinkful.com/learn/angularjs-tutorial-build-a-gmail-clone/Introduction
 - https://www.youtube.com/watch?v=bo36MrBfTk4
 - http://dailyjs.com/web-app.html
@@ -16,11 +11,11 @@
 - mithril MVC
 - https://speakerdeck.com/paullewis/edge-layout-performance-panel-intro
 - advanced debugging with chrome - https://docs.google.com/presentation/d/17HjGp4pQlNh2WIwKiTcUpDLIuOdkUcRmALFuoytQsjU/preview#slide=id.p
-
-
-
-
-
+- https://github.com/derickbailey/backbone.marionette
+- https://github.com/derickbailey/backbone.compute
+- https://github.com/adunkman/node-trello
+- http://www.zell-weekeat.com/support-for-older-browsers/
+- http://www.luster.io/blog/9-29-14-mobile-web-checklist.html
 
 
 Ops:
