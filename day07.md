@@ -118,7 +118,7 @@ In JavaScript, there are two types of comments (a.k.a. ways to put a note in the
 - assignment operator: `=`
 - mathematical operators: `+`, `-`, `*`, `/`, `++`, `--`, `%`
 - compound operators: `+=`, `-=`, `*=`, `/=`
-- conditional operators: `==`, `===`, `!=`, `!==`, `>`, `>=`, `<`, `<=`
+- conditional operators: `!`, `==`, `===`, `!=`, `!==`, `>`, `>=`, `<`, `<=`
 - grouping operators: `( ... )` e.g. `(5+9)*3`
 - function operators: `()` e.g. `sum(5, 10)`
 - string operator: `+`
