@@ -1,4 +1,36 @@
-# JavaScript...
+# Tuesday, Sept 30th
+
+```sh
+ _______________________________________
+/ Today, we covered an intro to         \
+| JavaScript, the language syntax,      |
+| constructs, variables, primitives and |
+| object data types (numbers, booleans, |
+| strings, arrays, objects), operators, |
+| accessor chaining, assignments,       |
+| functions and the many ways to write  |
+\ them, IIFEs, and strict mode          /
+ ---------------------------------------
+   \         ,        ,
+    \       /(        )`
+     \      \ \___   / |
+            /- _  `-/  '
+           (/\/ \ \   /\
+           / /   | `    \
+           O O   ) /    |
+           `-^--'`<     '
+          (_.)  _  )   /
+           `.___/`    /
+             `-----' /
+<----.     __ / __   \
+<----|====O)))==) \) /====
+<----'    `--' `.__,' \
+             |        |
+              \       /
+        ______( (_  / \______
+      ,'  ,-----'   |        \
+      `--{__________)        \/
+```
 
 # Browser Rendering Process
 1. loads HTML
@@ -193,6 +225,10 @@ var a = sum(1,2) + 4;
 //  a = 7
 a; //<-- 7
 ```
+
+# IIFEs (Immediately Invoked Function Expressions)
+
+![](./examples/day07/iifes.png)
 
 # Strict Mode
 
