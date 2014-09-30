@@ -233,7 +233,11 @@ At the end of the body:
 </body>
 ```
 
-## next up
+# Homework
+
+![Homework 7 - JavaScript Beginnings](./examples/day07/hw07.js)
+
+# next up
 
 - more on arrays, array functions, scope, `this`
 - more on objects, object functions, object accessors (`.` vs `[]`)
