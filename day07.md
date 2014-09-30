@@ -235,7 +235,7 @@ At the end of the body:
 
 # Homework
 
-![Homework 7 - JavaScript Beginnings](./examples/day07/hw07.js)
+[Homework 7 - JavaScript Beginnings](./examples/day07/hw07.js)
 
 # next up
 
