@@ -235,7 +235,7 @@ At the end of the body:
 
 ## next up
 
-- more on arrays, array functions
+- more on arrays, array functions, scope, `this`
 - more on objects, object functions, object accessors (`.` vs `[]`)
 - conditional statements (if, if-else, switch, ternary)
 - loops (for, while, do-while, array.forEach), loop labels (http://en.wikipedia.org/wiki/JavaScript_syntax#Labels)
