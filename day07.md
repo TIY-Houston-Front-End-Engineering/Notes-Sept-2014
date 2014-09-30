@@ -288,11 +288,13 @@ At the end of the body:
 - Regex
 - Error handling, try-catch-finally, throw
 - Prototypes and Constructors
+
 	```js
 		base = new Base();
 		Derived.prototype = base; // Must be before new Derived()
 		Derived.prototype.constructor = Derived; // Required to make `instanceof` work
 	```
+
 - closures and private variables
 
 # Resources
