@@ -177,6 +177,7 @@ Gulp is a nice build tool that can do stuff like autoprefix our CSS for us. Whic
 
 1. First, install Gulp with `npm install gulp gulp-autoprefixer --savedev`.
 - Now, create a file called `gulpfile.js` in your project directory and put these contents in it:
+
 	```js
 		var gulp = require('gulp');
 		var autoprefixer = require('gulp-autoprefixer');
@@ -191,10 +192,13 @@ Gulp is a nice build tool that can do stuff like autoprefix our CSS for us. Whic
 			gulp.watch("./*.css", ['prefix']);
 		});
 	```
+
 - In your terminal, run
+
 	```sh
 	echo "node_modules" >> .gitignore
 	```
+
 - In your terminal, run `gulp watch`.
 - Point your `<link href="...">` in your HTML to the `./dist/style.css` file instead of `./style.css` to use the auto-prefixed version.
 
