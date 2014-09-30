@@ -175,7 +175,7 @@ In any code, type `CMD + SHIFT + H`. Boom! Formatting.
 
 Gulp is a nice build tool that can do stuff like autoprefix our CSS for us. Which is exactly what we'll do here. For more info on Gulp, see http://gulpjs.com/.
 
-1. First, install Gulp with `sudo npm install gulp gulp-autoprefixer --savedev`.
+1. First, install Gulp with `npm install gulp gulp-autoprefixer --savedev`.
 - Now, create a file called `gulpfile.js` in your project directory and put these contents in it:
 	```js
 		var gulp = require('gulp');
