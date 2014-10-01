@@ -151,6 +151,7 @@ In JavaScript, there are two types of comments (a.k.a. ways to put a note in the
 - mathematical operators: `+`, `-`, `*`, `/`, `++`, `--`, `%`
 - compound operators: `+=`, `-=`, `*=`, `/=`
 - conditional operators: `!`, `==`, `===`, `!=`, `!==`, `>`, `>=`, `<`, `<=`
+- binary combinators: `&&`, `||`
 - grouping operators: `( ... )` e.g. `(5+9)*3`
 - function operators: `()` e.g. `sum(5, 10)`
 - string operator: `+`
@@ -296,6 +297,7 @@ At the end of the body:
 	```
 
 - closures and private variables
+- Automatic Semicolon Insertion (ASI)
 
 # Resources
 
