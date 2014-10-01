@@ -308,6 +308,12 @@ git checkout master
 
 Then every time you commit and push, `gh-pages` should be automatically updated, too!
 
+You just need to do this:
+
+```sh
+git push --all
+```
+
 More here: http://oli.jp/2011/github-pages-workflow/
 
 # Homework
