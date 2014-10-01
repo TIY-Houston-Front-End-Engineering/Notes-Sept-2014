@@ -318,6 +318,32 @@ More here: http://oli.jp/2011/github-pages-workflow/
 
 # Homework
 
-- read http://bonsaiden.github.io/JavaScript-Garden/#types
-    - then create a Github project called `Typerator` and give atleast 20 examples of the reading
-- part 2 is coming soon...
+- part 1 - read http://bonsaiden.github.io/JavaScript-Garden/#types
+    - write/type down 15-20 things you learned and add it to the JS files in part 2 as a comment
+- part 2
+    - [hw08.js](./examples/day08/hw08.js)
+
+# next up
+
+- more on arrays, array functions, scope, `this`
+- more on objects, object functions, object accessors (`.` vs `[]`)
+- conditional statements (if, if-else, switch, ternary)
+- loop labels (http://en.wikipedia.org/wiki/JavaScript_syntax#Labels)
+- functional programming with lodash
+- DOM APIs
+- JSON APIs, jQuery ajax
+- events
+- more functions, function functions
+- Date() objects
+- Regex
+- Error handling, try-catch-finally, throw
+- Prototypes and Constructors
+
+    ```js
+        base = new Base();
+        Derived.prototype = base; // Must be before new Derived()
+        Derived.prototype.constructor = Derived; // Required to make `instanceof` work
+    ```
+
+- closures and private variables
+- Automatic Semicolon Insertion (ASI)
