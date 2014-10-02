@@ -51,12 +51,12 @@ if() some one line statement;
 
 // valid for-loop block
 for(...){
-	some one line statement;
+    some one line statement;
 }
 
 // valid if block
 if(){
-	some one line statement;
+    some one line statement;
 }
 
 // valid return statements
@@ -66,13 +66,13 @@ return {}
 // not a good return statement
 
 return //<-- ; assumed here, so undefined will be returned, not {a: 0}
-	{
-		a: 0
-	}
+    {
+        a: 0
+    }
 
 // valid function declaration
 function(){
-	//...
+    //...
 }
 
 // function declaration in an assignment statement, semicolon recommended
@@ -85,7 +85,7 @@ Test the following in Chrome dev tools:
 
 ```js
 var d = new Date(),
-	interval = 3000; //1000ms = 1s
+    interval = 3000; //1000ms = 1s
 
 var id = setInterval(function() {
     d.setTime(d.getTime() + interval);
@@ -160,10 +160,10 @@ String.fromCharCode(97); //<-- "a"
 ```js
 outerLoop: for(var i=0; i<10; i++){
     innerLoop: for(var j=0; j<10; j++){
-    	if(i*j > 70){
-    		break outerLoop;
-    	}
-    	console.log(i, j);
+        if(i*j > 70){
+            break outerLoop;
+        }
+        console.log(i, j);
     }
 }
 ```
@@ -172,10 +172,10 @@ outerLoop: for(var i=0; i<10; i++){
 
 ```js
 for(var i=0; i<10; i++){
-	if(i % 2 === 0){
-		continue;
-	}
-	console.log(i);
+    if(i % 2 === 0){
+        continue;
+    }
+    console.log(i);
 }
 ```
 
@@ -184,6 +184,16 @@ for(var i=0; i<10; i++){
 ![](./examples/day09/5.png)
 
 ![](./examples/day09/6.png)
+
+# Our new gulpfile.js (includes JSHint!!! to alert you of errors whenever you save your JS)
+
+    It will be kept up-to-date here: [./examples/extras/gulpfile.js](./examples/extras/gulpfile.js).
+
+    Copy it to your project directory and run:
+
+    ```sh
+    npm install gulp gulp-autoprefixer gulp-jshint --save-dev
+    ```
 
 # Homework
 
