@@ -187,13 +187,13 @@ for(var i=0; i<10; i++){
 
 # Our new gulpfile.js (includes JSHint!!! to alert you of errors whenever you save your JS)
 
-    It will be kept up-to-date here: [./examples/extras/gulpfile.js](./examples/extras/gulpfile.js).
+It will be kept up-to-date here: [./examples/extras/gulpfile.js](./examples/extras/gulpfile.js).
 
-    Copy it to your project directory and run:
+Copy it to your project directory and run:
 
-    ```sh
-    npm install gulp gulp-autoprefixer gulp-jshint --save-dev
-    ```
+```sh
+npm install gulp gulp-autoprefixer gulp-jshint --save-dev
+```
 
 # Homework
 
