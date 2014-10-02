@@ -16,10 +16,6 @@ Brian Dorton - [brian@theironyard.com](mailto:brian@theironyard.com)
 - Lecture is from `9.30 AM to 12:30 or 1 PM Monday-Thursday`, with breaks during that time. Depending on the topic, we may end earlier or later. :-)
 - Lab time is from `1 PM to 5 PM Monday-Thursday` and `9 AM to 5 PM` on Friday!
 
-# Classes
-
-1. [Day 1](./day01.md)
-
 # Office hours and one-on-one instruction
 
 A teacher or TA will be available Monday-Friday from 9 AM to 5 PM at minimum. During lab time, you can schedule one-on-one time with either of us. After hours, we may be available in the classroom or in HipChat, which we use for group communication.

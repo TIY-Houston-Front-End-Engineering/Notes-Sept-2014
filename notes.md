@@ -16,11 +16,11 @@
 - https://github.com/adunkman/node-trello
 - http://www.zell-weekeat.com/support-for-older-browsers/
 - http://www.luster.io/blog/9-29-14-mobile-web-checklist.html
-
+- http://asteroids-c9-alexbergin.c9.io/app/index.html
 
 Ops:
 ---
-- Net Mag
+- Net Mag ????
 - FOWA
 - Hacktoberfest
 - HoustonJS site
