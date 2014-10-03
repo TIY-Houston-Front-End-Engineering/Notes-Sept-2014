@@ -1,5 +1,4 @@
 - http://www.thinkful.com/learn/angularjs-tutorial-build-a-gmail-clone/Introduction
-- https://www.youtube.com/watch?v=bo36MrBfTk4
 - http://dailyjs.com/web-app.html
 - https://www.joyent.com/developers/node/design
 - http://www.sitepoint.com/5-typical-javascript-interview-exercises/
@@ -17,6 +16,7 @@
 - http://www.zell-weekeat.com/support-for-older-browsers/
 - http://www.luster.io/blog/9-29-14-mobile-web-checklist.html
 - http://asteroids-c9-alexbergin.c9.io/app/index.html
+- http://tristanedwards.me/sweetalert
 
 Ops:
 ---
@@ -30,36 +30,6 @@ Ops:
 - wrinklefree js
 - CPA for Space City JS
 - "coworking in Houston" blog post
-
-# setInterval / setTimeout
-
-	```
-	// setInterval(init, 1000);
-	var d = new Date();
-
-	setInterval(function() {
-	    d.setTime(d.getTime() + 1000);
-	    console.log(d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds()); //calls d.toString() behind the scenes
-	}, 1000);
-	```
-
-# String fn's
-
-	```
-	var s = "some string";
-	-------------
-	s.split(', ')
-	s.replace('i', 'o');
-	```
-
-# Regex
-
-	```
-	var s = "Loremo";
-	s.replace('o', 'i'); // "Liremo"
-	s.replace(/o/, "i"); // "Liremo"
-	s.replace(/o/g, "i"); // "Liremi"
-	```
 
 # arguments (variadic behavior)
 
@@ -138,8 +108,6 @@ Ops:
 	sumAllNumbersOnly(1, 2, 3, "a"); //--> Excuse me sir/madam, you are trying to get the sum of a number and a string. I believe this is incorrect use of my function. Good day.
 	sumAllNumbersOnly(1, 2, 3); //--> 6
 	```
-
-# addEventListener()
 
 # functions as building blocks, constructors, prototype chain
 
@@ -323,8 +291,6 @@ Ops:
 	# Start yeoman
 	$ yo
 	```
-
-# jshint workflow
 
 # gulp
 
