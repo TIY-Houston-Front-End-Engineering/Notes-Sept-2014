@@ -30,4 +30,4 @@
 
 # Homework
 
-Keep working on your [weekend 2 homework assignment - the color clock](./examples/day10/)
+Your [weekend 2 homework assignment - the Color Clock](./examples/day10/)
