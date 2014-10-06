@@ -302,7 +302,7 @@ sublime .git/hooks/post-commit
 ```sh
 #!/bin/sh
 git checkout gh-pages
-git merge master
+git rebase master
 git checkout master
 ```
 
