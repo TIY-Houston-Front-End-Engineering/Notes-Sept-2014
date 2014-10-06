@@ -1,3 +1,5 @@
+- http://www.korenlc.com/backbone-js-tutorial-getting-started-with-backbone/
+- https://github.com/facebook/flux/tree/master/examples/flux-chat
 - http://www.thinkful.com/learn/angularjs-tutorial-build-a-gmail-clone/Introduction
 - http://dailyjs.com/web-app.html
 - https://www.joyent.com/developers/node/design
@@ -17,12 +19,19 @@
 - http://www.luster.io/blog/9-29-14-mobile-web-checklist.html
 - http://asteroids-c9-alexbergin.c9.io/app/index.html
 - http://tristanedwards.me/sweetalert
+- http://stack.gl/#examples
+- http://www.airpair.com/angularjs/posts/top-10-mistakes-angularjs-developers-make
+- http://www.airpair.com/angularjs
+- http://fluentconf.com/fluent2015/public/cfp/350
+- https://www.legalzoom.com/LZWeb/MyAccount/OrderStatus.aspx?TIMESTRING=vI%2bbV%2bqo3tWACQxwmn1tLw%3d%3d&iProcess=0&isNewSignUp=False
+- http://updates.html5rocks.com/2014/09/Precision-Touch-for-Precise-Gestures
 
 Ops:
 ---
 √ Net Mag ????
 - FOWA
-- Hacktoberfest
+º Hacktoberfest
+º ConvergeRVA
 - HoustonJS site
 - Space City JS additions
 - dstllry.co
