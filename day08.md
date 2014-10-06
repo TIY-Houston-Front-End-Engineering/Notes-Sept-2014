@@ -306,6 +306,12 @@ git rebase master
 git checkout master
 ```
 
+**EDIT:** Some of us were running into this problem: http://stackoverflow.com/questions/5084100/post-commit-hook-not-running. To fix this issue, after you first create and save the file, run:
+
+```sh
+chmod +x .git/hooks/post-commit
+```
+
 Then every time you commit and push, `gh-pages` should be automatically updated, too!
 
 You just need to do this:
