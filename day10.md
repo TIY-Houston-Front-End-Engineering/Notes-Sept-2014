@@ -31,3 +31,5 @@
 # Homework
 
 Your [weekend 2 homework assignment - the Color Clock](./examples/day10/)
+
+This is essentially recreating http://thecolourclock.co.uk/ in HTML/CSS/JS.

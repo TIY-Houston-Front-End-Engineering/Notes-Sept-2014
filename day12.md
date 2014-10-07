@@ -1,173 +1,184 @@
+# Tue, October 6th
+
+```sh
+ _________________________________________
+/ Today, we reviewed try/catch/finally    \
+| and throw, we covered merge conflicts   |
+| in Git, we introduced variadic behavior |
+| and the arguments object, and then we   |
+| discussed how to incorporate errors,    |
+| arguments, type checking, and forEach   |
+\ to sum any amount of numbers            /
+ -----------------------------------------
+   \         __------~~-,
+    \      ,'            ,
+          /               \
+         /                :
+        |                  '
+        |                  |
+        |                  |
+         |   _--           |
+         _| =-.     .-.   ||
+         o|/o/       _.   |
+         /  ~          \ |
+       (____@)  ___~    |
+          |_===~~~.`    |
+       _______.--~     |
+       \________       |
+                \      |
+              __/-___-- -__
+             /            _ \
+```
+
 # debugger with Chrome
 
-	- console.log
-	- console.assert
-	- console.count
-	- console.dir
-	- console.trace
-	- console.time/timeEnd
-	- performance.now()
-	- console.timeline/timelineEnd
-	- console.profile/profileEnd
-	- inspect(any html element, or function)
-	- console.timeStamp() - // label the timeline
-	- copy() - copy an object as a string to clipboard
+- console.log
+- console.assert
+- console.count
+- console.dir
+- console.trace
+- console.time/timeEnd
+- performance.now()
+- console.timeline/timelineEnd
+- console.profile/profileEnd
+- inspect(any html element, or function)
+- console.timeStamp() - // label the timeline
+- copy() - copy an object as a string to clipboard
 
-	more info: https://developer.chrome.com/devtools/docs/console-api
+more info: https://developer.chrome.com/devtools/docs/console-api
+
+# handling merge conflicts
+
+We talked about handling merge conflicts with Git. If you have questions, ask your peers or me. :-)
 
 # errors, try/catch/finally, throw
 
-	```
-	/**
-	 * EXAMPLE: when asking the user for a number
-	 */
+```
+/**
+ * EXAMPLE: when asking the user for a number
+ */
 
-	function askForANumber(){
-	    var number = prompt("please provide a number");
-	    try {
-	        handleResponse(number);
-	    } catch(e) {
-	        // :mindblown:
-	        console.log(e, e.stack);
-	        askForANumber(); // recursion
-	    }
-	}
+function askForANumber(){
+    var number = prompt("please provide a number");
+    try {
+        handleResponse(number);
+    } catch(e) {
+        // :mindblown:
+        console.log(e, e.stack);
+        askForANumber(); // recursion
+    }
+}
 
-	function handleResponse(number){
-	    number = parseFloat(number); // handle decimal places too, with parseFloat
-	    if(typeof number !== "number" || Number.isNaN(number)){ // is it not a number or is it NaN?
-	        throw new Error("Whatch'you talkin' bout? SAY WAT AGAIN."); // if yes, throw error
-	    } else {
-	        alert('You typed in a number: '+number+'!');
-	    }
-	}
+function handleResponse(number){
+    number = parseFloat(number); // handle decimal places too, with parseFloat
+    if(typeof number !== "number" || Number.isNaN(number)){ // is it not a number or is it NaN?
+        throw new Error("Whatch'you talkin' bout? SAY WAT AGAIN."); // if yes, throw error
+    } else {
+        alert('You typed in a number: '+number+'!');
+    }
+}
 
-	askForANumber();
-	```
+askForANumber();
+```
 
-# jQuery, $.get/JSON(), $.on(), $.Deferred and Promises
+# `arguments` (variadic behavior)
 
-- http://api.jquery.com/category/events/event-object/
-- https://github.com/TIY-Houston-Q3-Front-End/Notes/blob/master/class_27/index.md
-- https://github.com/TIY-Houston-Q3-Front-End/Notes/blob/master/class_41/review-18-to-27.md
+```js
+/**
+ * sum functions
+ */
+function sumOnlyTwoNumbers(a, b){
+    "use strict";
+    return a + b;
+}
+function sumForLoop(){
+    "use strict";
+    var args = Array.prototype.slice.apply(arguments, []),
+        sum = 0;
+    for(var i = 0; i < args.length; i++){
+        sum += args[i];
+    }
+    return sum;
+}
+function sumForEach(){
+    "use strict";
+    var args = Array.prototype.slice.apply(arguments, []),
+        sum = 0;
+    args.forEach(function(num){ sum += num; });
+    return sum;
+}
+function sumForEachCustom(){
+    "use strict";
+    "use strict";
+    var args = Array.prototype.slice.apply(arguments, []),
+        sum = 0;
+    forEach(args, function(){ sum += arguments[0]; });
+    return sum;
+}
 
-# APIs
+/**
+ * forEach functions
+ */
+function forEach(array, callback){
+    "use strict";
+    for(var i = 0; i < array.length; i++){
+        callback(array[i], i);
+    }
+}
+Array.prototype.forEach = function(callback){
+    "use strict";
+    for(var i = 0; i < this.length; i++){
+        callback(array[i], i);
+    }
+}
+```
 
-- https://api.github.com/users/jacobthemyth
-- https://api.github.com/users/jacobthemyth/repos
-- https://api.github.com/users/jacobthemyth/starred
-- https://api.github.com/users/jacobthemyth/orgs
+# Homework
 
-# arguments (variadic behavior)
+1. Read and reflect (write a few paragraphs on your blog, just 200 words or something.) - http://nautil.us/issue/17/big-bangs/how-i-rewired-my-brain-to-become-fluent-in-math-rd
+2. Create a new repo for the following code. Follow the directions in the comments.
 
-	```
-	function test(){
-	    console.log(arguments);
-	}
+    # Part I
 
-	test(1); // [1]
-	test(1, 2, 3); // [1, 2, 3]
+    ```js
+    // use EACH the iteration methods discussed in class today (for loop, Array.forEach, custom forEach) for EACH of the following problems
+    // 1. calculate the sum of numbers (can be any number of arguments)
+    // 2. calculate the average of numbers
+    // 3. find the largest number of the inputs
+    // 4. find the longest string of the inputs
+    // 5. given an array of Date() objects (Oct 4th 2014, Oct 3rd 2014, Sept 30th 2014, Sept 1st 2012, March 13th 2010), in that order, sort them chronologically. Use http://devdocs.io/javascript/global_objects/date for reference on creating Date() objects with a specific date.
+    ```
 
-	/**
-	 * Variadic Behavior
-	 */
+    # Part II
 
-	function sum3(a, b, c) {
-	    console.log(a + b + c);
-	}
+    ```js
+    // set up arrays
+    var numbers = [1,12,4,18,9,7,11,3,101,5,6];
+    var strings = ['this','is','a','collection','of','words'];
 
-	sum3(1, 2, 3); // 6
-	sum3(1, 2); /// NaN (why? 1+2+undefined is NaN)
-	sum3(1, 2, 3, 4); // 6 (why? code ignores last argument)
+    var customers = [
+        { firstname : 'Joe', lastname : 'Blogs'},
+        { firstname : 'John', lastname : 'Smith'},
+        { firstname : 'Dave', lastname : 'Jones'},
+        { firstname : 'Jack', lastname : 'White'}
+    ];
 
-	function sumAll( /* arguments */ ) {
-	    var numbers = [].slice.call(arguments);
-	    var sum = 0;
-	    numbers.forEach(function(n) {
-	        sum += n;
-	    });
-	    console.log(sum);
-	}
+    console.log(customers);
 
-	sumAll(1, 2, 3); //--> 6
-	// sumAll(1, 2, 3, 4); //--> 10
-	// sumAll(1, 2); //--> 3
-	// sumAll(); //--> 0
+    // YOUR CODE WILL GO IN THIS NEXT SECTION
+    // find all customers whose firstname starts with 'J',
+    // map() those people into an array of objects like: { name : "firstname c.lastname" }
+    // then sort alphabetically
 
-	// test arguments
-	function sum3() {
-	    var numbers = [].slice.call(arguments);
-	    if (numbers.length !== 3) {
-	        console.log("Invalid number of parameters -- sum3");
-	        return;
-	    }
-	    var sum = 0;
-	    numbers.forEach(function(n) {
-	        sum += n;
-	    });
-	    console.log(sum);
-	}
+    var projections = customers
+        .filter(function(c){ /* ... */ })
+        .map(function(c){  /* ... */ })
+        .sort(sortByName);
 
-	sum3(1, 2); //--> Invalid number of parameters -- sum3
-	sum3(1, 2, 3, 4); //--> Invalid number of parameters -- sum3
-	sum3(1, 2, 3); //--> 6
+    function sortByName(c1, c2) {
+        "use strict";
+        //...
+    }
 
-	// modify sum all to only take numbers
-
-	/**
-	 * input: numbers only
-	 * returns: sum of the numbers
-	 */
-
-	function sumAllNumbersOnly( /* arguments */ ) {
-	    var numbers = [].slice.call(arguments); /// variadic behavior - keyadic behavior
-	    var sum = 0;
-	    numbers.forEach(function(n) {
-	        if (typeof n !== "number") { // type checking
-	            alert('hey jackass');
-	            throw new Error("Excuse me sir/madam, you are trying to get the sum of a number and a string. I believe this is incorrect use of my function. Good day."); // error handling
-	        }
-	        sum += n;
-	    });
-	    console.log(sum);
-	}
-
-	sumAllNumbersOnly(1, 2, 3, "a"); //--> Excuse me sir/madam, you are trying to get the sum of a number and a string. I believe this is incorrect use of my function. Good day.
-	sumAllNumbersOnly(1, 2, 3); //--> 6
-	```
-
-# functions as building blocks, constructors, prototype chain
-
-	```
-	more function work: https://github.com/TIY-Houston-Q3-Front-End/Notes/blob/master/class_12/homework.js
-	- DOM templating from scratch
-	- window.onload = app;
-
-	stopwatch and prototype homework: https://github.com/TIY-Houston-Q3-Front-End/Notes/tree/master/class_26
-
-	BONUS: start recreating http://thecolourclock.co.uk/ in HTML/CSS/JS. Currently it is only made in Flash.
-	```
-
-# Function.call, Function.apply, Function.bind
-
-# Inheritance / OOP
-
-	```js
-		function Character(name){
-			this.name = name;
-		}
-
-		Character.prototype.fight = function(){
-			console.log(this.name, this.power);
-		}
-
-		function Wizard(name){
-			Character.apply(this, arguments);
-			this.power = 10;
-		}
-
-		Wizard.prototype = Object.create(Character.prototype);
-		// or
-		Wizard.prototype = new Character();
-		Wizard.prototype.constructor = Wizard;
-	```
+    console.log(projections);
+    ```
