@@ -32,18 +32,18 @@
 
 # debugger with Chrome
 
-- console.log
-- console.assert
-- console.count
-- console.dir
-- console.trace
-- console.time/timeEnd
-- performance.now()
-- console.timeline/timelineEnd
-- console.profile/profileEnd
-- inspect(any html element, or function)
-- console.timeStamp() - // label the timeline
-- copy() - copy an object as a string to clipboard
+- `console.log()`
+- `console.assert()`
+- `console.count()`
+- `console.dir()`
+- `console.trace()`
+- `console.time()`/`console.timeEnd()`
+- `performance.now()`
+- `console.timeline()`/`console.timelineEnd()`
+- `console.profile()`/`console.profileEnd()`
+- `inspect(any html element, or function)`
+- `console.timeStamp()` - // label the timeline
+- `copy()` - copy an object as a string to clipboard
 
 more info: https://developer.chrome.com/devtools/docs/console-api
 
