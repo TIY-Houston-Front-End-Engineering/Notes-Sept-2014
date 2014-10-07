@@ -169,7 +169,7 @@ Array.prototype.forEach = function(callback){
 
     // YOUR CODE WILL GO IN THIS NEXT SECTION
     // find all customers whose firstname starts with 'J',
-    // map() those people into an array of objects like: { name : "firstname c.lastname" }
+    // map() those people into an array of objects like: { name : c.firstname + " " + c.lastname }
     // then sort alphabetically
 
     var projections = customers
