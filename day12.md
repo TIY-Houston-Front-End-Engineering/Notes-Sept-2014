@@ -51,6 +51,8 @@ more info: https://developer.chrome.com/devtools/docs/console-api
 
 We talked about handling merge conflicts with Git. If you have questions, ask your peers or me. :-)
 
+There's lots of good write-ups out there, as well. One I found via GoodOlGoogleSearch™ is http://githowto.com/resolving_conflicts.
+
 # errors, try/catch/finally, throw
 
 ```
