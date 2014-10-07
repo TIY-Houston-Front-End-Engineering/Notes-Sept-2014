@@ -138,6 +138,8 @@ Array.prototype.forEach = function(callback){
 1. Read and reflect (write a few paragraphs on your blog, just 200 words or something.) - http://nautil.us/issue/17/big-bangs/how-i-rewired-my-brain-to-become-fluent-in-math-rd
 2. Create a new repo for the following code. Follow the directions in the comments.
 
+    Need help? Use hipchat, and http://devdocs.io/ !!! Don't ignore resources :-)
+
     # Part I
 
     ```js
