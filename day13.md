@@ -1,3 +1,21 @@
+# Wed, Oct 8th
+
+```sh
+ ________________________________________
+/ today we reviewed looping and #5 on    \
+| yesterday's homework, Array functions, |
+| writing our own array functions,       |
+| Prototypes, constructors, arguments,   |
+| this, Function.call, and Prototype     |
+\ Chaining                               /
+ ----------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
+
 # Code from class - HW12 Part 1 Number 5
 
 ```js
