@@ -1,23 +1,72 @@
-# functions as building blocks, constructors, prototype chain
+# Code from class - HW12 Part 1 Number 5
 
-    ```
-    more function work: https://github.com/TIY-Houston-Q3-Front-End/Notes/blob/master/class_12/homework.js
-    - DOM templating from scratch
-    - window.onload = app;
-    ```
+```js
+/**
+ * 5. given an array of Date() objects (Oct 4th 2014, Oct 3rd 2014, Sept 30th 2014, Sept 1st 2012, March 13th 2010), in that order, sort them chronologically. Use http://devdocs.io/javascript/global_objects/date for reference on creating Date() objects with a specific date.
+ */
 
-# jQuery, $.get/JSON(), $.on(), $.Deferred and Promises
+/**
+ * forEach function
+ */
+function forEach(array, callback){
+    "use strict";
+    for(var i = 0; i < array.length; i++){
+        callback(array[i], i, array);
+    }
+}
 
-- http://api.jquery.com/category/events/event-object/
-- https://github.com/TIY-Houston-Q3-Front-End/Notes/blob/master/class_27/index.md
-- https://github.com/TIY-Houston-Q3-Front-End/Notes/blob/master/class_41/review-18-to-27.md
+/**
+ * the Date-sorting functions
+ */
+function sortDateCheat(dates){
+    return dates.sort(function(d1, d2){
+        return d1.getTime() > d2.getTime() ? 1 : -1
+    })
+}
 
-# APIs
+function sortDateForLoop(dates){
+    for(var i = 0; i < dates.length; i++){
+        findLowestDateAndSwap(null, i, dates);
+    }
+}
 
-- https://api.github.com/users/jacobthemyth
-- https://api.github.com/users/jacobthemyth/repos
-- https://api.github.com/users/jacobthemyth/starred
-- https://api.github.com/users/jacobthemyth/orgs
+function findLowestDateAndSwap(value, i, array){
+    for(var j = i+1; j < dates.length; j++){
+        if(+dates[j] < +dates[i]){
+            var temp = dates[i];
+            dates[i] = dates[j];
+            dates[j] = temp;
+        }
+    }
+}
+
+function sortDateForEach(dates){
+    dates.forEach(findLowestDateAndSwap);
+}
+
+function sortDateCustomForEach(dates){
+    forEach(dates, findLowestDateAndSwap);
+}
+
+/**
+ * setup
+ */
+var dates = [
+    new Date(2014, 9, 4),
+    new Date(2014, 9, 3),
+    new Date(2014, 8, 29),
+    new Date(2012, 9, 1),
+    new Date(2015, 2, 13)
+];
+
+console.log(dates)
+
+sortDateForLoop(dates);
+// sortDateForEach(dates);
+// sortDateCustomForEach(dates);
+
+console.dir(dates)
+```
 
 # Function.call, Function.apply, Function.bind (make comparisons to calling sum in these different ways)
 
@@ -37,23 +86,33 @@
         this.power = 10;
     }
 
-    Wizard.prototype = Object.create(Character.prototype);
-    // or
     Wizard.prototype = new Character();
     Wizard.prototype.constructor = Wizard;
 ```
 
+# Books!
+
+- http://eloquentjavascript.net/
+- I brought books into class. There are 8 books in total. If you don't take them home, put them in the closet.
+
 # Resources
 
-http://eloquentjavascript.net/
+- Don't forget about http://bonsaiden.github.io/JavaScript-Garden which still has a TON to keep reading over.
 
 # Homework
 
+## Part 1
+
+Complete your [day 12 homework](./day12.md)
+
+## Part 2
+
 > This is to be done as a group assignment. We may have one group of 3 students.
+> 1. Send me a hipchat or email about who is on who's team
+> 2. Have one person Create a Github Repo for the project, then each other person will need to be added as collaborators (see https://help.github.com/articles/adding-collaborators-to-a-personal-repository/).
+> 3. Remember back to our discussion on Git and merge conflicts. Those problems can and probably will arise. :-)
 
-One of the most useful exercises I've ever done as a programmer is the following:
-
-1. Write your own forEach function. It takes the array and the function (referred to as a callback) as arguments:
+1. Write your own forEach function (like we did in class). It takes the array and the function (referred to as a callback) as arguments:
     ```js
     function forEach(list, callback) { /* Do stuff */ }
     ```

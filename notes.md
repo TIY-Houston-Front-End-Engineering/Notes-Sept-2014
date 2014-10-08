@@ -28,6 +28,7 @@
 - http://www.ocf.berkeley.edu/~horie/persp.txt
 - http://www.letscodejavascript.com/v3/blog/2014/09/react_review
 - http://eloquentjavascript.net/
+- https://github.com/gelstudios/gitfiti
 
 reflection from Tuesday 10/6:
 
