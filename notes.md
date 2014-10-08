@@ -25,11 +25,16 @@
 - http://fluentconf.com/fluent2015/public/cfp/350
 - https://www.legalzoom.com/LZWeb/MyAccount/OrderStatus.aspx?TIMESTRING=vI%2bbV%2bqo3tWACQxwmn1tLw%3d%3d&iProcess=0&isNewSignUp=False
 - http://updates.html5rocks.com/2014/09/Precision-Touch-for-Precise-Gestures
+- http://www.ocf.berkeley.edu/~horie/persp.txt
+- http://www.letscodejavascript.com/v3/blog/2014/09/react_review
+- http://eloquentjavascript.net/
 
 reflection from Tuesday 10/6:
 
 	- one of the most asked questions is "I could name this argument anything, right?"
 	- what if we taught by accessing arguments first, and THEN introduced named variables?
+	- bracket-notation
+	- falsy vs truthy
 
 Ops:
 ---
