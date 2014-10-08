@@ -86,9 +86,9 @@ sortDateForLoop(dates);
 console.dir(dates)
 ```
 
-# Function.call, Function.apply, Function.bind (make comparisons to calling sum in these different ways)
+# Inheritance / OOP
 
-# Inheritance / OOP (http://bonsaiden.github.io/JavaScript-Garden/#object.prototype)
+> http://bonsaiden.github.io/JavaScript-Garden/#object.prototype
 
 ```js
     function Character(name){
