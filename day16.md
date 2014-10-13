@@ -125,7 +125,7 @@ function filter(list, callback) {
 }
 ```
 
-# filter
+# pluck
 
 ```js
 function pluck(list, propertyName) {
