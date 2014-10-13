@@ -1,34 +1,20 @@
 - http://www.korenlc.com/backbone-js-tutorial-getting-started-with-backbone/
 - https://github.com/facebook/flux/tree/master/examples/flux-chat
-- http://www.thinkful.com/learn/angularjs-tutorial-build-a-gmail-clone/Introduction
 - http://dailyjs.com/web-app.html
 - https://www.joyent.com/developers/node/design
 - http://www.sitepoint.com/5-typical-javascript-interview-exercises/
-- http://adodson.com/hello.js/
-- http://api.ai/ WOW
-- https://wit.ai/
-- http://robflaherty.github.io/jquery-annotated-source/
-- http://backbonejs.org/docs/backbone.html
 - mithril MVC
 - https://speakerdeck.com/paullewis/edge-layout-performance-panel-intro
 - advanced debugging with chrome - https://docs.google.com/presentation/d/17HjGp4pQlNh2WIwKiTcUpDLIuOdkUcRmALFuoytQsjU/preview#slide=id.p
 - https://github.com/derickbailey/backbone.marionette
 - https://github.com/derickbailey/backbone.compute
-- https://github.com/adunkman/node-trello
-- http://www.zell-weekeat.com/support-for-older-browsers/
-- http://www.luster.io/blog/9-29-14-mobile-web-checklist.html
+
 - http://asteroids-c9-alexbergin.c9.io/app/index.html
-- http://tristanedwards.me/sweetalert
 - http://stack.gl/#examples
-- http://www.airpair.com/angularjs/posts/top-10-mistakes-angularjs-developers-make
-- http://www.airpair.com/angularjs
 - http://fluentconf.com/fluent2015/public/cfp/350
-- https://www.legalzoom.com/LZWeb/MyAccount/OrderStatus.aspx?TIMESTRING=vI%2bbV%2bqo3tWACQxwmn1tLw%3d%3d&iProcess=0&isNewSignUp=False
-- http://updates.html5rocks.com/2014/09/Precision-Touch-for-Precise-Gestures
 - http://www.ocf.berkeley.edu/~horie/persp.txt
 - http://www.letscodejavascript.com/v3/blog/2014/09/react_review
 - http://eloquentjavascript.net/
-- https://github.com/gelstudios/gitfiti
 
 reflection from Tuesday 10/6:
 
@@ -42,14 +28,13 @@ Ops:
 √ Net Mag ????
 - FOWA
 º Hacktoberfest
-º ConvergeRVA
+√ ConvergeRVA
 - HoustonJS site
 - Space City JS additions
 - dstllry.co
 - mkeas update with metalsmith
 - wrinklefree js
 - CPA for Space City JS
-- "coworking in Houston" blog post
 
 # jQuery, jQuery plugins
 

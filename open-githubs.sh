@@ -9,4 +9,3 @@ open https://github.com/tawfiqmp
 open https://github.com/therinken
 open https://github.com/phyllistran
 open https://github.com/julierich1211
-open https://github.com/Daron23

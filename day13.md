@@ -108,6 +108,12 @@ console.dir(dates)
     Wizard.prototype.constructor = Wizard;
 ```
 
+### TIP:
+
+> `console.dir` shows you the structure of an Object. More useful when debugging the Prototype chain.
+
+![](./examples/day13/1.png)
+
 # Books!
 
 - http://eloquentjavascript.net/
