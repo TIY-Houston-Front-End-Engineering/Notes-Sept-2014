@@ -1,7 +1,25 @@
 # Monday, Oct 13th
 
 ```sh
-
+ _________________________________________
+/ today we covered review of the weekend  \
+| lab, covered how everything is built on |
+| forEach(), and covered some jQuery -    |
+| how it just wraps                       |
+| document.querySelector/All, how we can  |
+| handle events with $.on(), and how to   |
+| pull data from the interwebs with       |
+\ $.get()/$.getJSON()                     /
+ -----------------------------------------
+   \
+    \
+        .--.
+       |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /'\_   _/`\
+    \___)=(___/
 ```
 
 # jQuery's AJAX functions
