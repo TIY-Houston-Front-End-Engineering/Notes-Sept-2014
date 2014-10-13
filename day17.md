@@ -1,12 +1,8 @@
-# `jQuery`, `$.get/JSON()`, `$.on()`, $.Deferred and Promises
+# Promises, $.Deferred, $.get/getJSON/ajax/post
 
-- http://api.jquery.com/category/events/event-object/
-- https://github.com/TIY-Houston-Q3-Front-End/Notes/blob/master/class_27/index.md
-- https://github.com/TIY-Houston-Q3-Front-End/Notes/blob/master/class_41/review-18-to-27.md
+    - when, then, resolve
 
-# Function.call, Function.apply, Function.bind (make comparisons to calling sum in these different ways)
-
-# Inheritance / OOP
+# Prototypes, Constructors, `this`
 
 > http://bonsaiden.github.io/JavaScript-Garden/#object.prototype
 
@@ -28,9 +24,7 @@
     Wizard.prototype.constructor = Wizard;
 ```
 
-# functions as building blocks, constructors, prototype chain
+# templating
 
-    ```
-    - underscore templating
-    - window.onload = app;
-    ```
+- with innerHTML
+- with lodash/underscore
