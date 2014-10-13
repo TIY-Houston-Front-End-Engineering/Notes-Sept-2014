@@ -97,7 +97,10 @@ function reduce(list, callback, initialValue) {
     if(initialValue) list.unshift(initialValue);
     // for each item (starting from first position)
     forEach(list, function(val, i, arr) {
-        if(i === 0) return;
+        if(i === 0) {
+        	prevVal = val;
+        	return;
+        }
         // overwrite the previous result with the latest one
         prevVal = callback(prevVal, arr[i], i, arr);
     });

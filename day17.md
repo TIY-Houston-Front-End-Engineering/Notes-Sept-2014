@@ -31,7 +31,6 @@
 # functions as building blocks, constructors, prototype chain
 
     ```
-    more function work: https://github.com/TIY-Houston-Q3-Front-End/Notes/blob/master/class_12/homework.js
-    - DOM templating from scratch
+    - underscore templating
     - window.onload = app;
     ```
