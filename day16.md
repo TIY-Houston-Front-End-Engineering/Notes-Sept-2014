@@ -91,8 +91,7 @@ function map(subject, callback) {
 
 ```js
 function reduce(list, callback, initialValue) {
-    var value,
-        prevVal = initialValue;
+    var prevVal = initialValue;
 
     // if initialValue, prepend to list
     if(initialValue) list.unshift(initialValue);
