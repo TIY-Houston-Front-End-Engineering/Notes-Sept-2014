@@ -12,13 +12,14 @@ mkdir $1
 cd $1
 git init
 git remote add origin $2
+git commit -am "initial"
 git pull origin
 touch index.html
 mkdir css
 mkdir dist
 mkdir js
+git commit -am "creating some stuff"
 git add --all .
-git commit -m "initial commit"
 git push origin master
 git branch gh-pages
 bower install normalize.css typeplate-starter-kit jquery lodash

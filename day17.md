@@ -215,6 +215,20 @@ $.getJSON("https://api.github.com/users/matthiasak").then(writeToDOM)
 
 - Video on "making Space Invaders from scratch": http://vimeo.com/105955605
 
+## EDIT
+
+Shawn setup this awesome install "script" / checklist:
+
+I decided I would help y'all automate this with a little shell script:
+
+```sh
+curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Sept-2014/Notes/master/examples/extras/setup-project.sh > install.sh
+chmod a+x install.sh
+./install.sh <folderName> <gitSshUrl>
+```
+
+Where foldername is the name of the folder you are going to create, and the SSH URL is your github repo url that you will be cloning
+
 # Homework
 
 Recreate the design for the Github Repos page (e.g. https://github.com/matthiasak?tab=repositories).
