@@ -35,6 +35,8 @@ Ops:
 - mkeas update with metalsmith
 - wrinklefree js
 - CPA for Space City JS
+- Noah Scalin
+- Joey's inventory tracking idea
 
 # jQuery, jQuery plugins
 
@@ -90,11 +92,30 @@ Ops:
 	- [JavaScript: The Better Parts](https://www.youtube.com/watch?v=bo36MrBfTk4)
 	- [Code Newbie](http://www.codenewbie.org/)
 
+# Browser APIs
+
+Web Storage
+pageVisbilityAPI
+Video
+Audio
+Canvas
+Geolocation
+getUserMedia
+Web Workers
+Web Sockets
+
 # backbone (Model, Router, View)
 
 	- https://github.com/TIY-Houston-Q3-Front-End/Notes/tree/master/class_36
 	- https://github.com/TIY-Houston-Q3-Front-End/Notes/tree/master/class_37
 	- https://github.com/TIY-Houston-Q3-Front-End/Notes/tree/master/class_44
+	- Webster Wizerd
+	- Parse
+	- Firebase
+
+# API days
+
+API notes and AWS stuff, as well as hello.js
 
 # CSS-only parallax
 
