@@ -144,6 +144,15 @@ That means `_.forEach`, `_.filter`, `_.reduce`, `_.map`, `_.where`, `_.reject`, 
 
 One thing I will focus on today with lodash is new: `_.template`, which can be used to plug data (from AJAX) into HTML and put it on the DOM.
 
+## EDIT
+
+> Add this to your code when after including lodash:
+
+    ```js
+    _.templateSettings.interpolate = /{([\s\S]+?)}/g;
+    ```
+
+
 ```js
 var someHtmlString = "<h1>{title}</h1>";
 document.body.innerHTML = _.template(someHtmlString, {title: 'This is my title text'})
@@ -182,4 +191,10 @@ Recreate the design for the Github Repos page (e.g. https://github.com/matthiasa
     - user info from https://api.github.com/users/matthiasak
     - and repos info from https://api.github.com/users/matthiasak/repos
     - **NOTE** replace my username with your own
-- You will need to do multiple, parallel queries with `$.when()`
+- you will need to do multiple, parallel queries with `$.when()` to pull the data from Github
+- use `_.template`
+    > Add this to your code when after including lodash:
+
+        ```js
+        _.templateSettings.interpolate = /{([\s\S]+?)}/g;
+        ```
