@@ -34,6 +34,6 @@ curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Sept-2014/Notes/mas
 chmod a+x .git/hooks/post-commit
 
 git add --all .
-git comit -am "ok, wrapping up"
+git commit -am "ok, wrapping up"
 git branch gh-pages
 git push --all
