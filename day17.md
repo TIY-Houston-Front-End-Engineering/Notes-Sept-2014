@@ -1,6 +1,37 @@
 # Tuesday, October 14th
 
 ```js
+ _________________________________________
+/ Today we covered Promises, $.when,      \
+| $.then, wrote our own Promise           |
+| implementation and showed how $.get     |
+| works, we covered lodash and underscore |
+| a little bit, and looked at templating. |
+| Finally, we watched a video on making   |
+\ our own games :)                        /
+ -----------------------------------------
+          \
+           \
+            \          __---__
+                    _-       /--______
+               __--( /     \ )XXXXXXXXXXX\v.
+             .-XXX(   O   O  )XXXXXXXXXXXXXXX-
+            /XXX(       U     )        XXXXXXX\
+          /XXXXX(              )--_  XXXXXXXXXXX\
+         /XXXXX/ (      O     )   XXXXXX   \XXXXX\
+         XXXXX/   /            XXXXXX   \__ \XXXXX
+         XXXXXX__/          XXXXXX         \__---->
+ ---___  XXX__/          XXXXXX      \__         /
+   \-  --__/   ___/\  XXXXXX            /  ___--/=
+    \-\    ___/    XXXXXX              '--- XXXXXX
+       \-\/XXX\ XXXXXX                      /XXXXX
+         \XXXXXXXXX   \                    /XXXXX/
+          \XXXXXX      >                 _/XXXXX/
+            \XXXXX--__/              __-- XXXX/
+             -XXXXXXXX---------------  XXXXXX-
+                \XXXXXXXXXXXXXXXXXXXXXXXXXX/
+                  ""VXXXXXXXXXXXXXXXXXXV""
+
 ```
 
 # Promises, `$.Deferred`, `$.get/getJSON/ajax/post`
@@ -179,6 +210,10 @@ function writeToDOM(data){
 
 $.getJSON("https://api.github.com/users/matthiasak").then(writeToDOM)
 ```
+
+# Resources
+
+- Video on "making Space Invaders from scratch": http://vimeo.com/105955605
 
 # Homework
 
