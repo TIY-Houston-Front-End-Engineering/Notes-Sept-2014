@@ -217,7 +217,7 @@ $.getJSON("https://api.github.com/users/matthiasak").then(writeToDOM)
 
 ## EDIT
 
-Shawn setup this awesome install "script" / checklist:
+Shawn setup this awesome install "script" / checklist: https://gist.github.com/prufrock123/7a3d84263e2bc06e1bec#file-gistfile1-md
 
 I decided I would help y'all automate this with a little shell script:
 
