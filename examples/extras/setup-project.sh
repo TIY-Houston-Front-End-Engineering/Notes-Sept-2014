@@ -13,7 +13,7 @@ cd $1
 git init
 git remote add origin $2
 git commit -am "initial"
-git pull origin
+git pull origin master
 touch index.html
 mkdir css
 mkdir dist
