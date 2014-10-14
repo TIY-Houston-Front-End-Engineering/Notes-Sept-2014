@@ -18,10 +18,8 @@ touch index.html
 mkdir css
 mkdir dist
 mkdir js
-git commit -am "creating some stuff"
 git add --all .
-git push origin master
-git branch gh-pages
+git commit -am "creating some stuff"
 bower install normalize.css typeplate-starter-kit jquery lodash
 
 echo '<link rel="stylesheet" type="text/css" href="./bower_components/normalize.css/normalize.css">' >> index.html
@@ -35,3 +33,7 @@ echo "node_modules" >> .gitignore
 curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Sept-2014/Notes/master/examples/extras/git-hook-post-commit.sh > .git/hooks/post-commit
 chmod a+x .git/hooks/post-commit
 
+git add --all .
+git comit -am "ok, wrapping up"
+git branch gh-pages
+git push --all
