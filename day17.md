@@ -233,9 +233,7 @@ Where foldername is the name of the folder you are going to create, and the SSH 
 
 Recreate the design for the Github Repos page (e.g. https://github.com/matthiasak?tab=repositories).
 
-- install all the goodies to your new Github repo with bower (normalize, typeplate, jquery)
-- save our gulpfile, and run `npm install gulp gulp-autoprefixer gulp-jshint --save-dev`
-- create our git-post-hook
+- **EDIT** use the script above to install and clone everything (everything gets included from Shawn's write-up, too)
 - https://api.github.com/ lists endpoints for grabbing information off of Github. I crawled through the URL's and found that I could grab my:
     - user info from https://api.github.com/users/matthiasak
     - and repos info from https://api.github.com/users/matthiasak/repos
