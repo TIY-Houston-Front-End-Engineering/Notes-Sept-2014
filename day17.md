@@ -244,6 +244,6 @@ Recreate the design for the Github Repos page (e.g. https://github.com/matthiasa
 - use `_.template`
     > Add this to your code when after including lodash:
 
-        ```js
-        _.templateSettings.interpolate = /{([\s\S]+?)}/g;
-        ```
+    ```js
+    _.templateSettings.interpolate = /{([\s\S]+?)}/g;
+    ```
