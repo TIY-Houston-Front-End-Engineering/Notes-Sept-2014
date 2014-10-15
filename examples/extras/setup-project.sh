@@ -29,6 +29,7 @@ echo '<script type="text/javascript" src="./bower_components/lodash/dist/lodash.
 
 curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Sept-2014/Notes/master/examples/extras/gulpfile.js > ./gulpfile.js
 npm install gulp gulp-autoprefixer gulp-jshint --save-dev
+npm install express
 echo "node_modules" >> .gitignore
 curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Sept-2014/Notes/master/examples/extras/git-hook-post-commit.sh > .git/hooks/post-commit
 chmod a+x .git/hooks/post-commit
