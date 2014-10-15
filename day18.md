@@ -1,3 +1,5 @@
+# Wednesday, Oct 15th
+
 # Prototypes, Constructors, `this`
 
 > http://bonsaiden.github.io/JavaScript-Garden/#object.prototype
@@ -19,6 +21,28 @@
     Wizard.prototype = new Character();
     Wizard.prototype.constructor = Wizard;
 ```
+
+# lodash
+
+	```
+	Functions looked at:
+
+	_.filter
+	_.template
+	_.extend
+	_.map
+	_.reduce
+	_.forEach
+	_.contains
+	_.keys
+	_.clone
+	_.pick
+	_.compact
+	_.union
+	_.flatten
+	_.zip
+	_.difference
+	```
 
 # Curriculum from today
 - REST APIs (http://stackoverflow.com/questions/671118/what-exactly-is-restful-programming)
@@ -48,6 +72,7 @@
 			console.log(data);
 		});
 		```
+
 # Homework
 ```
 

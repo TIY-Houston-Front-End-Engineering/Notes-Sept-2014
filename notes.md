@@ -48,28 +48,6 @@ Ops:
 	https://github.com/TIY-Houston-Q3-Front-End/Notes/blob/master/class_30/index.md
 	```
 
-# lodash
-
-	```
-	Functions looked at:
-
-	_.filter
-	_.template
-	_.extend
-	_.map
-	_.reduce
-	_.forEach
-	_.contains
-	_.keys
-	_.clone
-	_.pick
-	_.compact
-	_.union
-	_.flatten
-	_.zip
-	_.difference
-	```
-
 # heroku
 
 # node and express
@@ -140,23 +118,6 @@ API notes and AWS stuff, as well as hello.js
 
 	# Start yeoman
 	$ yo
-	```
-
-# gulp
-
-	- Gulp is like a factory, files come in and different files come out.
-	- Gulp plugins do much of the heavy lifting.
-	- Gulp plugins are just node packages that you install with npm. (e.g. gulp-ruby-sass)
-	- The foundation of gulp is the "file stream" created with gulp.src(pattern).
-	- You fit streams together with .pipe
-	- You create tasks with gulp.task('task-name', aFunction)
-	- Yeoman's tiy-webapp has a pretty nice gulpfile already
-
-	```sh
-	# build files into dist
-	$ gulp
-	# build and watch for changes
-	$ gulp watch
 	```
 
 # design patterns
