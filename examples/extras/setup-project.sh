@@ -24,7 +24,7 @@ bower install normalize.css typeplate-starter-kit jquery lodash
 
 echo '<link rel="stylesheet" type="text/css" href="./bower_components/normalize.css/normalize.css">' >> index.html
 echo '<link rel="stylesheet" type="text/css" href="./bower_components/typeplate-starter-kit/css/typeplate.css">' >> index.html
-echo '<script type="text/javascript" src="./bower_components/jwuery/dist/jquery.min.js"></script>' >> index.html
+echo '<script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>' >> index.html
 echo '<script type="text/javascript" src="./bower_components/lodash/dist/lodash.min.js"></script>' >> index.html
 
 curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Sept-2014/Notes/master/examples/extras/gulpfile.js > ./gulpfile.js
