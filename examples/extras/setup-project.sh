@@ -18,6 +18,8 @@ touch index.html
 mkdir css
 mkdir dist
 mkdir js
+touch ./js/app.js
+echo "_.templateSettings.interpolate = /{([\s\S]+?)}/g;" > .js/app.js
 git add --all .
 git commit -am "creating some stuff"
 bower install normalize.css typeplate-starter-kit jquery lodash
