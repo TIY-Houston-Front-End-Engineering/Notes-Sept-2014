@@ -33,3 +33,6 @@
 - https://www.facebook.com/groups/dctechjobs/
 - https://www.facebook.com/groups/dctechjobs/permalink/869588979725410/
 - https://chroniclevitae.com/
+- https://www.facebook.com/groups/houstondigitaljobs/
+- https://www.facebook.com/groups/437880809643302/
+- https://www.facebook.com/groups/houstonprogrammers/
