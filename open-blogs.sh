@@ -8,3 +8,4 @@ open http://ryanmora23.tumblr.com/
 open https://medium.com/@tawfiqmp
 open http://kenmcleod.tumblr.com/
 open http://phyllistran.tumblr.com/
+open http://julierichsworld.tumblr.com/
