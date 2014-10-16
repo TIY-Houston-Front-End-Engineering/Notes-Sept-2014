@@ -1,35 +1,35 @@
-http://monster.com
-https://www.linkedin.com/job/home?trk=hb_tab_jobs_top
-http://authenticjobs.com
-http://perks.io
-http://jobety.com/
-http://careers.stackoverflow.com/jobs
-https://jobs.github.com/
-http://authenticjobs.com/
-http://jobs.smashingmagazine.com/
-http://www.krop.com/
-http://slashdot.org/job_board.pl?job-board.php
-http://dribbble.com/jobs/
-http://www.crunchboard.com/crunchboard.php
-https://weworkremotely.com/
-http://arstechnica.com/jobs/
-http://www.startuply.com/
-https://www.interviewstreet.com/recruit2/
-http://jobs.readwriteweb.com/
-http://jobs.ajaxian.com/
-http://jobs.metafilter.com/
-http://www.freshwebjobs.com/
-http://www.coroflot.com/jobs
-http://jobs.mashable.com/jobs/search/results
-http://jobs.boxesandarrows.com/jobs
-http://www.creativehotlist.com/
-http://www.thefwa.com/jobs
-http://www.microlancer.com/freelance-switch/
-http://www.sensationaljobs.com/
-https://jobs.github.com
-https://careers.stackoverflow.com
-https://toprubyjobs.com
-http://www.indeed.com/
-https://www.facebook.com/groups/dctechjobs/
-https://www.facebook.com/groups/dctechjobs/permalink/869588979725410/
-https://chroniclevitae.com/
+- http://monster.com
+- https://www.linkedin.com/job/home?trk=hb_tab_jobs_top
+- http://authenticjobs.com
+- http://perks.io
+- http://jobety.com/
+- http://careers.stackoverflow.com/jobs
+- https://jobs.github.com/
+- http://authenticjobs.com/
+- http://jobs.smashingmagazine.com/
+- http://www.krop.com/
+- http://slashdot.org/job_board.pl?job-board.php
+- http://dribbble.com/jobs/
+- http://www.crunchboard.com/crunchboard.php
+- https://weworkremotely.com/
+- http://arstechnica.com/jobs/
+- http://www.startuply.com/
+- https://www.interviewstreet.com/recruit2/
+- http://jobs.readwriteweb.com/
+- http://jobs.ajaxian.com/
+- http://jobs.metafilter.com/
+- http://www.freshwebjobs.com/
+- http://www.coroflot.com/jobs
+- http://jobs.mashable.com/jobs/search/results
+- http://jobs.boxesandarrows.com/jobs
+- http://www.creativehotlist.com/
+- http://www.thefwa.com/jobs
+- http://www.microlancer.com/freelance-switch/
+- http://www.sensationaljobs.com/
+- https://jobs.github.com
+- https://careers.stackoverflow.com
+- https://toprubyjobs.com
+- http://www.indeed.com/
+- https://www.facebook.com/groups/dctechjobs/
+- https://www.facebook.com/groups/dctechjobs/permalink/869588979725410/
+- https://chroniclevitae.com/
