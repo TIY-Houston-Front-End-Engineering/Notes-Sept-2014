@@ -28,6 +28,10 @@ These actions (`GET`, `PUT`, `POST`, `DELETE`) are called HTTP verbs, and are ac
 
 Simply put, RESTful API's exist because it means there is a standardized way for front-end and back-end (browser and server-side code) to talk to each other.
 
+> example RESTful API interaction
+
+![](./examples/day20/1.png)
+
 # Etsy's REST API and how to use it:
 
 1. Create an app with Etsy here: https://www.etsy.com/developers/documentation/getting_started/register. This will give you an API key to use. Some services use API keys to provide authorization and to rate-limit people who make too many requests (i.e. spam thousands of requests per second).
