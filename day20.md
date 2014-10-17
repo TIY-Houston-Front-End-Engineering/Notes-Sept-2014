@@ -12,7 +12,7 @@ Now, let's **distill** ths a bit.
 
 For the Github API, there are various **resources**: `users`, `repos`, `teams`, `notifications`, `feeds`, `emojis`, and so forth. These resources are noted mainly here: https://api.github.com/
 
-A resource, like a `person`, is identifiable by a unique attribute. For a `person`, the unique identifier is a `username`. For a `repo`, it is a large number called an `id`.
+A resource, like a `person`, is identifiable by a unique attribute. For a `person`, the unique identifier is a `username`, because no one else should also have that `username`. For a `repo`, it is a large number called an `id`.
 
 When we interact with databases through a RESTful API, we are given a couple options to interact with resources:
 
