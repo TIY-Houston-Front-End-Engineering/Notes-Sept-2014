@@ -14,6 +14,8 @@ For the Github API, there are various **resources**: `users`, `repos`, `teams`, 
 
 A resource, like a `person`, is identifiable by a unique attribute. For a `person`, the unique identifier is a `username`, because no one else should also have that `username`. For a `repo`, it is a large number called an `id`.
 
+That unique identifier, like a `username`, is how we interact with a particular instance of `resource`.
+
 When we interact with databases through a RESTful API, we are given a couple options to interact with resources:
 
 1. `GET` the information record of a particular resource
