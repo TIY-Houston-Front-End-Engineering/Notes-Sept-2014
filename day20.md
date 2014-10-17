@@ -1,10 +1,10 @@
 # Curriculum from today
 
-# In simplest terms: a database
+# In simplest terms: What is a database?
 
 It's a spreadsheet.
 
-# What is RESTful API's?
+# What are RESTful API's?
 
 First, a long description: http://stackoverflow.com/questions/671118/what-exactly-is-restful-programming/671132#671132
 
