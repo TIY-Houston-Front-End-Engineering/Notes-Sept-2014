@@ -110,6 +110,4 @@ EtsyClient.prototype.getListingInfo = function(id) {
         console.log(data);
     });
 }
-
-// user?
 ```
