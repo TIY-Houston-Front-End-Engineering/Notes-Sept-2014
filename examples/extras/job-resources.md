@@ -1,4 +1,5 @@
 - https://remotecoder.io/
+- http://frontenddeveloperjob.com/
 - http://monster.com
 - https://www.linkedin.com/job/home?trk=hb_tab_jobs_top
 - http://authenticjobs.com
@@ -37,3 +38,12 @@
 - https://www.facebook.com/groups/houstondigitaljobs/
 - https://www.facebook.com/groups/437880809643302/
 - https://www.facebook.com/groups/houstonprogrammers/
+- https://news.ycombinator.com/jobs
+- http://www.therotationship.com/
+- https://hired.com/home
+- https://angel.co/jobs
+- http://onsite.io/
+- https://uxmag.com/uxjobs
+- https://gun.io/
+- http://www.dice.com/
+- https://coderwall.com/jobs
