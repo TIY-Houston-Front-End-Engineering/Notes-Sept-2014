@@ -12,3 +12,18 @@ MVC application
 # API days
 
 API notes and AWS stuff, as well as hello.js
+
+Web Storage / Local Storage / Session Storage
+pageVisibilityAPI
+Video / Audio
+webkitAudioAPI
+Canvas
+Geolocation
+getUserMedia
+Web Workers
+Web Sockets
+and all the others from CanIUse.com
+
+# jQuery, jQuery plugins, API stuff
+
+	- see Wrinklefree jQuery and HTML5

@@ -54,20 +54,27 @@ function app(){
         {url: "./bower_components/lodash/dist/lodash.min.js"},
         {url: "./bower_components/pathjs/path.min.js"}
     ).then(function(){
+        _.templateSettings.interpolate = /{([\s\S]+?)}/g;
+
         // start app?
     })
 
 }
 ' >> ./js/app.js
 
+# download our gulp file, install gulp and stuff from npm
 curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Sept-2014/Notes/master/examples/extras/gulpfile.js > ./gulpfile.js
 npm install gulp gulp-autoprefixer gulp-jshint --save-dev
 npm install express
+
+# write to our .gitignore
 echo "node_modules" >> .gitignore
+
+# get our post-commit hook to auto-commit to gh-pages
 curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Sept-2014/Notes/master/examples/extras/git-hook-post-commit.sh > .git/hooks/post-commit
 chmod a+x .git/hooks/post-commit
 
-echo "_.templateSettings.interpolate = /{([\s\S]+?)}/g;" >> .js/app.js
+# finish up on git
 git add --all .
 git commit -am "ok, wrapping up install process and setting up $2"
 git branch gh-pages
