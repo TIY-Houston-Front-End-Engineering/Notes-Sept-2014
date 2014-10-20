@@ -1,11 +1,11 @@
 #!/bin/sh
-open http://www.adambergen.me/
-open http://marcodemus.tumblr.com/
-open https://medium.com/@prufrock123/
-open https://medium.com/@wideangle7
-open https://medium.com/@warnerp18
-open http://ryanmora23.tumblr.com/
-open https://medium.com/@tawfiqmp
-open http://kenmcleod.tumblr.com/
-open http://phyllistran.tumblr.com/
-open http://julierichsworld.tumblr.com/
+open "http://www.adambergen.me" -a /Applications/Google\ Chrome.app/
+open "http://marcodemus.tumblr.com" -a /Applications/Google\ Chrome.app/
+open "http://medium.com/@prufrock123" -a /Applications/Google\ Chrome.app/
+open "http://medium.com/@wideangle7" -a /Applications/Google\ Chrome.app/
+open "http://medium.com/@warnerp18" -a /Applications/Google\ Chrome.app/
+open "http://ryanmora23.tumblr.com" -a /Applications/Google\ Chrome.app/
+open "http://medium.com/@tawfiqmp" -a /Applications/Google\ Chrome.app/
+open "http://kenmcleod.tumblr.com" -a /Applications/Google\ Chrome.app/
+open "http://phyllistran.tumblr.com" -a /Applications/Google\ Chrome.app/
+open "http://julierichsworld.tumblr.com" -a /Applications/Google\ Chrome.app/
