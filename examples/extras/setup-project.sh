@@ -25,6 +25,7 @@ touch index.html
 mkdir css
 mkdir dist
 mkdir js
+mkdir templates
 touch ./js/app.js
 bower install normalize.css typeplate-starter-kit jquery lodash pathjs Loader
 

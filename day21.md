@@ -20,11 +20,18 @@
                  ||    ||
 ```
 
+# EtsyBrowser from today
+
+- Repo page: https://github.com/TIY-Houston-Front-End-Sept-2014/EtsyBrowser
+- gh-pages version: http://tiy-houston-front-end-sept-2014.github.io/EtsyBrowser/#/
+
 # Note
 
 > our setup script has been installed to include stuff from today :-) (bower, pathjs)
 
 # Routing, Path.js, wikipedia and :target, JS functions based on the URL, deeplinking
+
+> **EDIT**: Phyllis shared this StackOverflow link on Hipchat: http://stackoverflow.com/questions/10075507/what-does-javascript-routing-buy-you
 
 When you go to Gmail and load:
 - The _chats_ tab, the URL changes to `https://mail.google.com/mail/u/0/#chats`.
@@ -71,49 +78,6 @@ EtsyClient.prototype.setupRouting = function(){
     Path.root("#/");
     Path.listen();
 }
-```
-
-# Inheritance in JavaScript
-
-**Vanilla method 1**: IE5+
-
-```js
-function Character(name){
-  this.name = name;
-}
-
-Character.prototype.fight = function(){
-  console.log(this.name, this.power);
-}
-
-function Wizard(name){
-  Character.apply(this, arguments);
-  this.power = 10;
-}
-
-Wizard.prototype = Character.prototype;
-Wizard.prototype.constructor = Wizard;
-```
-
-**Vanilla method 2**: Requires IE9+ (ES5 - which also provides Array.map/filter/etc)
-
-`Object.create()` is usable in IE9 and up: http://kangax.github.io/compat-table/es5/#Object.create
-
-```js
-function Character(name){
-  this.name = name;
-}
-
-Character.prototype.fight = function(){
-  console.log(this.name, this.power);
-}
-
-function Wizard(name){
-  Character.apply(this, arguments);
-  this.power = 10;
-}
-
-Wizard.prototype = Object.create(Character.prototype);
 ```
 
 # Script Loaders

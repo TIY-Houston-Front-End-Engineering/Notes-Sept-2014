@@ -81,7 +81,7 @@ var etsy_url = [
 	"api_key=",
 	api_key,
 	"&callback=?" // <--- told jQuery to handle the request as JSONP
-].join();
+].join('');
 
 $.getJSON(etsy_url).then(function(data){
 	console.log(data);
