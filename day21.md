@@ -176,5 +176,5 @@ loader.load(
 
 # Polyfills
 
-Finding polyfills is so easy: https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills
-Finding if your browser supports something is so easy: http://caniuse.com/
+- Finding polyfills is so easy: https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills
+- Finding if your browser supports something is so easy: http://caniuse.com/
