@@ -151,3 +151,30 @@ All are, again, installable via bower:
 ```sh
 bower install Loader
 ```
+
+## Using Loader is easy.
+
+Load one file.
+```js
+loader.load(
+    {url:"..."}
+).then(function(){
+    // do something when it is done?
+})
+```
+
+Load three files.
+```js
+loader.load(
+    {url:"..."},
+    {url:"..."},
+    {url:"..."}
+).then(function(){
+    // do something when it is done?
+})
+```
+
+# Polyfills
+
+Finding polyfills is so easy: https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills
+Finding if your browser supports something is so easy: http://caniuse.com/
