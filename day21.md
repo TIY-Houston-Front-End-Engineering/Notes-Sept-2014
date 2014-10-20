@@ -1,6 +1,6 @@
 # Monday, Oct 20th
 
-```lolcat
+```sh
  _________________________________________
 / Today we talked about routing and       \
 | path.js, loading scripts and Loader.js, |
