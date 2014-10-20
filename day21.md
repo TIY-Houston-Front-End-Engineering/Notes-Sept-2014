@@ -25,6 +25,10 @@
 - Repo page: https://github.com/TIY-Houston-Front-End-Sept-2014/EtsyBrowser
 - gh-pages version: http://tiy-houston-front-end-sept-2014.github.io/EtsyBrowser/#/
 
+# Whiteboard
+
+![](./examples/day21/1.jpg)
+
 # Note
 
 > our setup script has been installed to include stuff from today :-) (bower, pathjs)
