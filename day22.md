@@ -18,11 +18,27 @@
                  ||    ||
 ```
 
+# Whiteboards
+
+![](./examples/day22/1.jpg)
+
+![](./examples/day22/2.jpg)
+
+# Hoisting
+
+Read about Hoisting here: http://bonsaiden.github.io/JavaScript-Garden/#function.scopes
+
+The following is an example screenshot from class today of hoisting.
+
+![](./examples/day22/3.png)
+
 # Caching network requests with `$.get()`
 
 Caching is a term used in networking and computing when a a result can be reused.
 
 For instance, if I compute the sum of ten numbers from by passing those ten numbers to `sumAll()`, I could save that result somewhere and return the same result if the same arguments are ever given again later:
+
+![](./examples/day22/4.png)
 
 Well, we can **cache** any data requested with `$.get()` as well:
 ```js
