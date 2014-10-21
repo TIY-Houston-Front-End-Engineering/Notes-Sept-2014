@@ -105,6 +105,10 @@ myPikachu.evolve(); // "Raichu is at the top of the food chain!"
 
 # Browser APIs
 
+This last section is all about Browser APIs available to us. We've encountered a few already, such as the `requestAnimationFrame()` function that syncs our drawing and DOM manipulation code to the computer's 60Hz refresh rate.
+
+This are great to explore and build on-top of, because they are what create truly immersive applications.
+
 - Device Orientation (http://simpl.info/deviceorientation/)
 - `getUserMedia()` (http://simpl.info/getusermedia/)
 - Geolocation (https://github.com/samdutton/simpl/blob/master/geolocation/js/main.js)
