@@ -31,12 +31,12 @@ Here are some requirements:
 2. You must have tests written for your project.
 3. You must use a script loader.
 4. You must have `"use strict";` in your code.
-5. You must implement proper error handling if arguments don't meet expectations (`throw new Error("some error message")`)
-6. You must use lodash templates
-7. You must use use atleast 2 different service APIs.
+5. You must implement proper error handling if arguments don't meet expectations (`throw new Error("some error message")`).
+6. You must use lodash templates.
+7. You must use use atleast 2 different service APIs (one of those APIs cannot be Etsy).
 8. You must use atleast 2 different Browser APIs, and you must either include polyfills for older browsers, or gracefully show error messages for browsers that don't support a Browser API.
 9. You must structure your code with Single Responsibility Principle in mind.
-10. You must use jQuery Promises :-)
+10. You must use jQuery Promises. :-)
 
 # Model-View-Controller
 
