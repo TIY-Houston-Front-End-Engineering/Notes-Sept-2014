@@ -25,9 +25,12 @@ touch index.html
 mkdir css
 mkdir dist
 mkdir js
+mkdir test
 mkdir templates
 touch ./js/app.js
-bower install normalize.css typeplate-starter-kit jquery lodash pathjs Loader
+touch test/main.js
+bower install normalize.css typeplate-starter-kit jquery lodash pathjs Loader mocha chai
+touch test.html
 
 # insert some links into the HTML
 
@@ -42,6 +45,8 @@ echo '<!DOCTYPE html>
     <script type="text/javascript" src="./bower_components/Loader/loader.js" id="loaderjs" data-app="./js/app.js"></script>
 </body>
 </html>' >> index.html
+
+# setup our default app.js file
 
 echo '
 window.onload = app;
@@ -62,6 +67,58 @@ function app(){
 
 }
 ' >> ./js/app.js
+
+# setup our test.html file
+
+echo '<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./bower_components/mocha/mocha.css">
+    <title></title>
+</head>
+<body>
+    <div id="mocha"></div>
+    <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="./bower_components/lodash/dist/lodash.min.js"></script>
+    <script type="text/javascript" src="./bower_components/mocha/mocha.js"></script>
+    <script type="text/javascript" src="./bower_components/chai/chai.js"></script>
+    <!-- load all of your declaration files and what not here -->
+    <!-- for example, <script type="text/javascript" src="./js/libs/EtsyClient.js"></script> -->
+    <script type="text/javascript" src="./test/main.js"></script>
+</body>
+</html>' >> index.html
+
+# write to our testing js
+
+echo '
+_.templateSettings.interpolate = /{([\s\S]+?)}/g;
+
+mocha.setup({
+    ui: "tdd",
+    ignoreLeaks: true,
+    asyncOnly: false
+});
+
+//--- your setup code goes here (i.e. create test instances of your Constructors)
+//--- your setup code goes here
+
+
+//--- your tests go here
+describe("Array", function(){
+    describe("#indexOf()", function(){
+        it("should return -1 when the value is not present", function(){
+            assert.equal(-1, [1,2,3].indexOf(5));
+            assert.equal(-1, [1,2,3].indexOf(0));
+        })
+    })
+})
+//--- your tests go here
+
+mocha.checkLeaks();
+mocha.globals(['jQuery']);
+mocha.run();
+
+' >> ./test/main.js
 
 # download our gulp file, install gulp and stuff from npm
 curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Sept-2014/Notes/master/examples/extras/gulpfile.js > ./gulpfile.js
