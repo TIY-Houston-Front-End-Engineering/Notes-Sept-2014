@@ -100,7 +100,7 @@ Aside from what `hello.js` provides access to, the following list is a large lis
 
 ## Google APIs
 
-> Using the Google SDJ (a .js file) may be necessary and the easiest way to get started with Google APIs
+> Using the Google SDK (a .js file) may be necessary and the easiest way to get started with Google APIs
 
     - https://developers.google.com/api-client-library/javascript/start/start-js
     - https://developers.google.com/apis-explorer/#p/
