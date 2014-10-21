@@ -27,14 +27,16 @@ This is going to be a large, group homework assignment due Thursday, Oct 30th.
 
 Here are some requirements:
 
-1. You must have a group of atleast 2 people, and each person must either fork the repo or be a contributor on that repo. **Each person must make atleast 10 commits. I will verify and check.**
+1. You must have a group of atleast 2 people, and each person must either fork the repo or be a contributor on that repo. **Each person must make atleast 15 commits throughout the week. I will verify and check.**
 2. You must have tests written for your project.
 3. You must use a script loader.
 4. You must have `"use strict";` in your code.
 5. You must implement proper error handling if arguments don't meet expectations (`throw new Error("some error message")`)
 6. You must use lodash templates
-7. You must use use atleast 2 different APIs.
-8.
+7. You must use use atleast 2 different service APIs.
+8. You must use atleast 2 different Browser APIs, and you must either include polyfills for older browsers, or gracefully show error messages for browsers that don't support a Browser API.
+9. You must structure your code with Single Responsibility Principle in mind.
+10. You must use jQuery Promises :-)
 
 # Model-View-Controller
 
