@@ -104,6 +104,8 @@ mocha.setup({
 
 
 //--- your tests go here
+
+// an example test suite
 describe("Array", function(){
     describe("#indexOf()", function(){
         it("should return -1 when the value is not present", function(){
@@ -112,10 +114,11 @@ describe("Array", function(){
         })
     })
 })
+
 //--- your tests go here
 
 mocha.checkLeaks();
-mocha.globals(['jQuery']);
+mocha.globals(["jQuery"]);
 mocha.run();
 
 ' >> ./test/main.js

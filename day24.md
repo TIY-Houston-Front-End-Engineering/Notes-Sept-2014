@@ -21,6 +21,21 @@
       (____(____)
 ```
 
+# Homework
+
+This is going to be a large, group homework assignment due Thursday, Oct 30th.
+
+Here are some requirements:
+
+1. You must have a group of atleast 2 people, and each person must either fork the repo or be a contributor on that repo. **Each person must make atleast 10 commits. I will verify and check.**
+2. You must have tests written for your project.
+3. You must use a script loader.
+4. You must have `"use strict";` in your code.
+5. You must implement proper error handling if arguments don't meet expectations (`throw new Error("some error message")`)
+6. You must use lodash templates
+7. You must use use atleast 2 different APIs.
+8.
+
 # Model-View-Controller
 
 We've just finished our stint in the Etsy API. We've learned that API's have a lot to offer, and that they make a service or ecosystem of apps more scalable and open, where we can integrate almost any services we choose into a nice "mashup".
@@ -51,7 +66,7 @@ Now, we've been doing `$.get()` enough to get information from Etsy, for example
 
 By **authenticating** with a service, we can actually push information up to services. One particular library that can help us do that is `hello.js` (http://adodson.com/hello.js/#install).
 
-Aside from what `hello.js` provides access to, the following list is a large list of APIs that provide a mix of CORS/JSONP/proxy-able services.
+Aside from what `hello.js` provides access to, the following list is a large list of APIs that provide a mix of CORS/JSONP/proxy-able services:
 
 ## Social APIs
 
