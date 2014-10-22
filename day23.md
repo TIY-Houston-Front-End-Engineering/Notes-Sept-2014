@@ -97,7 +97,7 @@ describe("About Arrays", function() {
     //We shall contemplate truth by testing reality, via spec expectations.
     it("should create arrays", function() {
         var emptyArray = [];
-        expect(typeof(emptyArray)).toBe(FILL_ME_IN); //A mistake? - http://javascript.crockford.com/remedial.html
+        expect(typeof(emptyArray)).toBe(FILL_ME_IN);
         expect(emptyArray.length).toBe(FILL_ME_IN);
 
         var multiTypeArray = [0, 1, "two",
