@@ -198,3 +198,9 @@ Aside from what `hello.js` provides access to, the following list is a large lis
 
 - Uber - https://developer.uber.com/
 
+## Real Devices
+
+- The LEAP Motion - https://www.leapmotion.com/ - https://developer.leapmotion.com/documentation/skeletal/javascript/index.html
+- Oculus - http://www.oculus.com/dk2/ - https://github.com/Instrument/oculus-bridge
+- Tessel - https://tessel.io/ - https://tessel.io/docs
+- Nest - https://nest.com/ - https://developer.nest.com/documentation/control - https://developer.nest.com/documentation/alert

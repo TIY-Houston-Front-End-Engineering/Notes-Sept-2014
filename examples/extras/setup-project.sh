@@ -21,16 +21,16 @@ git commit -am "initial"
 git pull origin master
 
 # setup some files
-touch index.html
-mkdir css
-mkdir dist
-mkdir js
-mkdir test
-mkdir templates
+touch ./index.html
+mkdir ./css
+mkdir ./dist
+mkdir ./js
+mkdir ./test
+mkdir ./templates
 touch ./js/app.js
-touch test/main.js
+touch ./test/main.js
+touch ./test.html
 bower install normalize.css typeplate-starter-kit jquery lodash pathjs Loader mocha chai
-touch test.html
 
 # insert some links into the HTML
 
@@ -44,7 +44,7 @@ echo '<!DOCTYPE html>
 <body>
     <script type="text/javascript" src="./bower_components/Loader/loader.js" id="loaderjs" data-app="./js/app.js"></script>
 </body>
-</html>' >> index.html
+</html>' >> ./index.html
 
 # setup our default app.js file
 
@@ -86,7 +86,7 @@ echo '<!DOCTYPE html>
     <!-- for example, <script type="text/javascript" src="./js/libs/EtsyClient.js"></script> -->
     <script type="text/javascript" src="./test/main.js"></script>
 </body>
-</html>' >> index.html
+</html>' >> ./test.html
 
 # write to our testing js
 
@@ -94,17 +94,16 @@ echo '
 _.templateSettings.interpolate = /{([\s\S]+?)}/g;
 
 mocha.setup({
-    ui: "tdd",
-    ignoreLeaks: true,
-    asyncOnly: false
+    ui: "bdd",
+    ignoreLeaks: true
 });
+
+var assert = chai.assert;
 
 //--- your setup code goes here (i.e. create test instances of your Constructors)
 //--- your setup code goes here
 
-
 //--- your tests go here
-
 // an example test suite
 describe("Array", function(){
     describe("#indexOf()", function(){
@@ -114,13 +113,10 @@ describe("Array", function(){
         })
     })
 })
-
 //--- your tests go here
 
-mocha.checkLeaks();
 mocha.globals(["jQuery"]);
 mocha.run();
-
 ' >> ./test/main.js
 
 # download our gulp file, install gulp and stuff from npm
