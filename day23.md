@@ -60,7 +60,20 @@ If you are needing some documentation for Mocha and Chai:
 
 # Writing Testable JavaScript
 
-There's a lot of fantastic resources out there to whet your whistle, but these particular resources below are a great start to learning how others write testable JavaScript:
+Writing tests for code starts with calling some expected behavior, and then telling the test suite to expect some particular output or behavior.
+
+```js
+var foo;
+// do something with foo, then...
+
+// demo of the ways we can test foo
+expect(foo).to.be.a('string');
+expect(foo).to.equal('bar');
+expect(foo).to.have.length(3);
+expect(tea).to.have.property('flavors').with.length(3)
+```
+
+There's a lot of fantastic resources out there to whet your whistle, but these particular resources below are a great start to learning how some of the most prolific JS coders / conf speakers write testable JavaScript:
 
 - [Video](https://www.youtube.com/watch?v=OzjogCFO4Zo)
 - [Slides](https://speakerdeck.com/rmurphey/writing-testable-javascript)
@@ -68,7 +81,11 @@ There's a lot of fantastic resources out there to whet your whistle, but these p
 
 # Other resources
 
+The homework is being adapted from the "Array Methods" koan available on Github. A koan is a problem or context in which one meditates on (a term lovingly borrowed from Zen and Buddhism). In the programming world, there is a set of practice koans that have been translated into JavaScript (from other languages, I think these were from Ruby), where we can write tests for the built-in Array methods.
+
 - JavaScript Koans - (https://github.com/mrdavidlaing/javascript-koans)
+
+I have further modified the "Array Methods" koan to be used with Mocha and Chai (it was originally written to be used with another TDD framework called Jasmine).
 
 # Homework
 
