@@ -95,9 +95,9 @@ Have a look at the `test` folder created by the script, the `test/main.js` file 
 
 The `test.html` file, when loaded in the browser, will load `mocha`, `chai`, `jquery`, `lodash`, and the `test/main.js` file. If you create any files under `/js/` which have Constructors and Prototypes declared, you will need to include those files in `test.html` as well (because the browser needs to load them to test them, of course).
 
-Now, we are going to write some tests for Arrays to whet our whistle. Add the following to `main.js` in-between the comment sections marked 'your code here', and add your own code or value to every spot marked 'FILL_ME_IN' to make all the tests pass.
+Now, we are going to write some tests for Arrays to whet our whistle. **Add the following to `test/main.js`** in the section marked 'your code here', and fix the spots marked 'FILL_ME_IN' to make all the tests pass.
 
-You can check that the tests are passing or failing by opening `test.html` in your browser via either of the following:
+You can check that the tests are passing or failing by opening `test.html` in your browser via:
 
 ```sh
 # if you are running the local server with `gulp watch`
