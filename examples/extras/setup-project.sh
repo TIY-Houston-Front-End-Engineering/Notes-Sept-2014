@@ -99,6 +99,7 @@ mocha.setup({
 });
 
 var assert = chai.assert;
+var expect = chai.expect;
 
 //--- your setup code goes here (i.e. create test instances of your Constructors)
 //--- your setup code goes here
