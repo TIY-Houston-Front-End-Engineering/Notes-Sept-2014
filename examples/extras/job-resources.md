@@ -7,7 +7,6 @@
 - http://jobety.com/
 - http://careers.stackoverflow.com/jobs
 - https://jobs.github.com/
-- http://authenticjobs.com/
 - http://jobs.smashingmagazine.com/
 - http://www.krop.com/
 - http://slashdot.org/job_board.pl?job-board.php
@@ -28,8 +27,6 @@
 - http://www.thefwa.com/jobs
 - http://www.microlancer.com/freelance-switch/
 - http://www.sensationaljobs.com/
-- https://jobs.github.com
-- https://careers.stackoverflow.com
 - https://toprubyjobs.com
 - http://www.indeed.com/
 - https://www.facebook.com/groups/dctechjobs/
@@ -48,3 +45,10 @@
 - http://www.dice.com/
 - https://coderwall.com/jobs
 - http://www.internships.com/
+- http://jsfu.org/
+- http://jobs.nodejs.org/a/jobs/find-jobs
+- http://jobs.jsninja.com/a/jbb/find-jobs
+- http://www.awwwards.com/jobs/
+- http://www.producthunt.com/jobs
+- https://www.behance.net/joblist
+- http://unity3d.com/jobs

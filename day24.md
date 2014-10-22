@@ -171,6 +171,7 @@ Aside from what `hello.js` provides access to, the following list is a large lis
 - EasyPost - Shipping integration and postage ordering with FedEx/UPS/USPS/DHL - https://www.easypost.com/
 - Wit - natural language processing - http://labs.wit.ai/demo/index.html
 - Nest - https://developer.nest.com/documentation/control
+- FlightAware - http://flightaware.com/commercial/flightxml/
 
 ## Dictionary / Words / Thesaurus APIs
 

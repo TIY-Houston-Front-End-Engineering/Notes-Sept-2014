@@ -17,6 +17,11 @@
      koala
 ```
 
+# Example BDD project from today
+
+- repo: https://github.com/TIY-Houston-Front-End-Sept-2014/BDD-Intro
+- live test.html: https://tiy-houston-front-end-sept-2014.github.io/BDD-Intro/test.html
+
 # BDD and TDD
 
 > **Disclaimer**: Behavior Driven Development and Test Driven Development are typically included under the same moniker, and really don't differ too much. We will specifically focus on BDD. But seriously, they are almost exactly the same thing save a function or two's names.
