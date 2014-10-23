@@ -205,3 +205,40 @@ Aside from what `hello.js` provides access to, the following list is a large lis
 - Oculus - http://www.oculus.com/dk2/ - https://github.com/Instrument/oculus-bridge
 - Tessel - https://tessel.io/ - https://tessel.io/docs
 - Nest - https://nest.com/ - https://developer.nest.com/documentation/control - https://developer.nest.com/documentation/alert
+
+# Interface Patterns to explore
+
+> **NOTE**: Your first priority is to make usable, flexible sites, NOT just pretty websites. http://tympanus.net/codrops/2013/11/22/applying-app-design-concepts-to-website-design/
+
+- http://tympanus.net/Development/FullscreenForm/
+- http://tympanus.net/Development/NotificationStyles/bar-slidetop.html
+- http://tympanus.net/Development/SelectInspiration/index4.html
+- http://tympanus.net/Development/TooltipStylesInspiration/round.html
+- http://tympanus.net/Development/ArticleIntroEffects/index3.html
+- http://tympanus.net/Development/ButtonComponentMorph/
+- http://tympanus.net/Development/ButtonComponentMorph/index3.html
+- http://tympanus.net/Development/ButtonComponentMorph/index5.html
+- http://tympanus.net/Development/MinimalForm/
+- http://tympanus.net/Development/3DGridEffect/index2.html
+- http://tympanus.net/Development/FullscreenOverlayStyles/
+- http://tympanus.net/Development/BookPreview/
+- http://tympanus.net/Development/ResponsiveMultiLevelMenu/index3.html
+- http://tympanus.net/Tutorials/PagePreloadingEffect/
+- http://tympanus.net/Tutorials/CircularProgressButton/
+- http://tympanus.net/Tutorials/AnimatedBorderMenus/index3.html
+- http://tympanus.net/Tutorials/NaturalLanguageForm/
+- http://tympanus.net/Tutorials/ExpandingOverlayEffect/
+- http://tympanus.net/Blueprints/GridGallery/
+- http://tympanus.net/Blueprints/FullWidthTabs/
+- http://tympanus.net/Blueprints/SplitLayout/
+- http://tympanus.net/Blueprints/OnScrollEffectLayout/
+- http://tympanus.net/Blueprints/ResponsiveMultiColumnForm/
+- http://tympanus.net/Blueprints/ProductGridLayout/
+- http://tympanus.net/Blueprints/AnimatedHeader/
+- http://tympanus.net/Blueprints/TooltipMenu/
+- http://tympanus.net/Blueprints/VerticalTimeline/
+- http://tympanus.net/Blueprints/HorizontalSlideOutMenu/
+- http://tympanus.net/Blueprints/ScrollingLayout/
+- http://tympanus.net/Blueprints/SlidePushMenus/
+- http://tympanus.net/Blueprints/QuotesRotator/
+- http://tympanus.net/Blueprints/VerticalIconMenu/
