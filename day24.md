@@ -206,6 +206,30 @@ Aside from what `hello.js` provides access to, the following list is a large lis
 - Tessel - https://tessel.io/ - https://tessel.io/docs
 - Nest - https://nest.com/ - https://developer.nest.com/documentation/control - https://developer.nest.com/documentation/alert
 
+# Browser APIs (from previous Notes)
+
+This last section is all about Browser APIs available to us. We've encountered a few already, such as the `requestAnimationFrame()` function that syncs our drawing and DOM manipulation code to the computer's 60Hz refresh rate.
+
+This are great to explore and build on-top of, because they are what create truly immersive applications.
+
+- Device Orientation (http://simpl.info/deviceorientation/)
+- `getUserMedia()` (http://simpl.info/getusermedia/)
+- Geolocation (https://github.com/samdutton/simpl/blob/master/geolocation/js/main.js)
+- Fullscreen API (http://simpl.info/fullscreen/)
+- HTML5 Input types (http://simpl.info/inputtypes/)
+- localStorage (http://simpl.info/localstorage/)
+- Mutation Observer (http://simpl.info/mutationobserver/)
+- Object.observe() (http://simpl.info/observe/)
+- Notification API (http://aurelio.audero.it/demo/web-notifications-api-demo.html) and (http://caniuse.com/notifications)
+- Page Visibility API (http://simpl.info/pagevisibility/)
+- Web Workers (http://simpl.info/webworkers/)
+- Web Speech API (https://simpl.info/stt/) and Web Speech SYnthesis API (http://simpl.info/tts/)
+- GamePad API (http://caniuse.com/#feat=gamepad) and (http://www.html5rocks.com/en/tutorials/doodles/gamepad/)
+- online/offline status (http://caniuse.com/online-status)
+- requestAnimationFrame (http://caniuse.com/requestanimationframe)
+- screen orientation API - lock the screen in a particular direction (http://aurelio.audero.it/demo/screen-orientation-api-demo.html) and (http://caniuse.com/screen-orientation)
+
+
 # Interface Patterns to explore
 
 > **NOTE**: Your first priority is to make usable, flexible sites, NOT just pretty websites. http://tympanus.net/codrops/2013/11/22/applying-app-design-concepts-to-website-design/
