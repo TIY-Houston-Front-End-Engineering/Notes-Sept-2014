@@ -21,112 +21,116 @@ git commit -am "initial"
 git pull origin master
 
 # setup some files
-touch ./index.html
 mkdir ./css
 mkdir ./dist
 mkdir ./js
 mkdir ./test
 mkdir ./templates
-touch ./js/app.js
-touch ./test/main.js
-touch ./test.html
-bower install normalize.css typeplate-starter-kit jquery lodash pathjs Loader mocha chai
 
-# insert some links into the HTML
+if [ ! -f ./index.html ]; then
+    touch ./index.html
+    # insert some links into the HTML
+    echo '<!DOCTYPE html>
+    <html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./bower_components/normalize.css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="./bower_components/typeplate-starter-kit/css/typeplate.css">
+        <title></title>
+    </head>
+    <body>
+        <script type="text/javascript" src="./bower_components/Loader/loader.js" id="loaderjs" data-app="./js/app.js"></script>
+    </body>
+    </html>' > ./index.html
+    bower install normalize.css typeplate-starter-kit jquery lodash pathjs Loader mocha chai
+fi
+if [ ! -f ./js/app.js ]; then
+    touch ./js/app.js
+    # setup our default app.js file
+    echo '
+    window.onload = app;
 
-echo '<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" type="text/css" href="./bower_components/normalize.css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="./bower_components/typeplate-starter-kit/css/typeplate.css">
-    <title></title>
-</head>
-<body>
-    <script type="text/javascript" src="./bower_components/Loader/loader.js" id="loaderjs" data-app="./js/app.js"></script>
-</body>
-</html>' >> ./index.html
+    // runs when the DOM is loaded
+    function app(){
 
-# setup our default app.js file
+        // load some scripts (uses promises :D)
+        loader.load(
+            {url: "./bower_components/jquery/dist/jquery.min.js"},
+            {url: "./bower_components/lodash/dist/lodash.min.js"},
+            {url: "./bower_components/pathjs/path.min.js"}
+        ).then(function(){
+            _.templateSettings.interpolate = /{([\s\S]+?)}/g;
 
-echo '
-window.onload = app;
+            // start app?
+        })
 
-// runs when the DOM is loaded
-function app(){
+    }
+    ' > ./js/app.js
+fi
+if [ ! -f ./test/main.js ]; then
+    touch ./test/main.js
+    # write to our testing js
+    echo '
+    _.templateSettings.interpolate = /{([\s\S]+?)}/g;
 
-    // load some scripts (uses promises :D)
-    loader.load(
-        {url: "./bower_components/jquery/dist/jquery.min.js"},
-        {url: "./bower_components/lodash/dist/lodash.min.js"},
-        {url: "./bower_components/pathjs/path.min.js"}
-    ).then(function(){
-        _.templateSettings.interpolate = /{([\s\S]+?)}/g;
+    mocha.setup({
+        ui: "bdd",
+        ignoreLeaks: true
+    });
 
-        // start app?
-    })
+    var assert = chai.assert;
+    var expect = chai.expect;
 
-}
-' >> ./js/app.js
+    //--- your setup code goes here (i.e. create test instances of your Constructors)
+    //--- your setup code goes here
 
-# setup our test.html file
-
-echo '<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" type="text/css" href="./bower_components/mocha/mocha.css">
-    <title></title>
-</head>
-<body>
-    <div id="mocha"></div>
-    <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="./bower_components/lodash/dist/lodash.min.js"></script>
-    <script type="text/javascript" src="./bower_components/mocha/mocha.js"></script>
-    <script type="text/javascript" src="./bower_components/chai/chai.js"></script>
-    <!-- load all of your declaration files and what not here -->
-    <!-- for example, <script type="text/javascript" src="./js/libs/EtsyClient.js"></script> -->
-    <script type="text/javascript" src="./test/main.js"></script>
-</body>
-</html>' >> ./test.html
-
-# write to our testing js
-
-echo '
-_.templateSettings.interpolate = /{([\s\S]+?)}/g;
-
-mocha.setup({
-    ui: "bdd",
-    ignoreLeaks: true
-});
-
-var assert = chai.assert;
-var expect = chai.expect;
-
-//--- your setup code goes here (i.e. create test instances of your Constructors)
-//--- your setup code goes here
-
-//--- your tests go here
-// an example test suite
-describe("Array", function(){
-    describe("#indexOf()", function(){
-        it("should return -1 when the value is not present", function(){
-            expect([1,2,3].indexOf(5)).to.equal(-1);
-            expect([1,2,3].indexOf(0)).to.equal(-1);
+    //--- your tests go here
+    // an example test suite
+    describe("Array", function(){
+        describe("#indexOf()", function(){
+            it("should return -1 when the value is not present", function(){
+                expect([1,2,3].indexOf(5)).to.equal(-1);
+                expect([1,2,3].indexOf(0)).to.equal(-1);
+            })
         })
     })
-})
-//--- your tests go here
+    //--- your tests go here
 
-mocha.globals(["jQuery"]);
-mocha.run();
-' >> ./test/main.js
+    mocha.globals(["jQuery"]);
+    mocha.run();
+    ' > ./test/main.js
+fi
+if [ ! -f ./test.html ]; then
+    touch ./test.html
+    # setup our test.html file
+    echo '<!DOCTYPE html>
+    <html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./bower_components/mocha/mocha.css">
+        <title></title>
+    </head>
+    <body>
+        <div id="mocha"></div>
+        <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="./bower_components/lodash/dist/lodash.min.js"></script>
+        <script type="text/javascript" src="./bower_components/mocha/mocha.js"></script>
+        <script type="text/javascript" src="./bower_components/chai/chai.js"></script>
+        <!-- load all of your declaration files and what not here -->
+        <!-- for example, <script type="text/javascript" src="./js/libs/EtsyClient.js"></script> -->
+        <script type="text/javascript" src="./test/main.js"></script>
+    </body>
+    </html>' > ./test.html
+fi
+if [ ! -f ./gulpfile.js ]; then
+    # download our gulp file
+    curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Sept-2014/Notes/master/examples/extras/gulpfile.js > ./gulpfile.js
+fi
 
-# download our gulp file, install gulp and stuff from npm
-curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Sept-2014/Notes/master/examples/extras/gulpfile.js > ./gulpfile.js
+# install gulp and packages
 npm install gulp gulp-autoprefixer gulp-jshint --save-dev
 npm install express
 
 # write to our .gitignore
-echo "node_modules" >> .gitignore
+echo "node_modules" > .gitignore
 
 # get our post-commit hook to auto-commit to gh-pages
 curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Sept-2014/Notes/master/examples/extras/git-hook-post-commit.sh > .git/hooks/post-commit
