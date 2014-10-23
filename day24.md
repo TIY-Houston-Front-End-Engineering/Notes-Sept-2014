@@ -211,7 +211,7 @@ Aside from what `hello.js` provides access to, the following list is a large lis
 
 This last section is all about Browser APIs available to us. We've encountered a few already, such as the `requestAnimationFrame()` function that syncs our drawing and DOM manipulation code to the computer's 60Hz refresh rate.
 
-This are great to explore and build on-top of, because they are what create truly immersive applications.
+These are great to explore and build on-top of, because they are what create truly immersive applications.
 
 - Device Orientation (http://simpl.info/deviceorientation/)
 - `getUserMedia()` (http://simpl.info/getusermedia/)
