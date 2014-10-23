@@ -127,7 +127,7 @@ fi
 
 # install gulp and packages
 npm install gulp gulp-autoprefixer gulp-jshint --save-dev
-npm install express
+npm install express --save-dev
 
 # write to our .gitignore
 echo "node_modules" > .gitignore
