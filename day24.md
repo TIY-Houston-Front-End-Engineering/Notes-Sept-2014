@@ -148,7 +148,7 @@ Aside from what `hello.js` provides access to, the following list is a large lis
 
 ## Payments, Credit Card Processing, and Shopping Carts
 
-- Stripe - https://stripe.com/docs/api
+- Stripe - https://stripe.com/docs/api - https://stripe.com/docs/stripe.js
 - Braintree - https://developers.braintreepayments.com/javascript+node/start/overview
 - Paypal - https://developer.paypal.com/docs/api/
 - Snipcart - https://snipcart.com/
