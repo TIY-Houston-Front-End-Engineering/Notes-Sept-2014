@@ -127,6 +127,7 @@ Aside from what `hello.js` provides access to, the following list is a large lis
 - YouTube - https://developers.google.com/youtube/v3/getting-started
 - Vimeo - https://developer.vimeo.com/
 - BandsInTown - http://www.bandsintown.com/api/overview
+- Dolby Audio - http://developer.dolby.com/
 
 ## Image APIs
 
