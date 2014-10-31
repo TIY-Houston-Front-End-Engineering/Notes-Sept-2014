@@ -154,8 +154,9 @@ Aside from what `hello.js` provides access to, the following list is a large lis
 - Paypal - https://developer.paypal.com/docs/api/
 - Snipcart - https://snipcart.com/
 - Gumroad - "Buy button right on your site" - https://gumroad.com/overlay
-
     - also, embed a product widget right on site - https://gumroad.com/embed
+    - https://gumroad.com/api
+- Helium - https://gethelium.com/
 
 ## Other / HackerNews / Startup-y APIs
 
@@ -268,3 +269,4 @@ These are great to explore and build on-top of, because they are what create tru
 - http://tympanus.net/Blueprints/SlidePushMenus/
 - http://tympanus.net/Blueprints/QuotesRotator/
 - http://tympanus.net/Blueprints/VerticalIconMenu/
+- http://tympanus.net/Development/WobblySlideshowEffect/

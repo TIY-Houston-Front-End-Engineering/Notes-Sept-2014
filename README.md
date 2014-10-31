@@ -30,19 +30,88 @@ All students must bring their own MacBook laptop. I recommend the 13" MacBook Ai
 
 Your MacBook must be running OS X Mavericks. Mavericks is a free upgrade from the App Store.
 
-There is no commercial software required for the class. For the class, we will install:
+There is no commercial software required for the class. For the class, we will install a number of tools (a special install script will be provided for this):
 
-- Google Chrome (https://www.google.com/chrome/browser/)
-- Sublime Text 3 (http://www.sublimetext.com/3)
-- Spectacle (http://spectacleapp.com/)
-- Node.js (http://nodejs.org/)
-- Hipchat (http://hipchat.com)
-- Signup for Github if you haven't, and cover this tutorial (https://guides.github.com/activities/hello-world/)
-- Git (and Github for Mac)
-	- download and install Github for Mac (https://mac.github.com/)
-	- then follow these instructions to install Git CLI (Command Line Interface) Tools (https://github.com/blog/1510-installing-git-from-github-for-mac)
 - Create an SSH key
 	- run `ssh-keygen` in your terminal
+- Hipchat (http://hipchat.com)
+- Signup for Github if you haven't, and cover this tutorial (https://guides.github.com/activities/hello-world/)
+
+# Front End Cheatsheets and References
+
+> We will be looking at these throughout the class.
+
+- [Mozilla Developer Network](https://developer.mozilla.org/)
+- [StackOverflow](http://stackoverflow.com)
+- [Can I Use](http://caniuse.com/)
+- [JS Garden](http://bonsaiden.github.io/JavaScript-Garden/)
+- [devdocs.io](http://devdocs.io/)
+- [Design for Programmers (check out the games at the bottom)](http://method.ac/)
+- [Vanilla JS Cheatsheet](http://overapi.com/javascript/)
+- [jQuery Cheatsheet](http://oscarotero.com/jquery/)
+- [Cheatsheets](http://overapi.com/)
+- [For a Rainy Day - John Resig slides on learning JS](http://ejohn.org/apps/learn/#1)
+- [For a Rainy Day - Rich Hicke's Simple Made Easy](http://www.infoq.com/presentations/Simple-Made-Easy)
+- [Rainy Day Quizzes](http://tcorral.github.io/javascript-challenges-book/index.html)
+- [What the heck is the event loop anyways?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+- [BetterExplainedMath](http://betterexplained.com/cheatsheet/bex.cheatsheet.pdf)
+- [Linear algebra examples](http://betterexplained.com/articles/linear-algebra-guide/)
+- Chris Coyier's [Snippets](http://css-tricks.com/snippets/)
+- Chris Coyier's [Almanac](http://css-tricks.com/almanac/)
+- http://youmightnotneedjquery.com/
+- [Modernizr and Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills)
+- Micro-libs on [microjs.com](http://microjs.com)
+
+# After class ends..
+
+> ... you will be looking for those next steps. Check out the following ideas:
+
+- Sign up for weekly newletters to get the latest and greatest content:
+	- HackerNewsList,
+	- JavaScriptWeekly,
+	- WebDesignWeekly,
+	- [WDRL](http://tinyletter.com/wdrl),
+	- [Sidebar.io](http://sidebar.io/),
+	- CSS Weekly,
+	- CSS Tricks,
+	- HTML5 Weekly,
+	- Daily JS,
+	- Smashing Magazine,
+	- A List Apart
+- Start using a web-based RSS reader, like http://feedly.com.
+- You may want to try your hand at freelancing or doing some side-projects. Check out the [job resources list](./examples/extras/job-resources.md) for that. You can also check out https://github.com/ericdodds/the-little-freelancer to learn more about the process of freelancing.
+- You may want to try some public speaking and presentations, as well. This is a really powerful skill that is a career force-multiplier, and in conjunction with being a good writer, will really boost your chances of landing a job.
+	- Talk to Matt or JB about speaking at Houston.js: http://houstonjs.com
+	- Talk to Matt or JB about speaking or volunteering at Space City JS: http://spacecityjs.com
+	- Find other conferences out there! If you are chosen to speak, typically your flight and hotel is paid for by the conference: http://lanyrd.com/calls/. It's a great way to travel on someone else's dime, too. :-)
+- Participate in Hackathons, such as Matt's http://hacktoberfe.st :-)
+- Read source code of popular projects (i.e. jQuery, Backbone) and Codepens. Learn the architecture and problem-solving. Learn **why** someone did something.
+
+# Prework
+
+Here is some prework to prepare for The Iron Yard's Front End Course!
+
+Prework is material to help you get on the same page as others. Do the best you can, and let Matt know how it's going! :-)
+
+What is prework?
+
+- a series of base information designed to bring you up to speed as much as possible before the class. We have some online coursework, tools, and advanced materials for those of you who want to go further.
+- starting learning before the class is like training for a marathon. You don't show up the day of the race and start, you need to train beforehand. In our classes, your brain is the muscle that needs to train. This prework is training for your brain.
+- Prework only covers the basics of a language; What we teach goes much deeper than tutorials can cover.
+
+If you haven't already, start these courses and go as far as you can:
+
+- For HTML/CSS, start the Codecademy HTML and CSS course (according to them, 7 hours): http://www.codecademy.com/tracks/web, and https://dash.generalassemb.ly/
+- For JS, start the Codecademy JavaScript course: http://www.codecademy.com/tracks/javascript
+- For Git, start https://www.codeschool.com/courses/git-real
+
+Spending ~ 1-2 hours each day on the courses will round out any foundational knowledge necessary to start Matt's class.
+
+If you are ready for more advanced stuff, whet your whistle with this bonus material:
+
+- watch these podcasts (there are new releases approx. every week): http://www.atozcss.com/
+- start the Codecademy jQuery course: http://www.codecademy.com/tracks/jquery
+- Rocked the other stuff and still hungry for more? Have a read through of Douglas Crockford’s “JavaScript: The Good Parts”: http://it-ebooks.info/book/274/
 
 # Policies
 

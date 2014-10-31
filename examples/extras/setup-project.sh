@@ -120,14 +120,30 @@ if [ ! -f ./test.html ]; then
     </body>
     </html>' > ./test.html
 fi
+if [ ! -f ./Procfile ]; then
+    touch ./Procfile
+    # setup our Procfile
+    echo 'web: node heroku-server.js' > ./Procfile
+fi
+if [ ! -f ./server.js ]; then
+    curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Sept-2014/Notes/master/examples/extras/server.js > ./server.js
+fi
+if [ ! -f ./heroku-server.js ]; then
+    touch ./heroku-server.js
+    echo 'require("heroku-server").startServer();'
+fi
 if [ ! -f ./gulpfile.js ]; then
     # download our gulp file
     curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Sept-2014/Notes/master/examples/extras/gulpfile.js > ./gulpfile.js
 fi
 
-# install gulp and packages
-npm install gulp gulp-autoprefixer gulp-jshint --save-dev
-npm install express --save-dev
+if [ ! -f ./package.json ]; then
+    npm install gulp gulp-autoprefixer gulp-jshint --save-dev
+    npm install express method-override request lodash --save
+fi
+
+# install packages
+npm install
 
 # write to our .gitignore
 echo "node_modules" > .gitignore
