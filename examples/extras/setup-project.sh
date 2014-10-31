@@ -5,24 +5,24 @@
 echo "(1) Enter the folder name to create for this new project:"
 read folderName
 
-if [ -z folderName ] ; then
+if [ -z $folderName ] ; then
     echo "You emptied an empty answer. Can't continue." >&2; exit 1
 fi
 
 echo "(2) Enter the Git SSH URL for this project:"
 read gitSshUrl
 
-if [ -z gitSshUrl ] ; then
+if [ -z $gitSshUrl ] ; then
     echo "You emptied an empty answer. Can't continue." >&2; exit 1
 fi
 
 # setup our directory
-mkdir folderName
-cd folderName
+mkdir $folderName
+cd $folderName
 
 # start git in this folder and setup the Git URL as the origin
 git init
-git remote add origin gitSshUrl
+git remote add origin $gitSshUrl
 git commit -am "initial"
 git pull origin master
 
