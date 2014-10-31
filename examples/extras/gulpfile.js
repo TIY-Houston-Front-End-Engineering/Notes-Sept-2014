@@ -1,4 +1,4 @@
-var server = require('server');
+var server = require('./server.js');
 
 var gulp = require('gulp');
 var jshint = require('gulp-jshint');

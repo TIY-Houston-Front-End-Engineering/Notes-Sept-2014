@@ -130,7 +130,7 @@ if [ ! -f ./server.js ]; then
 fi
 if [ ! -f ./heroku-server.js ]; then
     touch ./heroku-server.js
-    echo 'require("heroku-server").startServer();'
+    curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Sept-2014/Notes/master/examples/extras/heroku-server.js > ./heroku-server.js
 fi
 if [ ! -f ./gulpfile.js ]; then
     # download our gulp file
@@ -138,12 +138,10 @@ if [ ! -f ./gulpfile.js ]; then
 fi
 
 if [ ! -f ./package.json ]; then
+    npm init
     npm install gulp gulp-autoprefixer gulp-jshint --save-dev
     npm install express method-override request lodash --save
 fi
-
-# install packages
-npm install
 
 # write to our .gitignore
 echo "node_modules" > .gitignore
@@ -157,3 +155,7 @@ git add --all .
 git commit -am "ok, wrapping up install process and setting up $2"
 git branch gh-pages
 git push --all
+
+echo "(1) Have you setup a heroku account?
+(2) install https://toolbelt.heroku.com/
+(3) run `npm init` to create a package.json file, answer the questions (or just hit enter)"
