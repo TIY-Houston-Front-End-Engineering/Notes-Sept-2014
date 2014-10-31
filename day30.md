@@ -1,6 +1,19 @@
 # Friday, Oct 31st
 
 ```sh
+ _________________________________________
+/ today we talked about Node.js, Express, \
+\ Proxying, and Heroku                    /
+ -----------------------------------------
+          \      (__)
+           \     /oo|
+            \   (_"_)*+++++++++*
+                   //I#\\\\\\\\I\
+                   I[I|I|||||I I `
+                   I`I'///'' I I
+                   I I       I I
+                   ~ ~       ~ ~
+                     Scowleton
 ```
 
 # Intro
