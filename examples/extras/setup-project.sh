@@ -9,7 +9,7 @@ if [ -z folderName ] ; then
     echo "You emptied an empty answer. Can't continue." >&2; exit 1
 fi
 
-echo "(2) Enter the folder name to create for this new project:"
+echo "(2) Enter the Git SSH URL for this project:"
 read gitSshUrl
 
 if [ -z gitSshUrl ] ; then
