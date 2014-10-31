@@ -27,6 +27,8 @@ mkdir ./js
 mkdir ./test
 mkdir ./templates
 
+bower install normalize.css typeplate-starter-kit jquery lodash pathjs Loader mocha chai
+
 if [ ! -f ./index.html ]; then
     touch ./index.html
     # insert some links into the HTML
@@ -41,7 +43,6 @@ if [ ! -f ./index.html ]; then
         <script type="text/javascript" src="./bower_components/Loader/loader.js" id="loaderjs" data-app="./js/app.js"></script>
     </body>
     </html>' > ./index.html
-    bower install normalize.css typeplate-starter-kit jquery lodash pathjs Loader mocha chai
 fi
 if [ ! -f ./js/app.js ]; then
     touch ./js/app.js
@@ -156,6 +157,5 @@ git commit -am "ok, wrapping up install process and setting up $2"
 git branch gh-pages
 git push --all
 
-echo "(1) Have you setup a heroku account?
-(2) install https://toolbelt.heroku.com/
-(3) run `npm init` to create a package.json file, answer the questions (or just hit enter)"
+# final messages
+echo "(1) setup a heroku account (2) install https://toolbelt.heroku.com/ (3) run `npm init` to create a package.json file, answer the questions (or just hit enter)"
