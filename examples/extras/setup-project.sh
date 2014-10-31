@@ -1,22 +1,28 @@
 #!/bin/sh
 #
 # test for a Folder name and URL
-echo $1 - $2
-re='^[-a-zA-Z_\./:@]+$'
-if ! [ -n "${1}" ] ; then
-   echo "error 1: call this script with a folder name and a git SSH URL to clone" >&2; exit 1
+
+echo "(1) Enter the folder name to create for this new project:"
+read folderName
+
+if [ -z folderName ] ; then
+    echo "You emptied an empty answer. Can't continue." >&2; exit 1
 fi
-if ! [ -n "${2}" ] ; then
-   echo "error 2: call this script with a folder name and a git SSH URL to clone" >&2; exit 1
+
+echo "(2) Enter the folder name to create for this new project:"
+read gitSshUrl
+
+if [ -z gitSshUrl ] ; then
+    echo "You emptied an empty answer. Can't continue." >&2; exit 1
 fi
 
 # setup our directory
-mkdir $1
-cd $1
+mkdir folderName
+cd folderName
 
 # start git in this folder and setup the Git URL as the origin
 git init
-git remote add origin $2
+git remote add origin gitSshUrl
 git commit -am "initial"
 git pull origin master
 
@@ -153,9 +159,9 @@ chmod a+x .git/hooks/post-commit
 
 # finish up on git
 git add --all .
-git commit -am "ok, wrapping up install process and setting up $2"
+git commit -am "ok, wrapping up install process"
 git branch gh-pages
 git push --all
 
 # final messages
-echo "(1) setup a heroku account (2) install https://toolbelt.heroku.com/ (3) run `npm init` to create a package.json file, answer the questions (or just hit enter)"
+echo "(1) setup a heroku account (2) install https://toolbelt.heroku.com/ (3) run 'npm init' to create a package.json file, answer the questions (or just hit enter)"
