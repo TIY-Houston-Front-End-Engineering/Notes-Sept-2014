@@ -45,7 +45,7 @@ We've just finished our stint in the Etsy API. We've learned that API's have a l
 
 We've already hit the nail on the head when it comes to MVC structure. The rest of the class is all about MVC frameworks, patterns, and problem-solving with code.
 
-So let's have a gander again at MVC on last time. An MVC application is broken into three parts:
+So let's have a gander again at MVC one last time. An MVC application is broken into three parts:
 
 - `M` - Model: the data/JSON stored from Etsy, and maybe the methods that pull the data from the Etsy API
 - `V` - View: the templates created, and maybe the methods that draw them to the screen

@@ -39,7 +39,7 @@ Otherwise, if you want to modify your current files, you will need to update or 
 4. Copy [the server.js file](./examples/extras/server.js) to your project folder.
 5. run
     ```sh
-        npm install express method-override request lodash --save
+    npm install express method-override request lodash --save
     ```
 
 #  Getting started with Proxying
