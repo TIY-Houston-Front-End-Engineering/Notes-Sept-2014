@@ -1,6 +1,16 @@
 # Monday, November 3rd
 
 ```sh
+ ______________________________________
+/ today we chatted about Backbone.View \
+| and introduced ourselves to general  |
+\ Backbone 'style'                     /
+ --------------------------------------
+  \   ^__^
+   \  (oo)\_______        ________
+      (__)\       )\/\    |Super |
+          ||----W |       |Milker|
+          ||    UDDDDDDDDD|______|
 ```
 
 # Backbone an MVC (Model-View-Controller) JavaScript Framework
