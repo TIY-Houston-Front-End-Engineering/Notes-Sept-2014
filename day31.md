@@ -83,7 +83,15 @@ Notice some methods on our `prototype`, provided by Backbone.View, which are acc
 - `v1.render` - this is a function that we will need to write ourselves (by default, it does nothing). This function should add our container to the DOM (with either a write to an `innerHTML`, `$.append()`, etc)
 - `v1.tagName` - by default, when we create a View, Backbone will create a `<div>` element as the container, which will need to be added to the page in `v1.initialize()` or `v1.render()`. We can change this in the options given to `Backbone.View.extend()`.
 
-# Options for Backbone Views
+# Options
+
+There are two cases we supply options to our Backbone instances:
+1. as part of the configuration to `Backbone.View.extend({})`
+2. as part of the options object to `new AnimalView({})`
+
+**We define the code for our `AnimalView` constructor and prototype in #1, and we define the specific data for our instance in #2.**
+
+# Options for `Backbone.View.extend()`
 
 We can pass options in `Backbone.View.extend({})`. Notice that the argument to `extend` is an object. The `extend` method actually comes from `_` (lodash), and Backbone just has something in its code where `this.extend = _.extend;`. The `extend` function simply works like this:
 
@@ -124,7 +132,7 @@ var AnimalView = Backbone.View.extend({
         'click .edit':   'editAnimal',
         'click .delete': 'deleteAnimal'
     },
-    initialize: function(options) {
+    initialize: function(opts) {
         // 1. Sometimes it will be instantiated without options, so to guard against errors:
         var options = _.extend(
             {},
@@ -158,11 +166,27 @@ var AnimalView = Backbone.View.extend({
 });
 ```
 
-Notice that there are two cases we supply options to our Backbone instances:
+The `alertTest`, `editAnimal`, and `deleteAnimal` methods are not provided by Backbone. In fact, we are customizing the
+
+**Again**, notice that there are two cases we supply options to our Backbone instances:
 1. as part of the configuration to `Backbone.View.extend({})`
 2. as part of the options object to `new AnimalView({})`
 
 **We define the code for our `AnimalView` constructor and prototype in #1, and we define the specific data for our instance in #2.**
+
+# Options for `new AnimalView({})`
+
+Backbone will pass the options object from `new AnimalView({})` into `initialize({})`. **If you want to pass options to initialize, you need to write your `initialize()` to handle that. By default `initialize()` does nothing.**
+
+We can pass instance data to the constructor:
+
+```js
+var a1 = new AnimalView({
+    $container: document.querySelector('.someClass') //--> already on the page
+})
+```
+
+In the above code, `$container` will overwrite the default `$container` in `initialize()`.
 
 # Homework
 
