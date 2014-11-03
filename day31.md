@@ -158,6 +158,12 @@ var AnimalView = Backbone.View.extend({
 });
 ```
 
+Notice that there are two cases we supply options to our Backbone instances:
+1. as part of the configuration to `Backbone.View.extend({})`
+2. as part of the options object to `new AnimalView({})`
+
+**We define the code for our `AnimalView` constructor and prototype in #1, and we define the specific data for our instance in #2.**
+
 # Homework
 
 - Polish your multi-API project; get it done!

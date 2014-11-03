@@ -2,13 +2,8 @@
 
 - see Wrinklefree jQuery and HTML5
 
-# heroku
-
-# node and express
-
 # Backbone
 
-http://www.korenlc.com/backbone-js-tutorial-getting-started-with-backbone/
 https://github.com/derickbailey/backbone.marionette
 https://github.com/derickbailey/backbone.compute
 https://github.com/TIY-GVL-FEE-2014-Aug/backbone-adventure
