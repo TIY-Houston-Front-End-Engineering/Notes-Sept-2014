@@ -33,7 +33,7 @@ mkdir ./js
 mkdir ./test
 mkdir ./templates
 
-bower install normalize.css typeplate-starter-kit jquery lodash pathjs Loader mocha chai
+bower install normalize.css typeplate-starter-kit jquery lodash pathjs Loader mocha chai backbone
 
 if [ ! -f ./index.html ]; then
     touch ./index.html
@@ -63,6 +63,7 @@ if [ ! -f ./js/app.js ]; then
         loader.load(
             {url: "./bower_components/jquery/dist/jquery.min.js"},
             {url: "./bower_components/lodash/dist/lodash.min.js"},
+            {url: "./bower_components/backbone/backbone.js"},
             {url: "./bower_components/pathjs/path.min.js"}
         ).then(function(){
             _.templateSettings.interpolate = /{([\s\S]+?)}/g;
@@ -164,4 +165,6 @@ git branch gh-pages
 git push --all
 
 # final messages
-echo "(1) setup a heroku account (2) install https://toolbelt.heroku.com/ (3) run 'npm init' to create a package.json file, answer the questions (or just hit enter)"
+echo "Don't forget to:
+(1) setup a heroku account
+(2) install https://toolbelt.heroku.com/"
