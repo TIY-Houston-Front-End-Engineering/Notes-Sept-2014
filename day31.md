@@ -91,7 +91,7 @@ We can pass options in `Backbone.View.extend({})`. Notice that the argument to `
 _.extend(
     { name: 'fred' },
     { employer: 'slate' },
-    {years: 15}
+    { years: 15 }
     // ...
 );
 // → { name: 'fred', employer: 'slate', years: 15 }
