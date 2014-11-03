@@ -157,3 +157,7 @@ var AnimalView = Backbone.View.extend({
     }
 });
 ```
+
+# Homework
+
+- Polish your multi-API project; get it done!
