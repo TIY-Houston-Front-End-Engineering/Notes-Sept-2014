@@ -1,6 +1,7 @@
-# Monday, November 3rd
+# Monday, November 3rd and Tuesday, November 4th
 
 ```sh
+Monday
  ______________________________________
 / today we chatted about Backbone.View \
 | and introduced ourselves to general  |
@@ -11,6 +12,22 @@
       (__)\       )\/\    |Super |
           ||----W |       |Milker|
           ||    UDDDDDDDDD|______|
+
+Tuesday
+ _______________________________________
+/ Today we covered Backbone Views again \
+\ and built a Foursquare API reader     /
+ ---------------------------------------
+  \
+   \ ,   _ ___.--'''`--''//-,-_--_.
+      \`"' ` || \\ \ \\/ / // / ,-\\`,_
+     /'`  \ \ || Y  | \|/ / // / - |__ `-,
+    /@"\  ` \ `\ |  | ||/ // | \/  \  `-._`-,_.,
+   /  _.-. `.-\,___/\ _/|_/_\_\/|_/ |     `-._._)
+   `-'``/  /  |  // \__/\__  /  \__/ \
+        `-'  /-\/  | -|   \__ \   |-' |
+          __/\ / _/ \/ __,-'   ) ,' _|'
+         (((__/(((_.' ((___..-'((__,'
 ```
 
 # Backbone Documentation
@@ -218,4 +235,11 @@ We can give any Backbone Model or View instance instance properties (like the mo
 
 # Homework
 
-- Polish your multi-API project; get it done!
+Have a look through today's code:
+- GH repo - https://github.com/TIY-Houston-Front-End-Sept-2014/Backbone-Views
+- GH-pages - http://tiy-houston-front-end-sept-2014.github.io/Backbone-Views/
+
+Create an app, that pulls from an API, and creates Views for each record:
+- This will be a 2 day, single-person assignment
+- You may use the example repo as inspiration
+- You **MAY NOT** use the Foursquare API
