@@ -166,7 +166,7 @@ var AnimalView = Backbone.View.extend({
 });
 ```
 
-The `alertTest`, `editAnimal`, and `deleteAnimal` methods are not provided by Backbone. In fact, we are customizing the
+The `alertTest`, `editAnimal`, and `deleteAnimal` methods are not provided by Backbone -- these are custom methods added to the prototype chain we created.
 
 **Again**, notice that there are two cases we supply options to our Backbone instances:
 1. as part of the configuration to `Backbone.View.extend({})`
@@ -187,6 +187,30 @@ var a1 = new AnimalView({
 ```
 
 In the above code, `$container` will overwrite the default `$container` in `initialize()`.
+
+The `Backbone.View#initialize()` method (and all others that we create) have access to `this.$container`. The nice thing about Backbone is that we can add our own properties that should exist on an instance. For instance, we should soon be on `Backbone.Model`, and we can add an instance of a Model to an instance of a View by simply passing it as an option to the constructor:
+
+```js
+var Task = Backbone.Model.extend({});
+var TaskView = Backbone.View.extend({
+    tagName: 'li',
+    initialize: function(options){
+        options = _.extend({}, {
+            $container: $('body')
+        }, options);
+
+        this.render();
+    },
+    render: function(){
+        console.log( this.model.get('title') );
+    }
+})
+
+var t1 = new Task({ title: "Some task name" });
+var tv1 = new TaskView({ model: t1 });
+```
+
+We can give any Backbone Model or View instance instance properties (like the model) by following the constructor pattern above.
 
 # Homework
 
