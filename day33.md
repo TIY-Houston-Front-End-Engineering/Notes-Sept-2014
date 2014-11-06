@@ -73,9 +73,7 @@ var t1 = new Task({});
 t1; // { title: 'Task title', isDone: false, inProgress: true }
 ```
 
-# Options for `new Task({})`... a.k.a. setting attributes
-
-Individual Model instances (e.g. a particular Task) will accept options. Backbone will pass the options object from `new Task({})` into `validate({})`. **If you want to pass options to validate, you need to write your `validate()` to handle that. By default `validate()` does nothing.**
+# Create Models with attributes
 
 We can pass instance data to the constructor:
 
@@ -122,7 +120,7 @@ t1.get('title'); // 'Task title'
 t1.get('isDone'); // false
 ```
 
-# Manipulating Model attributes
+# Setting Model attributes
 
 We can manipulate Model instances with `Model#set()` or with our own methods defined in the Constructor:
 
@@ -315,7 +313,15 @@ var EtsyListing = Backbone.Model.extend({});
 
 var EtsyItems = Backbone.Collection.extend({
     model: EtsyListing,
-    url: 'https://openapi.etsy.com/v2/listings/active.js?api_key=aavnvygu0h5r52qes74x9zvo&callback=?'
+    api_key: "aavnvygu0h5r52qes74x9zvo",
+    url: function(){
+        return [
+            'http://openapi.etsy.com/v2/listings/active.js?',
+            "api_key=",
+            this.api_key,
+            "&callback=?"
+        ].join('')
+    }
 });
 
 var items = new EtsyItems();
@@ -342,7 +348,15 @@ var EtsyListing = Backbone.Model.extend({});
 
 var EtsyItems = Backbone.Collection.extend({
     model: EtsyListing,
-    url: 'https://openapi.etsy.com/v2/listings/active.js?api_key=aavnvygu0h5r52qes74x9zvo&callback=?',
+    api_key: "aavnvygu0h5r52qes74x9zvo",
+    url: function(){
+        return [
+            'http://openapi.etsy.com/v2/listings/active.js?',
+            "api_key=",
+            this.api_key,
+            "&callback=?"
+        ].join('')
+    },
     parse: function(data){
         return data.results;
     }
@@ -376,7 +390,15 @@ The `parse` property given to `EtsyItems` tells Backbone Collection to look into
 
     var EtsyItems = Backbone.Collection.extend({
         model: EtsyListing,
-        url: 'https://openapi.etsy.com/v2/listings/active.js?api_key=aavnvygu0h5r52qes74x9zvo&callback=?',
+        api_key: "aavnvygu0h5r52qes74x9zvo",
+        url: function(){
+            return [
+                'http://openapi.etsy.com/v2/listings/active.js?',
+                "api_key=",
+                this.api_key,
+                "&callback=?"
+            ].join('')
+        },
         parse: function(data){
             return data.results;
         }
