@@ -315,7 +315,7 @@ var EtsyListing = Backbone.Model.extend({});
 
 var EtsyItems = Backbone.Collection.extend({
     model: EtsyListing,
-    url: 'https://openapi.etsy.com/v2/listings/active.js?api_key=aavnvygu0h5r52qes74x9zvo&callback=test'
+    url: 'https://openapi.etsy.com/v2/listings/active.js?api_key=aavnvygu0h5r52qes74x9zvo&callback=?'
 });
 
 var items = new EtsyItems();
@@ -342,7 +342,7 @@ var EtsyListing = Backbone.Model.extend({});
 
 var EtsyItems = Backbone.Collection.extend({
     model: EtsyListing,
-    url: 'https://openapi.etsy.com/v2/listings/active.js?api_key=aavnvygu0h5r52qes74x9zvo&callback=test',
+    url: 'https://openapi.etsy.com/v2/listings/active.js?api_key=aavnvygu0h5r52qes74x9zvo&callback=?',
     parse: function(data){
         return data.results;
     }
@@ -376,7 +376,7 @@ The `parse` property given to `EtsyItems` tells Backbone Collection to look into
 
     var EtsyItems = Backbone.Collection.extend({
         model: EtsyListing,
-        url: 'https://openapi.etsy.com/v2/listings/count.js?api_key=aavnvygu0h5r52qes74x9zvo&callback=test',
+        url: 'https://openapi.etsy.com/v2/listings/active.js?api_key=aavnvygu0h5r52qes74x9zvo&callback=?',
         parse: function(data){
             return data.results;
         }
