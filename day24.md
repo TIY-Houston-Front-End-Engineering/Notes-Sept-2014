@@ -175,6 +175,7 @@ Aside from what `hello.js` provides access to, the following list is a large lis
 - Wit - natural language processing - http://labs.wit.ai/demo/index.html
 - Nest - https://developer.nest.com/documentation/control
 - FlightAware - http://flightaware.com/commercial/flightxml/
+- IMDB / OMDB - http://www.omdbapi.com/
 
 ## Dictionary / Words / Thesaurus APIs
 
