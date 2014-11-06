@@ -200,7 +200,7 @@ Models are used to represent data from your server and actions you perform on th
 - When we pulled all active listings, we got an array of data.
 - When we setup routing with the Etsy project, we queried the Etsy API with a different URL that targeted a **specific id**.
 
-** When we create Models and have them pull data from the server, we will give them an `id`, then tell them to `fetch()`. **
+**When we create Models and have them pull data from the server, we will give them an `id`, then tell them to `fetch()`.**
 
 # Getting Model data from a server with `Model#fetch()`
 
