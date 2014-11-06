@@ -270,3 +270,4 @@ These are great to explore and build on-top of, because they are what create tru
 - http://tympanus.net/Blueprints/QuotesRotator/
 - http://tympanus.net/Blueprints/VerticalIconMenu/
 - http://tympanus.net/Development/WobblySlideshowEffect/
+- http://tympanus.net/Development/MorphingSearch/

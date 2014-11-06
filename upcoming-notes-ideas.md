@@ -6,70 +6,6 @@
 
 https://github.com/derickbailey/backbone.marionette
 https://github.com/derickbailey/backbone.compute
-https://github.com/TIY-GVL-FEE-2014-Aug/backbone-adventure
-
-## backbone (Model, Router, View)
-
-- https://github.com/TIY-Houston-Q3-Front-End/Notes/tree/master/class_36
-- https://github.com/TIY-Houston-Q3-Front-End/Notes/tree/master/class_37
-- https://github.com/TIY-Houston-Q3-Front-End/Notes/tree/master/class_44
-- Webster Wizerd
-- Parse
-- Firebase
-
-## Serializing a form
-
-If you need to get data out of a form, you can use `this.$el.serializeArray()` to grab the data out of the form. However, the result will look like:
-
-```js
-[
-  {
-    name: "a",
-    value: "1"
-  },
-  {
-    name: "b",
-    value: "2"
-  },
-  {
-    name: "c",
-    value: "3"
-  },
-  {
-    name: "d",
-    value: "4"
-  },
-  {
-    name: "e",
-    value: "5"
-  }
-]
-```
-
-To transform the data into a form that you can pass to a model or collection, you can use the following code:
-
-```js
-$.fn.serializeObject = function(){
-  return this.serializeArray().reduce(function(acum, i){
-    acum[i.name] = i.value;
-    return acum;
-  }, {});
-};
-
-$('.my-form').serializeObject();
-```
-
-Now the results look like:
-
-```js
-{
-  a: "1",
-  b: "2",
-  c: "3",
-  d: "4",
-  e: "5"
-}
-```
 
 ## Model#validate
 
@@ -176,3 +112,8 @@ https://gist.github.com/maxpert/8110903
         - The asset pipeline is correctly used
         - There is one example of CRUD
         - The User model has at least two roles
+
+# React / Flux
+
+- http://kenwheeler.github.io/mcfly/
+- https://gcanti.github.io/2014/10/29/understanding-react-and-reimplementing-it-from-scratch-part-1.html
