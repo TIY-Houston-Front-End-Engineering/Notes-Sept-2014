@@ -51,6 +51,7 @@ Notice some methods on our `prototype`, provided by Backbone.Model, which are ac
 # Defining Model (constructor) properties
 
 There are two cases we supply options to our Backbone instances:
+
 1. as part of the configuration to `Backbone.Model.extend({})`
 2. as part of the options object to `new Task({})`
 
@@ -303,6 +304,7 @@ Notice some methods on our `prototype`, provided by Backbone.Collection, which a
 # Creating a list of Models automatically with `Collection#fetch()`
 
 When querying the Etsy API, we had two things going on:
+
 1. Request all active listings, which returned some object with an array of listings
 2. We then would make a request to a separate URL with an `id` in it to make requests for an individual listing
 
@@ -373,7 +375,7 @@ The `parse` property given to `EtsyItems` tells Backbone Collection to look into
 # Homework for the weekend
 
 - Create a **BRAND NEW** copy of your latest Backbone View repo. In otherwords, clone it or create a new repo and copy everything over.
-- Update your code to a Collection. This Collection will create Models, and each `Model#initialize()` will create its own View:
+- Update your code to a Collection (Or just a Model, if you aren't pulling an entire array of data). This Collection will create Models, and each `Model#initialize()` will create its own View:
 
     ```js
     var EtsyView = Backbone.View.extend({
