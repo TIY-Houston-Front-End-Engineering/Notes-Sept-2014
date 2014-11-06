@@ -1,4 +1,4 @@
-# Thursday, November 6th
+# Wed, Nov 5th and Thur, Nov 6th
 
 ```sh
 ```
