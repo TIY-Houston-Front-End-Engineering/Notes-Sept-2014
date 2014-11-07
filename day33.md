@@ -1,6 +1,16 @@
 # Wed, Nov 5th and Thur, Nov 6th
 
 ```sh
+ ________________________________________ 
+/ Today we reviewed the typical Backbone \
+| style, Backbone Views, and intro'd to  |
+\ Backbone Model, Backbone Collection    /
+ ---------------------------------------- 
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
 ```
 
 # Backbone Models
