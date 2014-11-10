@@ -120,6 +120,7 @@ if [ ! -f ./test.html ]; then
         <div id="mocha"></div>
         <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
         <script type="text/javascript" src="./bower_components/lodash/dist/lodash.min.js"></script>
+        <script type="text/javascript" src="./bower_components/backbone/backbone.js"></script>
         <script type="text/javascript" src="./bower_components/mocha/mocha.js"></script>
         <script type="text/javascript" src="./bower_components/chai/chai.js"></script>
         <!-- load all of your declaration files and what not here -->

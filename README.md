@@ -79,6 +79,7 @@ There is no commercial software required for the class. For the class, we will i
 	- Smashing Magazine,
 	- A List Apart
 - Start using a web-based RSS reader, like http://feedly.com.
+- Check out this article on how someone got 32 offers from startups in a few days. NOTE: You should probably be willing to travel. http://thenextweb.com/entrepreneur/2014/11/06/use-angellist-win-30-consulting-offers-30-days/.
 - You may want to try your hand at freelancing or doing some side-projects. Check out the [job resources list](./examples/extras/job-resources.md) for that. You can also check out https://github.com/ericdodds/the-little-freelancer to learn more about the process of freelancing.
 - You may want to try some public speaking and presentations, as well. This is a really powerful skill that is a career force-multiplier, and in conjunction with being a good writer, will really boost your chances of landing a job.
 	- Talk to Matt or JB about speaking at Houston.js: http://houstonjs.com

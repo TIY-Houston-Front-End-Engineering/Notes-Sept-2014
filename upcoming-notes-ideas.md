@@ -2,86 +2,10 @@
 
 - see Wrinklefree jQuery and HTML5
 
-# Backbone
-
-https://github.com/derickbailey/backbone.marionette
-https://github.com/derickbailey/backbone.compute
-
-## Model#validate
-
-http://jsbin.com/zicinu/2/edit
-
-## Firebase
-1. Install it with:
-    ```sh
-    $ bower install --save backfire
-    ```
-2. Include firebase.js and backbone-firebase.js in your index.html (if you're not using wiredeps)
-3. Use `Backbone.Firebase.Collection` for your collection constructor, and give it a `firebase` property of your app url.
-
-    ```js
-    var TodoList = Backbone.Firebase.Collection.extend({
-      model: Todo,
-      firebase: "https://<your-firebase>.firebaseio.com"
-    });
-    ```
-
-4. If you're modifying the models directly (like in the library app), you'll probably also need to link your model constructor to firebase.
-    ```js
-    var Todo = Backbone.Model.extend({
-      firebase: "https://<your-firebase>.firebaseio.com"
-    })
-    ```
-
-
-# CSS-only parallax
-
-# SCSS and SMACSS
-
-http://www.smashingmagazine.com/2012/04/20/decoupling-html-from-css/
-https://smacss.com/book/prototyping
-
-# React and Flux
-
-https://github.com/facebook/flux
-
-# Interview practice questions
-
-http://www.sitepoint.com/5-typical-javascript-interview-exercises/
-
-# WebGL
-
-http://stack.gl/#examples
-
-# The Call Stack
-
-http://www.youtube.com/watch?v=8aGhZQkoFbQ&feature=youtu.be
-
-
-
-## Week 2
-
-- currentColor property (border color, box-shadow --> color)
-- Homework Ideas
-    > "Is it beer o'clock yet?"
-    > [bonus.js](https://gist.githubusercontent.com/masondesu/1eafc9e7dff1ca7666ba/raw/59bca2a7c7e6f89cc977fee57165b3cf4ebede08/bonus.js)
-
-## Week 5
-
-https://vimeo.com/96425312
-
-## Week 6
-
-https://gist.github.com/maxpert/8110903
+---------------------------------------
 
 ## Week 7
 
-- sloth and lazy image loading
-- canvas - http://codepen.io/donovanh/blog/particles
-- CSS ONLY PARALLAX
-- [Interview Questions](http://www.toptal.com/javascript/interview-questions)
-- [What you may learn about jQuery by reading its source code](http://quickleft.com/blog/18-surprises-from-reading-jquery-s-source-code)
-- [Make your JS work with CommonJS and AMD](http://ifandelse.com/its-not-hard-making-your-library-support-amd-and-commonjs/)
 - Homework ideas
     ```
     - $.get() and $.post() to Tiny Server
@@ -93,11 +17,37 @@ https://gist.github.com/maxpert/8110903
     - Countable.js — Live word-counting in JavaScript - http://sachaschmid.ch/Countable/
     ```
 
-- Treat the DOM as a Lazy-Susan - batch processing with $.write/$.read
-- ES6, http://bjorn.tipling.com/advanced-objects-in-javascript, and Traceur
-- Angular 2.0, React, Bacon/RxJS, Backbone/Marionette, Ember, Mithril
+## Week 8
+
+- sloth, lazy-loading
+- https://vimeo.com/96425312
+- lazy evaluation (http://filimanjaro.com/blog/2014/introducing-lazy-evaluation/)
+
+    ```js
+    function priceLt(x) {
+       return function(item) { return item.price < x; };
+    }
+    var gems = [
+       { name: 'Sunstone', price: 4 }, { name: 'Amethyst', price: 15 },
+       { name: 'Prehnite', price: 20}, { name: 'Sugilite', price: 7  },
+       { name: 'Diopside', price: 3 }, { name: 'Feldspar', price: 13 },
+       { name: 'Dioptase', price: 2 }, { name: 'Sapphire', price: 20 }
+    ];
+
+    var chosen = _(gems).filter(priceLt(10)).take(3).value();
+    ```
+
+- canvas - http://codepen.io/donovanh/blog/particles
+- CSS ONLY PARALLAX
+- [Interview Questions](http://www.toptal.com/javascript/interview-questions)
+- [What you may learn about jQuery by reading its source code](http://quickleft.com/blog/18-surprises-from-reading-jquery-s-source-code)
+- Treat the DOM as a Lazy-Susan - batch processing with $.write/$.read (why batching DOM reads/writes speeds up code)
+
+
+## Week 9 
 
 - Start brainstorming final projects
+
     > I'm sure there are more concepts than this, but for example, if the app covered a list like this would it be sufficient for us to judge their skill set and knowledge?
     >
     >
@@ -113,7 +63,10 @@ https://gist.github.com/maxpert/8110903
         - There is one example of CRUD
         - The User model has at least two roles
 
-# React / Flux
+- SASS and SMACSS
 
+## Week 9.5 - 11 - React / Flux / Mithril
+
+- https://github.com/facebook/flux
 - http://kenwheeler.github.io/mcfly/
 - https://gcanti.github.io/2014/10/29/understanding-react-and-reimplementing-it-from-scratch-part-1.html
