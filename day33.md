@@ -56,7 +56,7 @@ Notice some methods on our `prototype`, provided by Backbone.Model, which are ac
 - `off()/on()` - used to handle add/update/delete events, and so forth
 - `sync()` - attempts to push this instance data up to a server
 - `toJSON()` - creates a POJO (plain old JS object literal) with all the data from the instance.
-- `set()/get()` - these are the getter and setter methods to use when retrieving or updating an instance's data; **you must use these when manipulating the model's data.**
+- `set()/get()` - these are the getter and setter methods to use when retrieving or updating an instance's data; **you must use these when manipulating or accessing (ahem: Shawn) the model's data.**
 
 # Defining Model (constructor) properties
 
