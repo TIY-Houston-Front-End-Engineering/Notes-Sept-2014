@@ -94,7 +94,7 @@ Most of the difficulty of Backbone comes from a few scenarios:
 
 Imagine you were designing Gmail with Backbone. Gmail has mutliple menus, configurable options, different tabs, settings for your account, google chat/hangouts, calendar integrations, etc.
 
-Sometimes in our apps, we need child views (inbox and hangouts tabs) to "talk" to each other. I mentioned someting called PubSub before. PubSub means "Publisher/Subscriber". It's also commonly referred to the Mediator pattern.
+Sometimes in our apps, we need child views (inbox and hangouts tabs) to "talk" to each other. I mentioned something called PubSub before. PubSub means "Publisher/Subscriber". It's also commonly referred to the Mediator pattern.
 
 In a simple form, this just means that there is a global object (or object higher in the scope) that `publish()'es` to events with data, and there are multiple Views (or Models, etc) in the app dealing with unrelated parts of the app that `subscribe()` to these events.
 
@@ -239,7 +239,7 @@ url             HTTP Method  Operation
 /api/books/:id  DELETE       Delete the book with id of :id (MODEL)
 ```
 
-# Complexity in Backbone
+# Complexity in Backbone - Nested Views
 
 We built an app that generates random names for your kids, to ensure they become "Pro Rippers":
 
