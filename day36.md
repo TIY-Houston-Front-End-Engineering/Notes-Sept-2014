@@ -212,4 +212,26 @@ url             HTTP Method  Operation
 
 # Complexity in Backbone
 
+We built an app that generates random names for your kids, to ensure they become "Pro Rippers":
 
+- http://matthiasak.github.io/ProRipperNameGenerator/
+- https://github.com/matthiasak/ProRipperNameGenerator
+
+This idea came from this article: http://www.tetongravity.com/story/ski/how-to-name-your-kid-to-become-a-pro-ripper
+
+# Homework
+
+We are going to build an app in Backbone. This is going to be a large, group homework assignment due Thursday, Nov 13th.
+
+Here are some requirements:
+
+1. You must have a group of atleast 2 people, and each person must either fork the repo or be a contributor on that repo. **Each person must make atleast 10 commits throughout the week. I will verify and check.** That means... commit once an hour and you will easily get this.
+2. You must have tests written for your project.
+3. You must use a script loader.
+4. You must have `"use strict";` in your code.
+5. You must implement proper error handling if arguments don't meet expectations (`throw new Error("some error message")`).
+6. You must use lodash templates.
+7. You must use Backbone through and through.
+8. You must use atleast 2 different Browser APIs, and you must either include polyfills for older browsers, or gracefully show error messages for browsers that don't support a Browser API.
+9. You must structure your code with Single Responsibility Principle in mind.
+10. You must use jQuery Promises. :-)
