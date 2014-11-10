@@ -1,6 +1,35 @@
 # Monday, Nov 10th
 
 ```sh
+ _________________________________________ 
+/ Today we reviewed some Model/Collection \
+| stuff, covered Backbone routers, talked |
+| about Addy Osmani's Backbone            |
+| Fundamentals, talked about              |
+| Backbone.Marionette,                    |
+| Backbone.Relational, and mentioned      |
+| Firebase and Backfire. Lastly, we built |
+| an app on Backbone Models with nested   |
+| Views that generates names for your     |
+| future kids so they can become          |
+\ ProRippers                              /
+ ----------------------------------------- 
+      \                    / \  //\
+       \    |\___/|      /   \//  \\
+            /0  0  \__  /    //  | \ \    
+           /     /  \/_/    //   |  \  \  
+           @_^_@'/   \/_   //    |   \   \ 
+           //_^_/     \/_ //     |    \    \
+        ( //) |        \///      |     \     \
+      ( / /) _|_ /   )  //       |      \     _\
+    ( // /) '/,_ _ _/  ( ; -.    |    _ _\.-~        .-~~~^-.
+  (( / / )) ,-{        _      `-.|.-~-.           .~         `.
+ (( // / ))  '/\      /                 ~-. _ .-~      .-~^-.  \
+ (( /// ))      `.   {            }                   /      \  \
+  (( / ))     .----~-.\        \-'                 .~         \  `. \^-.
+             ///.----..>        \             _ -~             `.  ^-`  ^-_
+               ///-._ _ _ _ _ _ _}^ - - - - ~                     ~-- ,.-~
+                                                                  /.-~
 ```
 
 # Backbone Routers
