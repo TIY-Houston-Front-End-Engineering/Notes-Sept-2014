@@ -33,7 +33,7 @@ mkdir ./js
 mkdir ./test
 mkdir ./templates
 
-bower install normalize.css typeplate-starter-kit jquery lodash pathjs Loader mocha chai backbone
+bower install normalize.css typeplate-starter-kit jquery lodash pathjs Loader mocha chai backbone --save
 
 if [ ! -f ./index.html ]; then
     touch ./index.html
