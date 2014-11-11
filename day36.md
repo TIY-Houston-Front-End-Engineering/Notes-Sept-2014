@@ -88,7 +88,7 @@ Most of the difficulty of Backbone comes from a few scenarios:
 
 2. I have a Collection from Foursquare, and a Collection from Yelp. How can I relate the two models?
 
-    This is a little harder to explain, but you can use `Backbone.Relational` (a plugin). This essentially helps you tie to different Collections together by matching names or geolocations (or anything other property) between two or more Collections.
+    This is a little harder to explain, but you can use `Backbone.Relational` (a plugin). This essentially helps you tie two different Collections together by matching names or geolocations (or anything other property) between two or more Collections.
 
 ## Organizing big applications (and PubSub)
 
@@ -229,6 +229,8 @@ var V = Backbone.View.extend({
 ```
 
 # Review of HTTP Verbs
+
+The following is a simple table from Addy Osmani's Backbone Fundamentals, that details what requests a MODEL or COLLECTION will be responsible for. This is for those of you asking: "Should I use a Model or a Collection to make this request?" :D
 
 ```
 url             HTTP Method  Operation
