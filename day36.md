@@ -1,7 +1,7 @@
 # Monday, Nov 10th
 
 ```sh
- _________________________________________ 
+ _________________________________________
 / Today we reviewed some Model/Collection \
 | stuff, covered Backbone routers, talked |
 | about Addy Osmani's Backbone            |
@@ -13,12 +13,12 @@
 | Views that generates names for your     |
 | future kids so they can become          |
 \ ProRippers                              /
- ----------------------------------------- 
+ -----------------------------------------
       \                    / \  //\
        \    |\___/|      /   \//  \\
-            /0  0  \__  /    //  | \ \    
-           /     /  \/_/    //   |  \  \  
-           @_^_@'/   \/_   //    |   \   \ 
+            /0  0  \__  /    //  | \ \
+           /     /  \/_/    //   |  \  \
+           @_^_@'/   \/_   //    |   \   \
            //_^_/     \/_ //     |    \    \
         ( //) |        \///      |     \     \
       ( / /) _|_ /   )  //       |      \     _\
@@ -123,7 +123,7 @@ We can demonstrate this simple structure with jQuery:
 We can use this code inside our app with two views quite easily (even when those two views hold no references to each other):
 
 ```js
-var View1 = Backbone.Model.extend({
+var View1 = Backbone.View.extend({
     initialize: function(){
         $.subscribe('SomeEventName', function(data){
             // ... do something with the data
@@ -131,7 +131,7 @@ var View1 = Backbone.Model.extend({
     }
 })
 
-var View2 = Backbone.Model.extend({
+var View2 = Backbone.View.extend({
     events: {
         'click button': 'handleClick'
     },
@@ -219,7 +219,7 @@ var V = Backbone.View.extend({
         // listenTo() actually does this behind the scenes:
         //      model.on(eventName, callback, this)
         // in other words, it implies `this` is the object swinging the `callback` sword/function
-        
+
         this.listenTo(this.model, "change:title change:author", this.render);
     },
     render: function(){
