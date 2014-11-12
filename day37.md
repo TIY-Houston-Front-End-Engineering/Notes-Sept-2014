@@ -171,7 +171,7 @@ I have two templates, one "definition" file (BaaSChat.js), and my app.js file th
         ```js
         var ChatHistory = Backbone.Firebase.Collection.extend({
             model: Chat,
-            firebase: new Firebase("https://matthiasak.firebaseio.com/chat").limitToLast(10)
+            firebase: new Firebase("https://matthiasak.firebaseio.com/").limitToLast(10)
         });
         ```
 
