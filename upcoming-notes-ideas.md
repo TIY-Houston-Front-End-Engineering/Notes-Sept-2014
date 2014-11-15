@@ -43,8 +43,7 @@
 - [What you may learn about jQuery by reading its source code](http://quickleft.com/blog/18-surprises-from-reading-jquery-s-source-code)
 - Treat the DOM as a Lazy-Susan - batch processing with $.write/$.read (why batching DOM reads/writes speeds up code)
 
-
-## Week 9 
+## Week 9
 
 - Start brainstorming final projects
 
