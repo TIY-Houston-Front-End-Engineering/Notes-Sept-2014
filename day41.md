@@ -30,6 +30,12 @@ Why? There are three major reasons:
 - Flexibility - the React Components are really flexible, composable, and even work nested
 - Testability - React Components can be embedded easily in TDD/BDD suites :D
 
+# Intro the Virtual DOM
+
+Manual DOM manipulation is messy and keeping track of the previous DOM state is hard. A solution to this problem is to write your code as if you were recreating the entire DOM whenever state changes. Of course, if you actually recreated the entire DOM every time your application state changed, your app would be very slow and your input fields would lose focus.
+
+> https://github.com/Matt-Esch/virtual-dom
+
 # React Components
 
 React Components are defined in JavaScript as objects. Observe the following code. The comments above each block are what will be generated when rendered by React.
@@ -413,6 +419,7 @@ For more info on the JSX compiler, see:
 - The official React site - http://facebook.github.io/react/
 - React Docs - http://facebook.github.io/react/docs/getting-started.html
 - https://www.npmjs.org/package/gulp-cjsx
+- React + Google Material UI = http://material-ui.com/#/components/buttons
 
 # Closing thoughts
 
