@@ -6,9 +6,6 @@
 
 ## Week 9
 
-- React (days 1-4)
-- https://github.com/facebook/flux
-- SCSS / SMACSS
 - Start brainstorming final projects
 
     > I'm sure there are more concepts than this, but for example, if the app covered a list like this would it be sufficient for us to judge their skill set and knowledge?

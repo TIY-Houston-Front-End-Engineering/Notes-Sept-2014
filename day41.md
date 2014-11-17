@@ -425,3 +425,11 @@ For more info on the JSX compiler, see:
 
 React is amazingly useful for building UI views/components. It's fast, flexible, and let's us use the same JS code on the client (browser) or server (Node.js) to create an HTML string (Virtual DOM). In the browser, we can use that to just set `innerHTML`. On the server, we can just send down the HTML string and have the browser render this as a regular ol' HTML file.
 
+# Homework
+
+- Monday, Nov 17th
+
+    1. I will be reviewing your BB projects here shortly, and grading them.
+    - Watch http://vimeo.com/96425312 and **blog** about what you learned.
+    - Continue reading through https://github.com/matthiasak/Vunderlistfest, we will complete this as we progress this week.
+    - **start brainstorming final projects** - we will discuss this first thing in the morning
