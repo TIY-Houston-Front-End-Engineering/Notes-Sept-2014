@@ -2,39 +2,39 @@
 
 - responsive vs. adaptive
 
-![./day44/1.gif]
+![](./day44/1.gif)
 
 - relative vs. static
 
-![./day44/2.gif]
+![](./day44/2.gif)
 
 - with/without breakpoints
 
-![./day44/3.gif]
+![](./day44/3.gif)
 
 - flow vs. static
 
-![./day44/4.gif]
+![](./day44/4.gif)
 
 - nested vs. not nested
 
-![./day44/5.gif]
+![](./day44/5.gif)
 
 - fonts
 
-![./day44/6.gif]
+![](./day44/6.gif)
 
 - max width
 
-![./day44/7.gif]
+![](./day44/7.gif)
 
 - desktop first vs. mobile first
 
-![./day44/8.gif]
+![](./day44/8.gif)
 
 - vectors vs images
 
-![./day44/9.gif]
+![](./day44/9.gif)
 
 # An Introduction to SCSS (Sassy CSS)
 
