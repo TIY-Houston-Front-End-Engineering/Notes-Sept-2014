@@ -447,5 +447,10 @@ React is amazingly useful for building UI views/components. It's fast, flexible,
 
 - Tuesday, Nov 18th
 
-    1. http://www.toptal.com/javascript/interview-questions
-    - Continue reading through https://github.com/matthiasak/Vunderlistfest, we will complete this as we progress this week.
+    1. Clone this and add some features https://github.com/matthiasak/Vunderlistfest, we will complete this as we progress this week.
+        1. On page 1:
+            - add the ability to add and delete a TodoList to the TodoLists Collection
+        - On page 2:
+            - add the ability to edit and "mark done" a Todo in a Todos Collection
+    - Brainstorm final projects,
+    - Finally try test yourself with these JS interview questions http://www.toptal.com/javascript/interview-questions
