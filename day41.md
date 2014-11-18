@@ -433,3 +433,19 @@ React is amazingly useful for building UI views/components. It's fast, flexible,
     - Watch http://vimeo.com/96425312 and **blog** about what you learned.
     - Continue reading through https://github.com/matthiasak/Vunderlistfest, we will complete this as we progress this week.
     - **start brainstorming final projects** - we will discuss this first thing in the morning
+
+        > Some general thoughts, prerequisites, and other tidbits:
+        >
+        >
+            - App has organized UX, number of screens, mockups, workflow, typography/fonts, images, design
+            - App is checked into GitHub with a valid README
+            - App is deployed onto Heroku showing understanding of deployment with at least one provider
+            - App uses Firebase or Parse
+            - App has some sort of authentication (either through Firebase/Parse, or through hello.js, etc)
+            - App has tests
+            - App has things like searching, user form input, or some level of search and filtering for information
+
+- Tuesday, Nov 18th
+
+    1. http://www.toptal.com/javascript/interview-questions
+    - Continue reading through https://github.com/matthiasak/Vunderlistfest, we will complete this as we progress this week.

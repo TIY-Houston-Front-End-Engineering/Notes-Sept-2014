@@ -4,24 +4,21 @@
 
 ---------------------------------------
 
-## Week 9
+### BB auth:
 
-- Start brainstorming final projects
+```
+$.ajaxSetup(
+  beforeSend: function(xhr){
+    xhr.setRequestHeader("Authorization", "Basic " + btoa("USERNAME" + ":" + "PASSWORD"));
+  }
+);
 
-    > I'm sure there are more concepts than this, but for example, if the app covered a list like this would it be sufficient for us to judge their skill set and knowledge?
-    >
-    >
-        - Creation of the framework, with a DB initialized
-        - App is checked into GitHub with a valid README
-        - App is deployed onto Heroku showing understanding of deployment with at least one provider
-        - App utilizes at least one gem, beyond user auth.
-        - App has user authentication
-        - Test cases exist testing major parts of the application
-        - Models use has_many, has_one, belongs_to and has_many through
-        - There is some basic caching used
-        - The asset pipeline is correctly used
-        - There is one example of CRUD
-        - The User model has at least two roles
+JavaScript btoa() function (a polyfill is available if btoa() is not supported in your target browser)
+- https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64.btoa
+- https://github.com/davidchambers/Base64.js
+```
+
+### http://wendynichols.github.io/Blog_project/#/
 
 ## Week 10-12
 
@@ -64,6 +61,12 @@
 
 - canvas - http://codepen.io/donovanh/blog/particles
 - CSS ONLY PARALLAX
-- [Interview Questions](http://www.toptal.com/javascript/interview-questions)
 - [What you may learn about jQuery by reading its source code](http://quickleft.com/blog/18-surprises-from-reading-jquery-s-source-code)
 - Treat the DOM as a Lazy-Susan - batch processing with $.write/$.read (why batching DOM reads/writes speeds up code)
+
+
+## Other shit
+
+http://montagestudio.com/montagejs/
+https://muut.com/riotjs/docs/
+https://github.com/enaqx/awesome-react
