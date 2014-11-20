@@ -71,6 +71,10 @@ By **authenticating** with a service, we can actually push information up to ser
 
 Aside from what `hello.js` provides access to, the following list is a large list of APIs that provide a mix of CORS/JSONP/proxy-able services:
 
+## API Search Engine:
+
+- http://apis.io/
+
 ## Social APIs
 
 - meetup - http://www.meetup.com/meetup_api/
