@@ -160,7 +160,7 @@ This is going to be a large project that you will carry out **BY YOURSELF OR WIT
 - You will document atleast 5 User Stories about your app.
     - e.g. _"As an admin user, I want the ability to create courses so that learners can see what courses are available."_
 
-    User stores follow this structure: "As a ________ I want _______ so that ________"
+    > User stories follow this structure: "As a ________ I want _______ so that ________"
 
 
 ## Chronological outline and things to consider
