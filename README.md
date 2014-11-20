@@ -134,7 +134,7 @@ This is going to be a large project that you will carry out **BY YOURSELF OR WIT
 
 ## Here are some technical requirements for your Final Projects:
 
-- You must either do the project**BY YOURSELF OR WITH A RAILS STUDENT**. If you partner with a Rails student, the Rails student will create an API, and you will connect to it via vanilla jQuery or Backbone.js.
+- You must either do the project **BY YOURSELF OR WITH A RAILS STUDENT**. If you partner with a Rails student, the Rails student will create an API, and you will connect to it via vanilla jQuery or Backbone.js.
 - You must make atleast 25 commits throughout the 3 week period.
 - You must have tests written for your project. No matter how simple they are, **You must write test**.
 - You must use a script loader. (loader.js)
