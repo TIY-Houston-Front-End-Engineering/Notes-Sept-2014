@@ -4,26 +4,11 @@
 
 ---------------------------------------
 
-### BB auth:
-
-```
-$.ajaxSetup(
-  beforeSend: function(xhr){
-    xhr.setRequestHeader("Authorization", "Basic " + btoa("USERNAME" + ":" + "PASSWORD"));
-  }
-);
-
-JavaScript btoa() function (a polyfill is available if btoa() is not supported in your target browser)
-- https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64.btoa
-- https://github.com/davidchambers/Base64.js
-```
-
-### http://wendynichols.github.io/Blog_project/#/
+- http://wendynichols.github.io/Blog_project/#/
 
 ## Week 10-12
 
 - sloth, lazy-loading
-- https://vimeo.com/96425312
 - https://html5-game-development.zeef.com/andre.antonio.schmitz
 - http://webdesign.tutsplus.com/articles/7-css-units-you-might-not-know-about--cms-22573
 - native two-way databinding

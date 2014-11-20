@@ -45,33 +45,83 @@ if [ ! -f ./index.html ]; then
         <link rel="stylesheet" type="text/css" href="./bower_components/typeplate-starter-kit/css/typeplate.css">
         <title></title>
     </head>
-    <body>
+    <body style="opacity: 0;">
         <script type="text/javascript" src="./bower_components/Loader/loader.js" id="loaderjs" data-app="./js/app.js"></script>
     </body>
     </html>' > ./index.html
+fi
+if [ ! -f ./css/style.css ]; then
+    touch ./css/style.css
+    # insert some links into the HTML
+    echo '*, *:before, *:after {
+    box-sizing: border-box;
+}
+/**
+ * GRIDS
+ */
+
+.grid {
+    width: 100%;
+    display: block;
+    font-size: 0;
+    text-align: justify;
+    position: relative;
+}
+.grid > * {
+    font-size: medium;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+.grid:after {
+    display: inline-block;
+    width: 100%;
+    content: "";
+    font-size: medium;
+}
+@media (min-width: 400px) {
+    .grid-2-400 > * {
+        width: 48%
+    }
+}
+@media (min-width: 600px) {
+    .grid-4-600 > * {
+        width: 24%
+    }
+}
+
+/**
+ * GENERAL
+ */
+body {
+    transition: opacity .25s ease;
+}
+    ' > ./css/style.css
 fi
 if [ ! -f ./js/app.js ]; then
     touch ./js/app.js
     # setup our default app.js file
     echo '
-    window.onload = app;
+window.onload = app;
 
-    // runs when the DOM is loaded
-    function app(){
+// runs when the DOM is loaded
+function app(){
+    "use strict";
 
-        // load some scripts (uses promises :D)
-        loader.load(
-            {url: "./bower_components/jquery/dist/jquery.min.js"},
-            {url: "./bower_components/lodash/dist/lodash.min.js"},
-            {url: "./bower_components/backbone/backbone.js"},
-            {url: "./bower_components/pathjs/path.min.js"}
-        ).then(function(){
-            _.templateSettings.interpolate = /{([\s\S]+?)}/g;
+    // load some scripts (uses promises :D)
+    loader.load(
+        {url: "./bower_components/jquery/dist/jquery.min.js"},
+        {url: "./bower_components/lodash/dist/lodash.min.js"},
+        {url: "./bower_components/backbone/backbone.js"},
+        {url: "./dist/style.css"}
+    ).then(function(){
+        _.templateSettings.interpolate = /{([\s\S]+?)}/g;
+        document.body.style.opacity = 1;
+        // start app?
+    })
 
-            // start app?
-        })
-
-    }
+}
     ' > ./js/app.js
 fi
 if [ ! -f ./test/main.js ]; then

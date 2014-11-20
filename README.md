@@ -126,3 +126,67 @@ Sounds boring, but these are important:
 
 - Conduct - I run a class based on human decency and respect - I want everyone to be welcome. Generally spoken, if something can be taken the wrong way, be careful how you say it! Got an issue with someone? **If you ever have any issues, just reach out to me or any of The Iron Yard employees. I promise we will represent everyone fairly and equally, and we generally care for the well-being of our students.**
 
+# Final Projects
+
+> Also called the *Capstone Projects*
+
+This is going to be a large project that you will carry out **BY YOURSELF OR WITH A RAILS STUDENT** to show off on Demo Day (Friday, December 12th).
+
+## Here are some technical requirements for your Final Projects:
+
+- You must either do the project**BY YOURSELF OR WITH A RAILS STUDENT**. If you partner with a Rails student, the Rails student will create an API, and you will connect to it via vanilla jQuery or Backbone.js.
+- You must make atleast 25 commits throughout the 3 week period.
+- You must have tests written for your project. No matter how simple they are, **You must write test**.
+- You must use a script loader. (loader.js)
+- You must have `"use strict";` in your code.
+- You must implement proper error handling if arguments don't meet expectations (`throw new Error("some error message")`).
+- You must use lodash templates.
+- You must use use atleast 2 different service APIs.
+- You must use atleast 2 different Browser APIs.
+- You must either include polyfills for older browsers, or gracefully show error messages for browsers that don't support a Browser API.
+- You must structure your code with Single Responsibility Principle in mind.
+- Your UI must be **responsive** and work on both desktop and mobile
+- Your app must **SAVE DATA** be it through an authenticated API from `hello.js`, a Rails API, or Firebase.
+
+## Further Requirements BEFORE YOU CODE ANYTHING
+
+- If you have 2 REST APIs, you will probably have two sets of (Collections / Models) for each. List what they would be.
+- You will always focus on an MVP (Minimum Viable Product); which means you will have to *ruthlessly* prioritize features of your app
+- Your Project proposal to me (Matt) must start with an elevator pitch:
+    - 15 to 25 words of what your app does
+- You will outline the MVP features in a clearly documented bulletpoint list.
+- You will need to research your APIs (especially when doing a solo project) to ensure you can talk to that API without a server-side proxy. If a server-side proxy is needed, **you need to verify this immediately and let Matt know**.
+- You will document **all** the technologies and libraries to be used in the project.
+- You will document atleast 5 User Stories about your app.
+    - e.g. _"As an admin user, I want the ability to create courses so that learners can see what courses are available."_
+
+    User stores follow this structure: "As a ________ I want _______ so that ________"
+
+
+## Chronological outline and things to consider
+
+- **EVERY DAY** - you will checkin with me, tell me what you did yesterday, what you plan to do today, and what "blockers" you are running into.
+
+#### Week 1
+
+- wireframe the UI, draw it out, and plan it step by step
+- plan your API code, coordinate with your Ruby teammate (if any), and figure out how to save information to Ruby from Backbone.
+- use Agile practices to breakdown your **software features** into **user stories**.
+    - prioritize the most important features
+    - then prioritize the most important user stories
+
+#### Week 2
+
+- develop
+- write tests
+- review with Matt atleast twice during the week
+
+#### Week 3
+
+- develop
+- write tests
+- review with Matt atleast twice during the week
+
+## Resources
+
+We already outlined a [TON of REST / Browser APIs and UX Patterns here](./day24.md)
