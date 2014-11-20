@@ -1,3 +1,5 @@
+- https://twitter.com/workingnomads
+- http://workingnomads.co/
 - https://underdog.io/
 - https://www.ziprecruiter.com/jobs
 - https://remotecoder.io/

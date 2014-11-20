@@ -216,14 +216,16 @@ We already outlined a [TON of REST / Browser APIs and UX Patterns here](./day24.
 
 - How often do we checkin with the instructor? What about the campus director?
 
-    You must checkin each morning for a status update. Two times a week, you should also be checking in with the campus director.
+    You must checkin with your instructor, in the morning, twice a week (we'll be counting). Twice each week, you should also be checking in with the campus director to discuss career support.
 
 - How much job-related stuff should they be doing?
 
     This is a case-by-case basis, but The Iron Yard staff will be sending y'all job-related resources to help kickstart the job searches. Best rule of thumb:
 
-        - During final projects, do only two 1-hr job searches each week. That means, pick two evenings (Tues, Thurs), schedule them on your calendar (to get alerts so you don't forget), and don't do anything more.
-        - After final projects, you will want to apply to 3 jobs each day.
+    - During final projects, do only two 1-hr job searches each week. That means, pick two evenings (Tues, Thurs), schedule them on your calendar (to get alerts so you don't forget), and don't do anything more.
+    - After final projects, you will want to apply to 3 jobs each day.
+
+    **I (Matt) already have some cool job sites and search engines for you, [collected here (link)](./examples/extras/job-resources.md). You're welcome :-)**
 
 - What are the deliverables? Should we have feature X done by next week, etc.?
 
