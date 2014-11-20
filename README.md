@@ -162,6 +162,13 @@ This is going to be a large project that you will carry out **BY YOURSELF OR WIT
 
     > User stories follow this structure: "As a ________ I want _______ so that ________"
 
+## Pitching The Projects
+
+Start thinking about final projects a week ahead of time, and meet with me if you're devoid of ideas. Try to make sure your projects are centered around things you truly care about; bee-keeping, beer, dancing, hiking, basketball, etc. This makes a huge difference and can make the project a lot of fun.
+
+Remember to check the [Resources Section](#resources) for inspiration.
+
+Community feedback is invaluable in keeping scope-creep out (not having hidden challenges surface in the middle of the project) and making sure the projects are the right mix of ambition, talent, feasibility, and hubris (a careful mixture of all four is required, IMHO). **SO, ASK YOUR PEERS FOR FEEDBACK.**
 
 ## Chronological outline and things to consider
 
@@ -190,3 +197,47 @@ This is going to be a large project that you will carry out **BY YOURSELF OR WIT
 ## Resources
 
 We already outlined a [TON of REST / Browser APIs and UX Patterns here](./day24.md)
+
+## Final Project Q&A
+
+1. Where do we have to be during final projects? In the lab? Home?
+
+    Monday through Thursday, be at START in the morning. We will be holding some small lectures here and there, and I will be helping to answer questions. **If you don't show up, ask questions, and drive your project in this crucial 3-week period, you won't receive career support.**
+
+    Fridays you will be free to work from home. (But we'll still have `#IronPints™`)
+
+- How often will lectures happen, and will they be optional?
+
+    They will happen probably two to three times each week; in the mornings. Some lectures will be optional, some will not. I will let you know in Hipchat ahead of time.
+
+- How long will lectures be?
+
+    They will be kept to a maximum of 1.5 or 2 hours.
+
+- How often do we checkin with the instructor? What about the campus director?
+
+    You must checkin each morning for a status update. Two times a week, you should also be checking in with the campus director.
+
+- How much job-related stuff should they be doing?
+
+    This is a case-by-case basis, but The Iron Yard staff will be sending y'all job-related resources to help kickstart the job searches. Best rule of thumb:
+
+        - During final projects, do only two 1-hr job searches each week. That means, pick two evenings (Tues, Thurs), schedule them on your calendar (to get alerts so you don't forget), and don't do anything more.
+        - After final projects, you will want to apply to 3 jobs each day.
+
+- What are the deliverables? Should we have feature X done by next week, etc.?
+
+    We will plan projects out and have some good prioritized task lists for projects. Students' jobs will be to come to the instructor with the plan in mind, and the instructor will help you tweak it.
+
+- What do they have to wear/say/bring/do at Demo Day? Are there going to be practice runs?
+
+    We will discuss this with the class; but Demo Day will be done in a "Houston Livestock & Rodeo Show" style, where projects will get voted on while displayed around the room, and then the top 4 projects will get to demo the app for everyone.
+
+- What happens if I don't finish?
+
+    You don't present.
+
+- If I don't finish, will I receive career support?
+
+    Not until you finish the project (you get to do that after class) and show you worked hard. The real hustle begins after class, when you start the job hunt. I'll teach you to fish, but I won't fish for you. :-)
+
