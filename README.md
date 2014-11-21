@@ -170,6 +170,20 @@ Remember to check the [Resources Section](#resources) for inspiration.
 
 Community feedback is invaluable in keeping scope-creep out (not having hidden challenges surface in the middle of the project) and making sure the projects are the right mix of ambition, talent, feasibility, and hubris (a careful mixture of all four is required, IMHO). **SO, ASK YOUR PEERS FOR FEEDBACK.**
 
+## Start Small, Grow with Agility
+
+Start with a prioritized list of Developer Tasks, APIs, Models/Collections, User Stories, and Screens. We will tell you if we think what you proposed as doable in 3 weeks.
+
+Either way, we will help you prioritize what to do first so make sure you can reach a point that you can demo your app on Demo Day.
+
+**How does Matt typically prioritize and group tasks?**
+
+Usually, I consider the User Experience. If I have a feature, I expect it to work, and work well. Then, as I complete tasks, I know if I am on-schedule, or behind schedule.
+
+This process is somewhat akin to building a Car, but starting with a Scooter:
+
+![](./examples/mvp/mvp-howto.jpg)
+
 ## Chronological outline and things to consider
 
 - **EVERY DAY** - you will checkin with me, tell me what you did yesterday, what you plan to do today, and what "blockers" you are running into.
