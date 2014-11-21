@@ -12,7 +12,7 @@ Brian Dorton - [brian@theironyard.com](mailto:brian@theironyard.com)
 
 # Schedule
 
-- Class is from `September 22` to `December 19, 2014`.
+- Class is from `September 22` to `December 12, 2014`.
 - Lecture is from `9.30 AM to 12:30 or 1 PM Monday-Thursday`, with breaks during that time. Depending on the topic, we may end earlier or later. :-)
 - Lab time is from `1 PM to 5 PM Monday-Thursday` and `9 AM to 5 PM` on Friday!
 
