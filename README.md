@@ -184,6 +184,8 @@ This process is somewhat akin to building a Car, but starting with a Scooter:
 
 ![](./examples/mvp/mvp-howto.jpg)
 
+> see https://pickcrew.com/how-to-build-an-online-business/balance-design-and-launching-early/ for more on this.
+
 ## Chronological outline and things to consider
 
 - **EVERY DAY** - you will checkin with me, tell me what you did yesterday, what you plan to do today, and what "blockers" you are running into.
