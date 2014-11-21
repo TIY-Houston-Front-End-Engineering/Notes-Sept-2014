@@ -148,6 +148,7 @@ Aside from what `hello.js` provides access to, the following list is a large lis
 
 - AWS - http://aws.amazon.com/sdk-for-browser/
 - Firebase - https://www.firebase.com/how-it-works.html
+  - User Auth with Firebase - http://jsfiddle.net/firebase/a221m6pb/
 - Parse - https://parse.com/docs/js_guide#javascript_guide - https://parse.com/downloads/javascript/parse-1.2.19.js
 - Meteor (has a deploy tool just like heroku, comes with front end and back end code) - http://docs.meteor.com/#top
 
@@ -282,3 +283,4 @@ These are great to explore and build on-top of, because they are what create tru
 - http://www.fontsquirrel.com/
 - http://thenounproject.com/
 - http://thestocks.im/
+- https://niice.co/search/geometric

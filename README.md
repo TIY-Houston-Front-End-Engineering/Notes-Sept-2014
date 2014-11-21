@@ -214,6 +214,10 @@ We already outlined a [TON of REST / Browser APIs and UX Patterns here](./day24.
 
     They will be kept to a maximum of 1.5 or 2 hours.
 
+- What content will be covered?
+
+    Check the [Lectures Remaining](#lectures-remaining) section.
+
 - How often do we checkin with the instructor? What about the campus director?
 
     You must checkin with your instructor, in the morning, twice a week (we'll be counting). Twice each week, you should also be checking in with the campus director to discuss career support.
@@ -243,3 +247,14 @@ We already outlined a [TON of REST / Browser APIs and UX Patterns here](./day24.
 
     Not until you finish the project (you get to do that after class) and show you worked hard. The real hustle begins after class, when you start the job hunt. I'll teach you to fish, but I won't fish for you. :-)
 
+# Lectures Remaining
+
+- Week 10
+    - Monday - SCSS
+    - Tuesday - SMACSS
+    - Thursday - CSS Frameworks (Bootstrap / ZURB / TopCoat / etc)
+- Week 11
+    - Monday - Lazy loading content (only show/load when scrolled into view)
+    - Tuesday - jQuery, jQuery plugins
+- Week 12
+    - nada
