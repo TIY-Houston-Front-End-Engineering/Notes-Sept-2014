@@ -278,3 +278,7 @@ These are great to explore and build on-top of, because they are what create tru
 - http://tympanus.net/Development/MorphingSearch/
 - http://tympanus.net/Development/DragDropInteractions/icons.html
 - http://codyhouse.co/demo/3d-animated-mockup/index.html
+- http://hellohappy.org/beautiful-web-type/
+- http://www.fontsquirrel.com/
+- http://thenounproject.com/
+- http://thestocks.im/
