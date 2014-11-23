@@ -281,6 +281,7 @@ These are great to explore and build on-top of, because they are what create tru
 - http://codyhouse.co/demo/3d-animated-mockup/index.html
 - http://hellohappy.org/beautiful-web-type/
 - http://www.fontsquirrel.com/
+- http://www.fontsquirrel.com/tools/webfont-generator
 - http://thenounproject.com/
 - http://thestocks.im/
 - https://niice.co/search/geometric
