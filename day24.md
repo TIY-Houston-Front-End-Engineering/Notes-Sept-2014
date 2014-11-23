@@ -287,3 +287,6 @@ These are great to explore and build on-top of, because they are what create tru
 - http://thenounproject.com/
 - http://thestocks.im/
 - https://niice.co/search/geometric
+- http://www.typegenius.com/
+- http://uigifs.com/
+- http://useyourinterface.com/
