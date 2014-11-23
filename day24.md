@@ -181,6 +181,8 @@ Aside from what `hello.js` provides access to, the following list is a large lis
 - Nest - https://developer.nest.com/documentation/control
 - FlightAware - http://flightaware.com/commercial/flightxml/
 - IMDB / OMDB - http://www.omdbapi.com/
+- Hipchat API - https://www.hipchat.com/docs/apiv2
+- Zapier - https://zapier.com/developer/documentation/getting-started/
 
 ## Dictionary / Words / Thesaurus APIs
 
