@@ -102,9 +102,11 @@ if [ ! -f ./scss/style.scss ]; then
 
 @include gridify(2, 400);
 @include gridify(4, 600);
+
 /**
  * GENERAL
  */
+
 body {
     transition: opacity .25s ease;
 }
