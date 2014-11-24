@@ -55,11 +55,11 @@ if [ ! -f ./scss/style.scss ]; then
     touch ./scss/style.scss
     # insert some links into the HTML
     echo '
-@mixin gridify($col, $width) {
+@mixin gridify($col, $width, $gutter: 2) {
     @media only screen and (min-width: #{$width}#{"px"}){
         .grid-#{$col}-#{$width} {
             & > * {
-                width: #{(100 / $col) - 2}#{"%"};
+                width: #{(100 / $col) - $gutter}#{"%"};
             }
         }
     }
