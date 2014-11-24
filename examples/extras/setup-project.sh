@@ -32,6 +32,7 @@ mkdir ./dist
 mkdir ./js
 mkdir ./test
 mkdir ./templates
+mkdir ./scss
 
 bower install normalize.css typeplate-starter-kit jquery lodash pathjs Loader mocha chai backbone --save
 
@@ -50,12 +51,28 @@ if [ ! -f ./index.html ]; then
     </body>
     </html>' > ./index.html
 fi
-if [ ! -f ./css/style.css ]; then
-    touch ./css/style.css
+if [ ! -f ./scss/style.scss ]; then
+    touch ./scss/style.scss
     # insert some links into the HTML
-    echo '*, *:before, *:after {
+    echo '
+@mixin gridify($col, $width) {
+    @media only screen and (min-width: #{$width}#{"px"}){
+        .grid-#{$col}-#{$width} {
+            & > * {
+                width: #{(100 / $col) - 2}#{"%"};
+            }
+        }
+    }
+}
+
+/**
+ * BOX-SIZING
+ */
+
+*, *:before, *:after {
     box-sizing: border-box;
 }
+
 /**
  * GRIDS
  */
@@ -66,38 +83,32 @@ if [ ! -f ./css/style.css ]; then
     font-size: 0;
     text-align: justify;
     position: relative;
-}
-.grid > * {
-    font-size: medium;
-    text-align: left;
-    display: inline-block;
-    width: 100%;
-    vertical-align: top;
-}
-.grid:after {
-    display: inline-block;
-    width: 100%;
-    content: "";
-    font-size: medium;
-}
-@media (min-width: 400px) {
-    .grid-2-400 > * {
-        width: 48%
+
+    & > * {
+        font-size: medium;
+        text-align: left;
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
     }
-}
-@media (min-width: 600px) {
-    .grid-4-600 > * {
-        width: 24%
+
+    &:after {
+        display: inline-block;
+        width: 100%;
+        content: "";
+        font-size: medium;
     }
 }
 
+@include gridify(2, 400);
+@include gridify(4, 600);
 /**
  * GENERAL
  */
 body {
     transition: opacity .25s ease;
 }
-    ' > ./css/style.css
+    ' > ./scss/style.scss
 fi
 if [ ! -f ./js/app.js ]; then
     touch ./js/app.js
@@ -198,7 +209,7 @@ fi
 
 if [ ! -f ./package.json ]; then
     npm init
-    npm install gulp gulp-autoprefixer gulp-jshint --save-dev
+    npm install gulp gulp-autoprefixer gulp-jshint gulp-sass --save-dev
     npm install express method-override request lodash --save
 fi
 

@@ -81,6 +81,7 @@ There is no commercial software required for the class. For the class, we will i
 - Start using a web-based RSS reader, like http://feedly.com.
 - Check out this article on how someone got 32 offers from startups in a few days. NOTE: You should probably be willing to travel. http://thenextweb.com/entrepreneur/2014/11/06/use-angellist-win-30-consulting-offers-30-days/.
 - You may want to try your hand at freelancing or doing some side-projects. Check out the [job resources list](./examples/extras/job-resources.md) for that. You can also check out https://github.com/ericdodds/the-little-freelancer to learn more about the process of freelancing.
+- **On top of that** anyone who wants to freelance can fill out a profile with RyeDev (http://www.ryedev.com/referral/), a group of TIY alum students who run a consulting agency (and are giving TIY students a chance to try a few projects alongside them). Work is done remotely.
 - You may want to try some public speaking and presentations, as well. This is a really powerful skill that is a career force-multiplier, and in conjunction with being a good writer, will really boost your chances of landing a job.
 	- Talk to Matt or JB about speaking at Houston.js: http://houstonjs.com
 	- Talk to Matt or JB about speaking or volunteering at Space City JS: http://spacecityjs.com
