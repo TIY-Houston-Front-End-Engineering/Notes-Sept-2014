@@ -39,17 +39,17 @@ bower install normalize.css typeplate-starter-kit jquery lodash pathjs Loader mo
 if [ ! -f ./index.html ]; then
     touch ./index.html
     # insert some links into the HTML
-    echo '<!DOCTYPE html>
-    <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="./bower_components/normalize.css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="./bower_components/typeplate-starter-kit/css/typeplate.css">
-        <title></title>
-    </head>
-    <body style="opacity: 0;">
-        <script type="text/javascript" src="./bower_components/Loader/loader.js" id="loaderjs" data-app="./js/app.js"></script>
-    </body>
-    </html>' > ./index.html
+    echo '
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body style="opacity: 0;">
+    <script type="text/javascript" src="./bower_components/Loader/loader.js" id="loaderjs" data-app="./js/app.js"></script>
+</body>
+</html>
+    ' > ./index.html
 fi
 if [ ! -f ./scss/style.scss ]; then
     touch ./scss/style.scss
@@ -124,10 +124,14 @@ function app(){
 
     // load some scripts (uses promises :D)
     loader.load(
+        //css
+        {url:"./bower_components/normalize.css/normalize.css"},
+        {url:"./bower_components/typeplate-starter-kit/css/typeplate.css"},
+        {url: "./dist/style.css"},
+        //js
         {url: "./bower_components/jquery/dist/jquery.min.js"},
         {url: "./bower_components/lodash/dist/lodash.min.js"},
-        {url: "./bower_components/backbone/backbone.js"},
-        {url: "./dist/style.css"}
+        {url: "./bower_components/backbone/backbone.js"}
     ).then(function(){
         _.templateSettings.interpolate = /{([\s\S]+?)}/g;
         document.body.style.opacity = 1;
@@ -141,56 +145,58 @@ if [ ! -f ./test/main.js ]; then
     touch ./test/main.js
     # write to our testing js
     echo '
-    _.templateSettings.interpolate = /{([\s\S]+?)}/g;
+_.templateSettings.interpolate = /{([\s\S]+?)}/g;
 
-    mocha.setup({
-        ui: "bdd",
-        ignoreLeaks: true
-    });
+mocha.setup({
+    ui: "bdd",
+    ignoreLeaks: true
+});
 
-    var assert = chai.assert;
-    var expect = chai.expect;
+var assert = chai.assert;
+var expect = chai.expect;
 
-    //--- your setup code goes here (i.e. create test instances of your Constructors)
-    //--- your setup code goes here
+//--- your setup code goes here (i.e. create test instances of your Constructors)
+//--- your setup code goes here
 
-    //--- your tests go here
-    // an example test suite
-    describe("Array", function(){
-        describe("#indexOf()", function(){
-            it("should return -1 when the value is not present", function(){
-                expect([1,2,3].indexOf(5)).to.equal(-1);
-                expect([1,2,3].indexOf(0)).to.equal(-1);
-            })
+//--- your tests go here
+// an example test suite
+describe("Array", function(){
+    describe("#indexOf()", function(){
+        it("should return -1 when the value is not present", function(){
+            expect([1,2,3].indexOf(5)).to.equal(-1);
+            expect([1,2,3].indexOf(0)).to.equal(-1);
         })
     })
-    //--- your tests go here
+})
+//--- your tests go here
 
-    mocha.globals(["jQuery"]);
-    mocha.run();
+mocha.globals(["jQuery"]);
+mocha.run();
     ' > ./test/main.js
 fi
 if [ ! -f ./test.html ]; then
     touch ./test.html
     # setup our test.html file
-    echo '<!DOCTYPE html>
-    <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="./bower_components/mocha/mocha.css">
-        <title></title>
-    </head>
-    <body>
-        <div id="mocha"></div>
-        <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
-        <script type="text/javascript" src="./bower_components/lodash/dist/lodash.min.js"></script>
-        <script type="text/javascript" src="./bower_components/backbone/backbone.js"></script>
-        <script type="text/javascript" src="./bower_components/mocha/mocha.js"></script>
-        <script type="text/javascript" src="./bower_components/chai/chai.js"></script>
-        <!-- load all of your declaration files and what not here -->
-        <!-- for example, <script type="text/javascript" src="./js/libs/EtsyClient.js"></script> -->
-        <script type="text/javascript" src="./test/main.js"></script>
-    </body>
-    </html>' > ./test.html
+    echo '
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./bower_components/mocha/mocha.css">
+    <title></title>
+</head>
+<body>
+    <div id="mocha"></div>
+    <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="./bower_components/lodash/dist/lodash.min.js"></script>
+    <script type="text/javascript" src="./bower_components/backbone/backbone.js"></script>
+    <script type="text/javascript" src="./bower_components/mocha/mocha.js"></script>
+    <script type="text/javascript" src="./bower_components/chai/chai.js"></script>
+    <!-- load all of your declaration files and what not here -->
+    <!-- for example, <script type="text/javascript" src="./js/libs/EtsyClient.js"></script> -->
+    <script type="text/javascript" src="./test/main.js"></script>
+</body>
+</html>
+' > ./test.html
 fi
 if [ ! -f ./Procfile ]; then
     touch ./Procfile
