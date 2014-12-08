@@ -1,3 +1,8 @@
+> Want better results in your job search? **Go and learn another language after class.**
+
+- http://codingforinterviews.com/internships (internship experience at BIG companies)
+- http://www.founderweekly.com/ (great email list of udates on startup lessons)
+- http://codingforinterviews.com/ (great email list of updates, interview questions, developer culture)
 - https://twitter.com/workingnomads
 - http://workingnomads.co/
 - https://underdog.io/
