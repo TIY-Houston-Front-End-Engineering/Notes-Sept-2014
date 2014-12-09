@@ -12,7 +12,6 @@ var js = ["./*.js", "./js/*.js"];
 function prefix() {
     return gulp.src(css)
         .pipe(autoprefixer({}))
-        .on('error', console.error.bind(console))
         .pipe(gulp.dest('./dist'));
 }
 
@@ -29,6 +28,7 @@ gulp.task('lint', lint);
 function sassify() {
     gulp.src(scss)
         .pipe(sass())
+        .on('error', console.error.bind(console))
         .pipe(autoprefixer({}))
         .pipe(gulp.dest('./dist'));
 }
