@@ -26,11 +26,17 @@ function lint() {
 gulp.task('lint', lint);
 
 function sassify() {
-    gulp.src(scss)
+    return gulp.src(scss)
         .pipe(sass())
-        .on('error', console.error.bind(console))
+        .on('error', swallowError)
         .pipe(autoprefixer({}))
-        .pipe(gulp.dest('./dist'));
+        .pipe(gulp.dest('./dist'))
+}
+
+function swallowError (error) {
+    //If you want details of the error in the console
+    console.log(error.toString());
+    this.emit('end');
 }
 
 gulp.task('sass', sassify);
