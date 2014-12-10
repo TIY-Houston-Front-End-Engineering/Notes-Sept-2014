@@ -245,6 +245,8 @@ These are great to explore and build on-top of, because they are what create tru
 
 > **NOTE**: Your first priority is to make usable, flexible sites, NOT just pretty websites. http://tympanus.net/codrops/2013/11/22/applying-app-design-concepts-to-website-design/
 
+- http://beautifulopen.com/
+- http://www.idangero.us/framework7/
 - http://tympanus.net/Development/FullscreenForm/
 - http://tympanus.net/Development/NotificationStyles/bar-slidetop.html
 - http://tympanus.net/Development/SelectInspiration/index4.html
