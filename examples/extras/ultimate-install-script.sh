@@ -42,6 +42,8 @@ brew cleanup
 
 brew install caskroom/cask/brew-cask
 
+brew tap caskroom/versions
+
 # Apps
 apps=(
   dropbox
@@ -475,6 +477,12 @@ echo ""
 cecho "Note that some of these changes require a logout/restart to take effect." $white
 cecho "Killing some open applications in order to take effect." $white
 echo ""
+
+###############################################################################
+# SSH
+###############################################################################
+
+ssh-keygen
 
 find ~/Library/Application\ Support/Dock -name "*.db" -maxdepth 1 -delete
 for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \

@@ -26,16 +26,21 @@ We will take three days off for Thanksgiving, November 26-28th.
 
 # Materials
 
-All students must bring their own MacBook laptop. I recommend the 13" MacBook Air. I have had one for three years, I use it almost too often, and it has never failed on me. :-)
+All students must bring their own MacBook laptop to class. I recommend the 13" MacBook Air or Pro. The only upgrade (if any) you should purchase is 8GB of RAM. I have had one for several years, I use it almost too often, and it has never failed on me. :-)
 
-Your MacBook must be running OS X Mavericks. Mavericks is a free upgrade from the App Store.
+Your MacBook must be running [OS X Yosemite](https://itunes.apple.com/us/app/os-x-yosemite/id915041082?mt=12), which is a free upgrade from the App Store. [Download and install it](https://itunes.apple.com/us/app/os-x-yosemite/id915041082?mt=12) if you haven't yet.
 
-There is no commercial software required for the class. For the class, we will install a number of tools (a special install script will be provided for this):
+**Accounts to sign up for:**
 
-- Create an SSH key
-	- run `ssh-keygen` in your terminal
-- Hipchat (http://hipchat.com)
-- Signup for Github if you haven't, and cover this tutorial (https://guides.github.com/activities/hello-world/)
+If you don't have an account with any of these, sign up for them now:
+
+1. http://github.com
+2. http://twitter.com
+3. http://medium.com
+
+There is no commercial software required for the class. We will install a number of tools to be used, such as a code editor and chat program.
+
+A custom [install script](./examples/extras/ultimate-install-script.sh) will be provided and run the first day of class.
 
 # Front End Cheatsheets and References
 
@@ -101,13 +106,30 @@ What is prework?
 - starting learning before the class is like training for a marathon. You don't show up the day of the race and start, you need to train beforehand. In our classes, your brain is the muscle that needs to train. This prework is training for your brain.
 - Prework only covers the basics of a language; What we teach goes much deeper than tutorials can cover.
 
+**Part 0**
+
+Check the software and accounts you will need in the [Materials sections](#materials). Signup for any accounts that you currently do no have.
+
+**Part 1**
+
+Read [Fixed vs. Growth: The Two Basic Mindsets That Shape Our Lives](http://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
+
+Compose an email to Matt answering the following questions:
+
+- Which type of mindset (growth or fixed) do you think you are most strongly associated with? Why?
+- What difficulties do you predict that you will encounter during our course? How have you reacted to similar situations in the past? How do you plan on reacting to these situations during the class?
+
+**Part 2**
+
 If you haven't already, start these courses and go as far as you can:
 
 - For HTML/CSS, start the Codecademy HTML and CSS course (according to them, 7 hours): http://www.codecademy.com/tracks/web, and https://dash.generalassemb.ly/
 - For JS, start the Codecademy JavaScript course: http://www.codecademy.com/tracks/javascript
 - For Git, start https://www.codeschool.com/courses/git-real
 
-Spending ~ 1-2 hours each day on the courses will round out any foundational knowledge necessary to start Matt's class.
+Spend ~ 1-2 hours each day on the courses to round out any foundational knowledge necessary to start Matt's class.
+
+**Part 3**
 
 If you are ready for more advanced stuff, whet your whistle with this bonus material:
 
