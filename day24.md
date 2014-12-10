@@ -241,12 +241,27 @@ These are great to explore and build on-top of, because they are what create tru
 - screen orientation API - lock the screen in a particular direction (http://aurelio.audero.it/demo/screen-orientation-api-demo.html) and (http://caniuse.com/screen-orientation)
 
 
-# Interface Patterns to explore
+# Interface Patterns and Resources to explore
 
 > **NOTE**: Your first priority is to make usable, flexible sites, NOT just pretty websites. http://tympanus.net/codrops/2013/11/22/applying-app-design-concepts-to-website-design/
 
+**Typography, Fonts, Icons, Codepens**
+
 - http://beautifulopen.com/
+- http://www.google.com/fonts
 - http://www.idangero.us/framework7/
+- http://www.squarespace.com/stories
+- http://thenounproject.com/
+- http://iconmelon.com/#/
+- http://mattdsmith.com/float-label-pattern/
+- http://codepen.io/bartekd/pen/qFsDf
+- http://codepen.io/P233/pen/lGewF
+- http://codepen.io/vpegado/pen/daugx
+- https://goodui.org/ (reasoning behind WHY to do something in UI)
+
+
+**Codrops**
+
 - http://tympanus.net/Development/FullscreenForm/
 - http://tympanus.net/Development/NotificationStyles/bar-slidetop.html
 - http://tympanus.net/Development/SelectInspiration/index4.html
