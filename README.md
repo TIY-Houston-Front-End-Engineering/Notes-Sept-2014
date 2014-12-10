@@ -121,11 +121,33 @@ Compose an email to Matt answering the following questions:
 
 **Part 2**
 
-If you haven't already, start these courses and go as far as you can:
+Start these and finish (as much as humanly possible):
 
-- For HTML/CSS, start the Codecademy HTML and CSS course (according to them, 7 hours): http://www.codecademy.com/tracks/web, and https://dash.generalassemb.ly/
-- For JS, start the Codecademy JavaScript course: http://www.codecademy.com/tracks/javascript
-- For Git, start https://www.codeschool.com/courses/git-real
+1. Learn to use the terminal (estimated time, 4 hours)
+
+    The command line is an interface to the internals of your computer, as opposed to the graphical user interface (GUI) that we commonly use. We will be using the command line extensively in our class, but the point of this prework is not to be an expert, just to start to get comfortable.
+
+    Especially if you’ve never used the command line before, you may want to go through these more than once. Make sure not just to read/watch, but really dive in and use the commands that you learn about.
+
+    Read the following article and complete the course on Treehouse:
+
+    > Note: Treehouse has free 14-day trials. Just use a trial.
+
+    - http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything
+    - http://teamtreehouse.com/library/console-foundations#getting-started-with-the-console
+
+2. Learn some basic HTML and CSS
+
+    - http://www.codecademy.com/tracks/web,
+    - https://dash.generalassemb.ly/
+
+3. Start learning JavaScript
+
+    - http://www.codecademy.com/tracks/javascript
+
+4. Start learning Git
+
+    - https://www.codeschool.com/courses/git-real
 
 Spend ~ 1-2 hours each day on the courses to round out any foundational knowledge necessary to start Matt's class.
 
