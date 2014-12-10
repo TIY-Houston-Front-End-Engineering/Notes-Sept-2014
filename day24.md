@@ -258,6 +258,10 @@ These are great to explore and build on-top of, because they are what create tru
 - http://codepen.io/P233/pen/lGewF
 - http://codepen.io/vpegado/pen/daugx
 - https://goodui.org/ (reasoning behind WHY to do something in UI)
+- http://www.typegenius.com/
+- http://uigifs.com/
+- https://niice.co/
+- http://useyourinterface.com/
 
 
 **Codrops**
